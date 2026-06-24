@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"模块化魔力生产是科技文明"
+	],
+	dependencies: [
+		"a9a81569",
+		"83f7292c",
+		"8449ab25",
+		"a558004e"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "c840aa43",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mana_collector_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

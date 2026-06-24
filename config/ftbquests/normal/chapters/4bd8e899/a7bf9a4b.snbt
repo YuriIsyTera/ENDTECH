@@ -1,0 +1,23 @@
+{
+	title: "通量网络",
+	x: -12.0d,
+	y: -8.0d,
+	text: [
+		"通量网络已经进行了相关兼容，你可以用通量网络传输超过2.1G/t的电量",
+		"当然前提是你所用的导线是支持这点的，不过模块机器的能源输入仓就支持这一点"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "44730a3a",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcore"
+		},
+		{
+			item: "fluxnetworks:flux"
+		}]
+	}]
+}

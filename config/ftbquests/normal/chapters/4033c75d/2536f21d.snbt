@@ -1,0 +1,20 @@
+{
+	title: "长路尽头，此世之巅",
+	x: 82.0d,
+	y: -3.0d,
+	text: [
+		"出门散散步什么的还是很不错的，你说呢"
+	],
+	dependencies: [
+		"467f6f11"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "232a752e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:light-speed_material_accelerator_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: -6.5d,
+	y: 7.0d,
+	text: [
+		"套索抓捕一个生物，放入其中就可以自动生产掉落物了，下方放一个箱子产物会自动进去",
+		"",
+		"这个等级的并不能刷怪物 ",
+		"",
+		"更高等级的农场会生产速度会更快，且消耗耐久的概率更低",
+		"",
+		"https://www.mcmod.cn/class/1727.html",
+		"",
+		"它没有百科直通车，因为它真没啥好说的"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "b87843a7",
+		type: "item",
+		items: [{
+			item: "tinymobfarm:wood_farm"
+		}]
+	},
+	{
+		uid: "163530e2",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "tinymobfarm:lasso"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: -35.0d,
+	y: 2.0d,
+	text: [
+		"性价比很高,拥有longintmax字节和存储类型"
+	],
+	dependencies: [
+		"8c972a5d"
+	],
+	tasks: [{
+		uid: "be507049",
+		type: "item",
+		items: [{
+			item: "infinitycell:item_cell_inf"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "303833be",
+		type: "item",
+		items: [{
+			item: "infinitycell:fluid_cell_inf"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0a899ed6",
+		type: "item",
+		items: [{
+			item: "infinitycell:gas_cell_inf"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

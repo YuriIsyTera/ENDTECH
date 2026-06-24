@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"0fdaa491"
+	],
+	tasks: [{
+		uid: "3deaa224",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 2"
+		},
+		{
+			item: "contenttweaker:draconic_upgrade_device"
+		},
+		{
+			item: "contenttweaker:draconic_conversion_device"
+		}],
+		ignore_nbt: 1b
+	}]
+}

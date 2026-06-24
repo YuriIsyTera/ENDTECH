@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "modularmachinery:dimensionreaper"
+  },
+  "variants": {
+    "facing=north,formed=false": {
+      "model": "modularmachinery:dimensionreaper"
+    },
+    "facing=south,formed=false": {
+      "model": "modularmachinery:dimensionreaper",
+      "y": 180
+    },
+    "facing=west,formed=false": {
+      "model": "modularmachinery:dimensionreaper",
+      "y": 270
+    },
+    "facing=east,formed=false": {
+      "model": "modularmachinery:dimensionreaper",
+      "y": 90
+    },
+    "facing=north,formed=true": {
+      "model": "modularmachinery:dimensionreaper"
+    },
+    "facing=south,formed=true": {
+      "model": "modularmachinery:dimensionreaper",
+      "y": 180
+    },
+    "facing=west,formed=true": {
+      "model": "modularmachinery:dimensionreaper",
+      "y": 270
+    },
+    "facing=east,formed=true": {
+      "model": "modularmachinery:dimensionreaper",
+      "y": 90
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

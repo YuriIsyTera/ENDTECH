@@ -1,0 +1,15 @@
+{
+	x: -19.5d,
+	y: -1.0d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "ac7800db",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mhb_block"
+		}]
+	}]
+}

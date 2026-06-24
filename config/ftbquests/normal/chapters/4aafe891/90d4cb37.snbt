@@ -1,0 +1,20 @@
+{
+	title: "[EIO]末影接口",
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"747f0037",
+		"9d483bdd"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "b76e9dcc",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}]
+}

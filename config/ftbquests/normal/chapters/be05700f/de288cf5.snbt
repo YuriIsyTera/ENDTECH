@@ -1,0 +1,14 @@
+{
+	x: -16.5d,
+	y: 6.0d,
+	text: [
+		"大部分机器都可以使用它,大部分"
+	],
+	tasks: [{
+		uid: "1aa1129d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lightspeed_overclock_array"
+		}]
+	}]
+}

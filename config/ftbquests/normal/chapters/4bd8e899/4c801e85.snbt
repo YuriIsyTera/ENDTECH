@@ -1,0 +1,19 @@
+{
+	x: -15.5d,
+	y: -9.5d,
+	description: "解锁科技总览 MEK",
+	text: [
+		"你需要塑料来搭建研究站的结构"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "ac92e21b",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}]
+}

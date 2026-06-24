@@ -1,0 +1,30 @@
+{
+	title: "ECO-S可扩展存储子系统",
+	x: -3.5d,
+	y: -0.5d,
+	text: [
+		"本质上是一个能源元件和驱动器的组合体",
+		"只允许使用专用的元件，即存储矩阵",
+		"每个驱动槽内只能放置一个",
+		"结构可拓展，最高总长度为14（即为36个元件位置）",
+		"L4只允许使用LE4级存储矩阵",
+		"其余类推"
+	],
+	dependencies: [
+		"c543a359"
+	],
+	tasks: [{
+		uid: "c868951a",
+		type: "item",
+		items: [{
+			item: "novaeng_core:extendable_digital_storage_subsystem_l4"
+		},
+		{
+			item: "novaeng_core:extendable_digital_storage_subsystem_l6"
+		},
+		{
+			item: "novaeng_core:extendable_digital_storage_subsystem_l9"
+		}],
+		ignore_nbt: 1b
+	}]
+}

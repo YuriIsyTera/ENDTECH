@@ -1,0 +1,17 @@
+{
+	x: 42.5d,
+	y: 0.0d,
+	text: [
+		"第一个让你的资源上T的机器,大概(欸,太空电梯魔怔人是这样的)"
+	],
+	dependencies: [
+		"473a0e3e"
+	],
+	tasks: [{
+		uid: "29a9c572",
+		type: "item",
+		items: [{
+			item: "modularmachinery:giga_timespacesingularity_factory_controller"
+		}]
+	}]
+}

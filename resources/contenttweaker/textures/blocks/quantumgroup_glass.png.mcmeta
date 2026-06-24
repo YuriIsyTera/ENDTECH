@@ -1,0 +1,14 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"edges",
+        "textures":[
+            "contenttweaker:blocks/quantumgroup_glass_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:quantumgroup_glass" }
+			]
+		}
+    }
+}

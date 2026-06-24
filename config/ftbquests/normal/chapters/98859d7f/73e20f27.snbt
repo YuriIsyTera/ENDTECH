@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"这是一个血之祭坛",
+		"是的，是血之祭坛",
+		"我知道",
+		"是的，这里还有一把小刀，你可以开始划拉自己了",
+		"也许你该先去通过击败空之律者搞个静籁永恒？别的什么能高速回血与免死的也不错"
+	],
+	dependencies: [
+		"84b7331e"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "1619669d",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "998ddd61",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "bloodmagic:sacrificial_dagger"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -39.0d,
+	y: -3.0d,
+	text: [
+		"发展天体线的必要机器!"
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "6435af52",
+		type: "item",
+		items: [{
+			item: "modularmachinery:aerospacefactory_factory_controller"
+		}]
+	}]
+}

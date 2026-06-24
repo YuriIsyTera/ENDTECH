@@ -1,0 +1,25 @@
+{
+	x: -4.5d,
+	y: 3.0d,
+	text: [
+		"带上它假装你穿着龙套（",
+		"",
+		"还可以升级为神龙版本",
+		"",
+		"起码前期打盖亚有点用"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "8bde9381",
+		type: "item",
+		items: [{
+			item: "draconicadditions:wyvern_shield_necklace"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b,
+		only_from_crafting: 0b
+	}]
+}

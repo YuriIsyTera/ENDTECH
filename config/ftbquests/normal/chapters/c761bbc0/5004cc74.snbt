@@ -1,0 +1,123 @@
+{
+	title: "最好的前期发电，大概",
+	x: -3.5d,
+	y: -0.5d,
+	text: [
+		"计算机一套出来之后你大概还被耗电干懵，如果你没做充足的发电的话",
+		"也许刚做出来那段时间就能3万RF/t？反正我是没记过这个",
+		"这里是介绍一下mek的乙烯发电组",
+		"",
+		"mek的燃气轮机可以燃烧可燃气体发电，实际上也就氢气和乙烯来着",
+		"乙烯的热值很高，制取耗电又很低，所以可以很粗暴的发电",
+		"总的来说，你可以使用园艺玻璃罩种植西瓜，用公式处理器拆成西瓜片，然后使用粉碎机（大可以升级成工厂）制成生物燃料，与水和氢气在加压反应室里做出基片和乙烯。你大可以留着基片，用于制作塑料，毕竟有的模块结构里有塑料，当然鉴于你会制造的产量，我建议用储存桶存着，加个销毁升级",
+		"&6如果你要给加压反应室加速度升级，一定要顺便加满能量升级"
+	],
+	dependencies: [
+		"646494a2"
+	],
+	tasks: [{
+		uid: "d7701d78",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e63bab42",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 10"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d183fc2c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 13"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "299fe67c",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e8bc3b3",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "83938268",
+		type: "item",
+		items: [{
+			Damage: 10s,
+			tag: {
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Facing: 3b,
+				RSControl: 0b,
+				Energy: 0
+			},
+			id: "thermalexpansion:device"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37013a08",
+		type: "item",
+		title: "粉碎机",
+		items: [{
+			item: "mekanism:machineblock 1 3"
+		},
+		{
+			Damage: 5s,
+			tag: {
+				recipeType: 2
+			},
+			id: "mekanism:machineblock"
+		},
+		{
+			Damage: 6s,
+			tag: {
+				recipeType: 2
+			},
+			id: "mekanism:machineblock"
+		},
+		{
+			Damage: 7s,
+			tag: {
+				recipeType: 2
+			},
+			id: "mekanism:machineblock"
+		},
+		{
+			Damage: 7s,
+			tag: {
+				recipeType: 2
+			},
+			id: "mekanism:machineblock3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "991eb0df",
+		type: "item",
+		item: "minecraft:melon_seeds",
+		count: 64
+	}]
+}

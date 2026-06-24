@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		"使用液态魔力工作，可以处理一些配方"
+	],
+	dependencies: [
+		"a383b997",
+		"11f05442"
+	],
+	tasks: [{
+		uid: "138f6835",
+		type: "item",
+		items: [{
+			item: "modularmachinery:bot_crafter_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

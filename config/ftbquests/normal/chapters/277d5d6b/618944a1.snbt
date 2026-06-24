@@ -1,0 +1,28 @@
+{
+	title: "可用的部件",
+	x: -3.0d,
+	y: -5.5d,
+	dependencies: [
+		"9f7a8bbe"
+	],
+	tasks: [{
+		uid: "11d3b46d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:additional_component_0"
+		},
+		{
+			item: "contenttweaker:additional_component_2"
+		},
+		{
+			item: "contenttweaker:additional_component_1"
+		},
+		{
+			item: "contenttweaker:additional_component_raw_ore"
+		},
+		{
+			item: "contenttweaker:additional_component_3"
+		}],
+		ignore_nbt: 2b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: 0.0d,
+	text: [
+		"生产液体形式的生命源质，用于血魔法祭坛和别的什么"
+	],
+	dependencies: [
+		"ed100f1b"
+	],
+	tasks: [{
+		uid: "9ccb5ea2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:life_extracts_altar_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

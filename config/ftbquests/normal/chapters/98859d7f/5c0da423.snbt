@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"一块普普通通的石板",
+		"拿起你的小刀!"
+	],
+	dependencies: [
+		"73e20f27"
+	],
+	tasks: [{
+		uid: "6153b8c7",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
+	}]
+}

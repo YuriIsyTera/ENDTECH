@@ -1,0 +1,25 @@
+{
+	title: "你不许看前言！",
+	x: -40.5d,
+	y: 0.0d,
+	text: [
+		"欢迎来到实力至上主义的[AR]高级火箭 ，本服务器内高级火箭最终目标为前往太空建设空间站，并在空间站内部搭建多方块机器。",
+		"由于戴森云发电的第一步：戴森云组装发射器，该机器要求必须在空间站内才能工作！",
+		"故在使用戴森云发电时，必需先将太空站建设完毕方可使用，本章节即讲述如何从零开始建设你的私人空间站！"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "8bd1f3ad",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0ac8dcdc",
+		type: "item",
+		item: "mets:titanium_ore",
+		random_bonus: 9
+	}]
+}

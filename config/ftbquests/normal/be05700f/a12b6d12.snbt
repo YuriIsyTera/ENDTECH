@@ -1,0 +1,18 @@
+{
+	x: -43.0d,
+	y: -2.5d,
+	text: [
+		"前期的暗物质获取手段,他要比大型强子对撞机高效的多!",
+		"也许吧("
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "55022c2c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:collapse_generator_factory_controller"
+		}]
+	}]
+}

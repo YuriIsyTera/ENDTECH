@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -5.5d,
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "334199cf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:molten_casting_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

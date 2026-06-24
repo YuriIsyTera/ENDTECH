@@ -1,0 +1,106 @@
+{
+	icon: {
+		tag: {
+			astralsorcery: {
+				creativeKnowledge: 1b
+			}
+		},
+		id: "astralsorcery:itemknowledgeshare"
+	},
+	x: -5.5d,
+	y: 2.0d,
+	text: [
+		"是什么？前方是什么？",
+		"是耀眼的星光，是无尽的知识",
+		"",
+		"",
+		"",
+		"",
+		"其实都到这了，也就只能全解一下星座"
+	],
+	dependencies: [
+		"d3ee478f"
+	],
+	tasks: [{
+		uid: "439b9e00",
+		type: "item",
+		items: [{
+			tag: {
+				astralsorcery: {}
+			},
+			id: "astralsorcery:itemknowledgeshare"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8420ce92",
+		type: "item",
+		items: [{
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						sizeOverride: -1,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0
+					}
+				}
+			},
+			id: "astralsorcery:itemcelestialcrystal"
+		}],
+		count: 3L,
+		consume_items: 1b
+	},
+	{
+		uid: "2e185c2b",
+		type: "item",
+		items: [{
+			item: "additions:novaextended-novaextended_medal"
+		}],
+		consume_items: 1b
+	},
+	{
+		uid: "70b2d56d",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockobservatory"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "93c7e0c7",
+		type: "item",
+		items: [{
+			tag: {
+				astralsorcery: {
+					enhanced: 1b,
+					upgrades: [
+						0,
+						1,
+						2
+					]
+				}
+			},
+			id: "astralsorcery:itemskyresonator"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c3b10b0",
+		type: "item",
+		item: {
+			tag: {
+				astralsorcery: {
+					creativeKnowledge: 1b
+				}
+			},
+			id: "astralsorcery:itemknowledgeshare"
+		}
+	}]
+}

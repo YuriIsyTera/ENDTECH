@@ -1,0 +1,22 @@
+{
+	x: -41.0d,
+	y: 0.0d,
+	text: [
+		"制造一些特殊的流体材料参与后续流程",
+		"其并行上限由能量存储能力决定",
+		"配方中的实际并行由配方开始后当前存储能量的多少决定",
+		"配方开始后能量存储越少，并行越高，最终到达上限",
+		"简单概括就是越跑越快"
+	],
+	dependencies: [
+		"cccf864f",
+		"b1cc9a0c"
+	],
+	tasks: [{
+		uid: "c72702b8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:laseraccelerator_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 12.5d,
+	y: -5.0d,
+	text: [
+		"血魔法的仪式也是仪式，不是吗"
+	],
+	dependencies: [
+		"ffa0e47b"
+	],
+	tasks: [{
+		uid: "b9dc658e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:falling_star_controller"
+		}]
+	}]
+}

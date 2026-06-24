@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "contenttweaker:block/space_elevator_power_moudle",
+    "up": "contenttweaker:block/space_elevator_up_part",
+    "down": "contenttweaker:block/space_elevator_up_part"
+  }
+}

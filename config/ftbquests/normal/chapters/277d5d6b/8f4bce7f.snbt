@@ -1,0 +1,19 @@
+{
+	x: 18.0d,
+	y: -5.0d,
+	text: [
+		"一个稳定的能源来源",
+		"使用超级能源输出仓将会额外获取20%发电"
+	],
+	dependencies: [
+		"246afa01"
+	],
+	tasks: [{
+		uid: "5810e606",
+		type: "item",
+		items: [{
+			item: "modularmachinery:di_ci_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

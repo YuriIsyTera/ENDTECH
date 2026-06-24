@@ -1,0 +1,42 @@
+{
+	x: -2.0d,
+	y: 7.0d,
+	text: [
+		"恭喜你正式离开新手村，它将会是你应用最多的材料生产设备，能复制什么可以自己试试（",
+		"",
+		"毕竟有一些奇怪的东西也能复制，比方说#000000混沌碎片"
+	],
+	dependencies: [
+		"9a079a03",
+		"90093ee2"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "8eb61f02",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 63"
+		}]
+	},
+	{
+		uid: "fed04ca5",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 61"
+		}]
+	},
+	{
+		uid: "6bd70b68",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	},
+	{
+		uid: "8b79fc38",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 62"
+		}]
+	}]
+}

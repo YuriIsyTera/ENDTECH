@@ -1,0 +1,44 @@
+{
+	title: "PSI锭的制造",
+	icon: "psi:material 1 1",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"你需要组装一个完整的CAD来释放制作PSI锭的法术：聚变",
+		"",
+		"一个完整的CAD应该具有机体，电池，核心，和弹夹，着色器是可选的",
+		"",
+		"在术式编写台上编写,右键可以打开术式库，术式库可以打字搜索，找到聚变点击即可选择，退出界面，使用术式子弹右键，在CAD装配台的左边部分装入子弹",
+		"",
+		"把金锭扔在地上，对着他右键",
+		"",
+		"刺激器是用于初期的PSI能量补充的，后期你可以制造PSI单元和给它充能的设备进行补充"
+	],
+	dependencies: [
+		"31e6fdc1"
+	],
+	tasks: [{
+		uid: "49e31c1b",
+		type: "item",
+		items: [{
+			item: "psi:spell_bullet"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "56769cf1",
+		type: "item",
+		items: [{
+			item: "psi:material 1 1"
+		}]
+	},
+	{
+		uid: "ac9989da",
+		type: "item",
+		items: [{
+			item: "psicosts:psi_hypostim"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

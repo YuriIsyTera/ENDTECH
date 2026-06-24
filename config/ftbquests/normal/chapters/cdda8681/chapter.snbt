@@ -1,0 +1,18 @@
+{
+	title: "算力与科研",
+	icon: "contenttweaker:hypernet_cpu_t4",
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -3.5d,
+		y: 3.0d,
+		width: 6.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/tupian/suanli.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

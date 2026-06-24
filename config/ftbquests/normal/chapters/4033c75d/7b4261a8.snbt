@@ -1,0 +1,15 @@
+{
+	x: 54.5d,
+	y: -3.0d,
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "dee292e8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:eco-t7_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

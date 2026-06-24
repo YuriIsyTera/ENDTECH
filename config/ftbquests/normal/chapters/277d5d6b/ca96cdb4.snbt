@@ -1,0 +1,20 @@
+{
+	title: "一台可能有点用的机器",
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"可以在制造机械外壳的时候省点材料......",
+		"实际上大规模自动化时还是直接合成比较快对吧（"
+	],
+	dependencies: [
+		"e82517c6"
+	],
+	tasks: [{
+		uid: "1675f939",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mechanical_housing_molding_machine_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

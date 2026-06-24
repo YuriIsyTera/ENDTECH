@@ -1,0 +1,15 @@
+{
+	x: -10.0d,
+	y: 2.0d,
+	dependencies: [
+		"d68c83fd"
+	],
+	tasks: [{
+		uid: "4459432d",
+		type: "item",
+		items: [{
+			item: "rftools:storage_module 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

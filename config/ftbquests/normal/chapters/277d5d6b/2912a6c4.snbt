@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	text: [
+		"它是压缩机的升级版，是个优秀的砸板子设备",
+		"也是重要的线圈生产设备",
+		"是的，这是必须做的，不做没法制造3级以上线圈"
+	],
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "c9c9266f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:numerical_control_machine_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

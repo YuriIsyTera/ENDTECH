@@ -1,0 +1,48 @@
+{
+	title: "数据处理模块",
+	x: -9.5d,
+	y: -5.5d,
+	text: [
+		"你的合成材料，也是你的计算机算力来源",
+		"不过前期真不至于用这个，送你个最好的前期CPU，你可以自己去多做点"
+	],
+	dependencies: [
+		"07cd62ac",
+		"2fc94938",
+		"336ac101",
+		"b5f88bc6"
+	],
+	tasks: [{
+		uid: "10b40c24",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					hypernet_cpu_t1: {}
+				}
+			},
+			id: "contenttweaker:hypernet_cpu_t1"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e0cc3b17",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					hypernet_ram_t1: {}
+				}
+			},
+			id: "contenttweaker:hypernet_ram_t1"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "725e6df1",
+		type: "item",
+		item: "enderio:item_material 1 42"
+	}]
+}

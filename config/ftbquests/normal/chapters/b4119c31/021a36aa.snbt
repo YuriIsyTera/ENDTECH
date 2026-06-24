@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	text: [
+		"..............",
+		"让你的io端口伟大的抽象"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"f560642f"
+	],
+	tasks: [{
+		uid: "4f42a79b",
+		type: "item",
+		items: [{
+			item: "nae2:upgrade"
+		}]
+	}]
+}

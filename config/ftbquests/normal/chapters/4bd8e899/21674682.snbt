@@ -1,0 +1,21 @@
+{
+	title: "实用的一切",
+	x: -14.0d,
+	y: -3.5d,
+	description: "解锁科技总览 实用拓展",
+	text: [
+		""
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6e900775",
+		type: "item",
+		title: "年轻人的第一台设备",
+		items: [{
+			item: "actuallyadditions:block_misc 1 9"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -17.0d,
+	y: -7.5d,
+	description: "解锁魔法总览 巫术学",
+	text: [
+		""
+	],
+	dependencies: [
+		"c49f3e7a"
+	],
+	tasks: [{
+		uid: "f8d0f51f",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"98b6fb53",
+		"6abdaa67"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "aa1151bf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:level_infinity_orb"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 27.0d,
+	y: -2.5d,
+	shape: "square",
+	text: [
+		"查看它的预览你会发现它的后面也可以有个控制器？",
+		"",
+		"是的，你没有看错，这玩意的一个结构里可以放置两个控制器，它们可以同时进行工作，为了更高的工作效率你应该这么做"
+	],
+	dependencies: [
+		"246afa01",
+		"90093ee2"
+	],
+	tasks: [{
+		uid: "f0196fe1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:crystal_injector_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

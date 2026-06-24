@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"这还不如人造僵尸呢",
+		"幽默了"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"bee64ea6"
+	],
+	tasks: [{
+		uid: "79ff875f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					hypernet_cpu_t2: {}
+				}
+			},
+			id: "contenttweaker:hypernet_cpu_t2"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

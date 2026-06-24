@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	text: [
+		"NCO合金炉的升级版，真正的作用是制造石墨烯",
+		"注意，制造石墨烯并行需要多个铜板"
+	],
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "c4fef0c0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:large_metallurgical_complex_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

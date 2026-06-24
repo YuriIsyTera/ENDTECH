@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"现在你可以制造2级祭坛和3级祭坛了",
+		"什么，你说怎么就可以做3级了",
+		"反正可以做了就对了"
+	],
+	dependencies: [
+		"5c0da423"
+	],
+	tasks: [{
+		uid: "246a5e60",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "小贴士",
+	x: -43.5d,
+	y: -4.0d,
+	shape: "gear",
+	text: [
+		"'终末工程'私货包的机器远远不止任务呈现的这一部分,您可以在JEI内搜索EndTech以查阅'终末工程'私货中绝大部分的机器与物品",
+		"同时,本私货包添加了'无限元件'模组,内置了深度元件和无限元件!"
+	],
+	hide_dependency_lines: 1b,
+	tasks: [{
+		uid: "dfaa845a",
+		type: "checkmark",
+		icon: "modularmachinery:blockfactorycontroller"
+	}],
+	rewards: [{
+		uid: "f985ae2e",
+		type: "item",
+		item: "infinitycell:item_cell_16384k"
+	}]
+}

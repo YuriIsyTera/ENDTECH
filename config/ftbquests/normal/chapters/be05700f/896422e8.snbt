@@ -1,0 +1,14 @@
+{
+	x: -39.5d,
+	y: 7.0d,
+	text: [
+		"快速产出巫术学中难以获取的水晶"
+	],
+	tasks: [{
+		uid: "96b226e2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:wizard_drill_factory_controller"
+		}]
+	}]
+}

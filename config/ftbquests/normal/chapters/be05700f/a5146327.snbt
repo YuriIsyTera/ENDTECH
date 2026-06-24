@@ -1,0 +1,14 @@
+{
+	x: -43.5d,
+	y: 6.0d,
+	text: [
+		"拥有32线程，每个线程1613471并行"
+	],
+	tasks: [{
+		uid: "d36e41ec",
+		type: "item",
+		items: [{
+			item: "modularmachinery:huge_disscociation_device_factory_controller"
+		}]
+	}]
+}

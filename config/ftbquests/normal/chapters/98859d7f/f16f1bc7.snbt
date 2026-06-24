@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"现在你可以制造6级祭坛了，这不错",
+		"你多出了76个符文的位置呢"
+	],
+	dependencies: [
+		"48047720",
+		"3ae1e9ff"
+	],
+	tasks: [{
+		uid: "8e0fa61f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick 1 2"
+		}]
+	}]
+}

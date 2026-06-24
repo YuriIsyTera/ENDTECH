@@ -1,0 +1,80 @@
+{
+	title: "多方块建筑材料",
+	x: -36.5d,
+	y: -2.0d,
+	text: [
+		"考虑你服铱和钛比较容易获得，马达推荐最好的精英马达！"
+	],
+	dependencies: [
+		"9c08d90a"
+	],
+	tasks: [{
+		uid: "f8a2e71f",
+		type: "item",
+		items: [{
+			item: "libvulpes:elitemotor"
+		}]
+	},
+	{
+		uid: "dec4221f",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:iquartzcrucible"
+		}],
+		count: 6L
+	},
+	{
+		uid: "0b020055",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:sawblade"
+		}]
+	},
+	{
+		uid: "9b1dfcc6",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch"
+		}]
+	},
+	{
+		uid: "ea20bb45",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 2"
+		}]
+	},
+	{
+		uid: "b4438b3d",
+		type: "item",
+		items: [{
+			item: "libvulpes:forgepowerinput"
+		}]
+	},
+	{
+		uid: "b1e11558",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 1"
+		}]
+	},
+	{
+		uid: "119d7250",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 3"
+		}]
+	},
+	{
+		uid: "16302bdb",
+		type: "item",
+		items: [{
+			item: "libvulpes:battery"
+		}]
+	}],
+	rewards: [{
+		uid: "028dfd83",
+		type: "item",
+		item: "libvulpes:elitemotor"
+	}]
+}

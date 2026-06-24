@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: -5.5d,
+	text: [
+		"实际上为大型分子重组仪，警惕耗电，警惕算力消耗"
+	],
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "7c55da08",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ion_generator_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

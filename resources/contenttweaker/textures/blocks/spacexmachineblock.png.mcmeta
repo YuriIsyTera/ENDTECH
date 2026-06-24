@@ -1,0 +1,21 @@
+{
+    "animation": {
+      "frametime": 20,
+      "interpolate": true
+    },
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/spacexmachineblock_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:spacexmachineblock" },
+        { "block": "modularmachinery:mega_spaceelevator_factory_controller" },
+        { "block": "modularmachinery:mega_spaceelevatorminemodule_factory_controller" },
+        { "block": "modularmachinery:giga_massunpacker_factory_controller" }
+			]
+		}
+    }
+}

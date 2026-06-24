@@ -1,0 +1,14 @@
+{
+	x: -35.5d,
+	y: 0.0d,
+	dependencies: [
+		"2fdd1e00"
+	],
+	tasks: [{
+		uid: "8e65c144",
+		type: "item",
+		items: [{
+			item: "modularmachinery:starcomputer_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: -1.0d,
+	text: [
+		"一个简单的算力模块，比人造僵尸提供的算力略高"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"bee64ea6"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "0fa33372",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					hypernet_gpu_t1: {}
+				}
+			},
+			id: "contenttweaker:hypernet_gpu_t1"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

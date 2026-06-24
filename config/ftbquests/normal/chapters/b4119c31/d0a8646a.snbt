@@ -1,0 +1,19 @@
+{
+	title: "一切从这个小小的天外来物说起",
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e3c296c2"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "e13e1ed1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}]
+	}]
+}

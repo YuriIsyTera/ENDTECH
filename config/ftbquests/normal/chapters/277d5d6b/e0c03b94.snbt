@@ -1,0 +1,21 @@
+{
+	title: "&b星辉科技！",
+	x: 9.5d,
+	y: -2.5d,
+	shape: "square",
+	text: [
+		"虽然后续的机器难度不足 6.0，但是参考其前置机械的难度，因此将后续的机械排至 6.0+ 难度部分。"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"ed100f1b"
+	],
+	tasks: [{
+		uid: "d49c7e49",
+		type: "item",
+		items: [{
+			item: "modularmachinery:iridescentobservatory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

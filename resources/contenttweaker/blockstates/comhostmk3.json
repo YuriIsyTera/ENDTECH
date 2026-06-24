@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "contenttweaker:blocks/comhostmk3_side",
+      "1": "contenttweaker:blocks/comhostmk3_face",
+      "2": "contenttweaker:blocks/comhostmk3_behind",
+      "3": "contenttweaker:blocks/comhostmk3_bottom",
+      "4": "contenttweaker:blocks/comhostmk3_top",
+      "particle": "contenttweaker:blocks/comhostmk3_side"
+    },
+    "model": "contenttweaker:comhostmk3_core",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

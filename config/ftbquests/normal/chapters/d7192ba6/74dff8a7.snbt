@@ -1,0 +1,30 @@
+{
+	title: "饱和",
+	disable_toast: 1b,
+	x: 1.5d,
+	y: 3.0d,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8a1b3812"
+	],
+	tasks: [{
+		uid: "7be160d6",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}]
+	},
+	{
+		uid: "e5be3dfe",
+		type: "item",
+		items: [{
+			item: "rftools:saturationplus_module"
+		}]
+	}],
+	rewards: [{
+		uid: "b9e917af",
+		type: "item",
+		item: "environmentaltech:modifier_saturation"
+	}]
+}

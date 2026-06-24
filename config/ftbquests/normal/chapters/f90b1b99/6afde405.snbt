@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	text: [
+		"§r§0§m崩坏三！§r"
+	],
+	dependencies: [
+		"6a90d11f"
+	],
+	tasks: [{
+		uid: "9a435473",
+		type: "item",
+		items: [{
+			item: "modularmachinery:pelotrio_ritual_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

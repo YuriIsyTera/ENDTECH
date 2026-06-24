@@ -1,0 +1,14 @@
+{
+	x: -41.5d,
+	y: 6.0d,
+	text: [
+		"执行一些重要液体的搅拌配方"
+	],
+	tasks: [{
+		uid: "24ecd6db",
+		type: "item",
+		items: [{
+			item: "modularmachinery:huge_mixer_factory_controller"
+		}]
+	}]
+}

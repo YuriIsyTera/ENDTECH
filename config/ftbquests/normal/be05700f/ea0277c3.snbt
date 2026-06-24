@@ -1,0 +1,14 @@
+{
+	x: -34.5d,
+	y: -2.0d,
+	dependencies: [
+		"75ea69c9"
+	],
+	tasks: [{
+		uid: "71ec109a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mega_researchstationt4_factory_controller"
+		}]
+	}]
+}

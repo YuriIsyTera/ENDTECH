@@ -1,0 +1,18 @@
+{
+	x: 9.5d,
+	y: 5.5d,
+	text: [
+		"作为样板供应器的镜像端口存在",
+		"机器读取其时相当于直接读取对应的样板供应器"
+	],
+	dependencies: [
+		"41407914"
+	],
+	tasks: [{
+		uid: "40e25e47",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockmepatternmirrorimage"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "点击就进通量百科",
+	x: -7.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	custom_click: "https://www.mcmod.cn/class/803.html",
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b
+}

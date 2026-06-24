@@ -1,0 +1,17 @@
+{
+	x: -44.0d,
+	y: 2.0d,
+	text: [
+		"对,这也是必要的"
+	],
+	dependencies: [
+		"049925d2"
+	],
+	tasks: [{
+		uid: "11a7ac27",
+		type: "item",
+		items: [{
+			item: "modularmachinery:coolingindustry_factory_controller"
+		}]
+	}]
+}

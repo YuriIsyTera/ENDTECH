@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0":"contenttweaker:blocks/darkmatterblock_layer",
+      "3":"contenttweaker:blocks/darkmatterblock_lux",
+      "particle":"contenttweaker:blocks/darkmatterblock_layer"
+    },
+    "model": "contenttweaker:darkmatterblock_core",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

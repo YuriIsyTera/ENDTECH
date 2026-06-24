@@ -1,0 +1,30 @@
+{
+	title: "结构塔",
+	x: -24.5d,
+	y: -2.0d,
+	text: [
+		"结构塔（Structure Tower）是发射台的重要组成部分，用来垂直堆叠放置在发射旁的地面上，以确定火箭组装机扫描火箭的高度。",
+		"火箭的最大建筑高度为64格。（无论火箭自身多高，火箭组装机都会从结构塔的最高一格开始往下扫描）",
+		"除此之外，结构塔还可用于定义无人飞船组装器组装无人火箭的区域。",
+		"推荐制作火箭高度至少为5。",
+		"",
+		"注意：结构塔最低的一格需要与发射台方块等高，否则发射台无法正常工作！这是许多新手都会犯的错误。"
+	],
+	dependencies: [
+		"5517aa86"
+	],
+	tasks: [{
+		uid: "e6c54591",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "287b1c89",
+		type: "item",
+		item: "libvulpes:structuremachine",
+		random_bonus: 15
+	}]
+}

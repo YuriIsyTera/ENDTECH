@@ -1,0 +1,21 @@
+{
+	title: "ESD",
+	x: -0.5d,
+	y: 2.0d,
+	text: [
+		"一种更为高级的漏斗，在用于自动化狱火熔炉这种格子乱窜的设备有奇效"
+	],
+	dependencies: [
+		"646494a2"
+	],
+	tasks: [{
+		uid: "fd648a08",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_inputter"
+		},
+		{
+			item: "actuallyadditions:block_inputter_advanced"
+		}]
+	}]
+}

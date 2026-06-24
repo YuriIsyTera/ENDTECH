@@ -1,0 +1,19 @@
+{
+	title: "匠魂",
+	disable_toast: 1b,
+	x: 2.5d,
+	y: 0.0d,
+	description: "别看了，匠魂确实只有这点任务",
+	text: [
+		"他会是你前期的好帮手的，大概？"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "7befca74",
+		type: "checkmark",
+		icon: "tconstruct:book"
+	}]
+}

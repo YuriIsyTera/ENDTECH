@@ -1,0 +1,72 @@
+{
+	x: -10.0d,
+	y: -1.5d,
+	dependencies: [
+		"f59a340a",
+		"29ae56a3",
+		"0c17344c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "02969637",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "02a5da06",
+		type: "item",
+		auto: "enabled",
+		item: {
+			tag: {
+				blueprint: "electrode"
+			},
+			id: "immersiveengineering:blueprint"
+		}
+	},
+	{
+		uid: "86b539f2",
+		type: "item",
+		auto: "enabled",
+		item: {
+			tag: {
+				blueprint: "components"
+			},
+			id: "immersiveengineering:blueprint"
+		}
+	},
+	{
+		uid: "91931189",
+		type: "item",
+		auto: "enabled",
+		item: {
+			tag: {
+				blueprint: "specialBullet"
+			},
+			id: "immersiveengineering:blueprint"
+		}
+	},
+	{
+		uid: "e61a92a1",
+		type: "item",
+		auto: "enabled",
+		item: {
+			tag: {
+				blueprint: "molds"
+			},
+			id: "immersiveengineering:blueprint"
+		}
+	},
+	{
+		uid: "81122ce2",
+		type: "item",
+		auto: "enabled",
+		item: {
+			tag: {
+				blueprint: "bullet"
+			},
+			id: "immersiveengineering:blueprint"
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "压印",
+	loot_size: 2,
+	rewards: [{
+		item: "appliedenergistics2:material 1 13"
+	},
+	{
+		item: "appliedenergistics2:material 1 14"
+	},
+	{
+		item: "appliedenergistics2:material 1 15"
+	},
+	{
+		item: "appliedenergistics2:material 1 19"
+	}]
+}

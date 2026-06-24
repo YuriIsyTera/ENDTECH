@@ -1,0 +1,166 @@
+{
+	title: "是吗，你想索求的就在这里？",
+	x: -42.5d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"完成控制器制作后，将直接赠送自动化工坊的结构方块！",
+		"Woa，好棒啊...(悄悄话)"
+	],
+	tasks: [{
+		uid: "c1256e7d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:newengineerworkshop1_controller"
+		},
+		{
+			item: "modularmachinery:newengineerworkshop1_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "0d92869f",
+		type: "item",
+		item: {
+			tag: {
+				"#9": {
+					id: "chisel:factory",
+					Count: 1,
+					Damage: 6s,
+					Cnt: 38L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#10": {
+					id: "chisel:laboratory",
+					Count: 1,
+					Damage: 4s,
+					Cnt: 10L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#14": {
+					id: "chisel:laboratory",
+					Count: 1,
+					Damage: 11s,
+					Cnt: 19L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#5": {
+					id: "artisanworktables:workshop",
+					Count: 1,
+					Damage: 6s,
+					Cnt: 1L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"@9": 38L,
+				"@11": 70L,
+				"@5": 1L,
+				"@3": 3L,
+				"@13": 16L,
+				"@12": 40L,
+				it: 15s,
+				"#11": {
+					id: "chisel:laboratory",
+					Count: 1,
+					Damage: 7s,
+					Cnt: 70L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#13": {
+					id: "chisel:laboratory",
+					Count: 1,
+					Damage: 14s,
+					Cnt: 16L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"@10": 10L,
+				"@8": 59L,
+				"@2": 30L,
+				"@0": 7L,
+				"@6": 2L,
+				"@7": 8L,
+				"@1": 4L,
+				"@14": 19L,
+				"@4": 2L,
+				"#7": {
+					id: "minecraft:anvil",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 8L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#3": {
+					id: "chisel:glowstone",
+					Count: 1,
+					Damage: 7s,
+					Cnt: 3L,
+					Req: 0L,
+					Craft: 0b
+				},
+				ic: 309L,
+				"#12": {
+					id: "chisel:laboratory",
+					Count: 1,
+					Damage: 2s,
+					Cnt: 40L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#8": {
+					id: "chisel:iron",
+					Count: 1,
+					Damage: 5s,
+					Cnt: 59L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#4": {
+					id: "chisel:ironpane",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 2L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#6": {
+					id: "minecraft:quartz_stairs",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 2L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#2": {
+					id: "jaopca:block_slabiron",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 30L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#1": {
+					id: "minecraft:end_rod",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 4L,
+					Req: 0L,
+					Craft: 0b
+				},
+				"#0": {
+					id: "appliedenergistics2:quartz_glass",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 7L,
+					Req: 0L,
+					Craft: 0b
+				}
+			},
+			id: "appliedenergistics2:storage_cell_1k"
+		}
+	}]
+}

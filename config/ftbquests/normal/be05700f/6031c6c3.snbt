@@ -1,0 +1,15 @@
+{
+	x: -39.0d,
+	y: 1.0d,
+	dependencies: [
+		"cccf864f",
+		"b1cc9a0c"
+	],
+	tasks: [{
+		uid: "3e953478",
+		type: "item",
+		items: [{
+			item: "modularmachinery:asteroid_reactor_factory_controller"
+		}]
+	}]
+}

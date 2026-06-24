@@ -1,0 +1,19 @@
+{
+	title: "红石兵工厂",
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"客观的说这个mod只提供了一些装备和工具，但是红石充能弓配合红石充能箭袋的伤害极度抽象"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "67e0b53c",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material 1 224"
+		}]
+	}]
+}

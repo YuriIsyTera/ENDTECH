@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"它是你的必需品，你的第一个线圈必须通过它制造，日后的线圈也是通过它的升级版制造",
+		""
+	],
+	dependencies: [
+		"41d497d8"
+	],
+	tasks: [{
+		uid: "96e0f1e1",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:pressurizer"
+		}]
+	}]
+}

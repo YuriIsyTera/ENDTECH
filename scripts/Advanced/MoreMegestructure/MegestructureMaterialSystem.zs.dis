@@ -1,0 +1,150 @@
+#priority 10000
+
+#loader contenttweaker
+
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
+import mods.contenttweaker.Fluid;
+import mods.contenttweaker.Color;
+import mods.contenttweaker.Block;
+import mods.contenttweaker.CreativeTab;
+import mods.zenutils.I18n;
+import mods.zenutils.DataUpdateOperation.APPEND;
+
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.IngredientArrayBuilder;
+import mods.modularmachinery.MachineBuilder;
+import mods.modularmachinery.RecipeStartEvent;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.MachineController;
+import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.FactoryRecipeStartEvent;
+import mods.modularmachinery.FactoryRecipeTickEvent;
+import mods.modularmachinery.FactoryRecipeFinishEvent;
+import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.MachineStructureFormedEvent;
+import mods.modularmachinery.Sync;
+import mods.modularmachinery.GeoMachineModel;
+import mods.modularmachinery.ControllerModelAnimationEvent;
+import mods.contenttweaker.Commands;
+
+import crafttweaker.world.IBlockPos;
+import crafttweaker.util.Math;
+import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.world.IWorld;
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.WeightedItemStack;
+import mod.mekanism.gas.IGasStack;
+import crafttweaker.item.IWeightedIngredient;
+import crafttweaker.block.IBlockState;
+import crafttweaker.block.IBlock;
+import crafttweaker.player.IPlayer;
+import mods.jei.JEI;
+import mods.randomtweaker.jei.IJeiUtils;
+import crafttweaker.item.IItemDefinition;
+import mods.avaritia.ExtremeCrafting;
+import crafttweaker.recipes.ICraftingInfo;
+import mods.avaritia.Compressor;
+import mods.nuclearcraft.Infuser;
+import mods.nuclearcraft.Pressurizer;
+import mods.nuclearcraft.AlloyFurnace;
+import mods.nuclearcraft.ChemicalReactor;
+
+import novaeng.NovaEngUtils;
+import novaeng.hypernet.HyperNetHelper;
+import novaeng.hypernet.RegistryHyperNet;
+import novaeng.hypernet.ComputationCenter;
+import novaeng.hypernet.ComputationCenterType;
+import novaeng.hypernet.ComputationCenterCache;
+
+import novaeng.hypernet.upgrade.type.ProcessorModuleCPUType;
+import novaeng.hypernet.upgrade.type.ProcessorModuleGPUType;
+import novaeng.hypernet.upgrade.type.ProcessorModuleRAMType;
+
+function regItem(name as string) {
+    val item as Item = VanillaFactory.createItem(name);
+    item.creativeTab = <creativetab:misc>;
+    item.register();
+}
+
+function regItemWithStackSize(name as string, maxStackSize as int) {
+    val item as Item = VanillaFactory.createItem(name);
+    item.creativeTab = <creativetab:misc>;
+    item.maxStackSize = maxStackSize;
+    item.register();
+}
+
+function regFluid(regName as string, color as int, temperature as int) {
+    var fluid = VanillaFactory.createFluid(regName, color);
+    fluid.colorize = true;
+    fluid.temperature = temperature;
+    fluid.stillLocation = "base:fluids/liquid";
+    fluid.flowingLocation = "base:fluids/liquid_flow";
+    fluid.register();
+}
+function regEndTechMaterial(material as string,material_ingot as IIngredient) {
+    val material_transmission as Item = VanillaFactory.createItem(material + "transmission");
+    val material_connection as Item = VanillaFactory.createItem(material + "connection");
+    val material_plate as Item = VanillaFactory.createItem(material + "plate");
+    val material_rotor as Item = VanillaFactory.createItem(material + "rotor");
+    val material_transmission_name = material + "transmission";
+    val material_connection_name = material + "connection";
+    val material_plate_name = material + "plate";
+    val material_rotor_name = material + "rotor";
+    val material_transmission_item as IIngredient = material + "transmission";
+    val material_connection_item as IIngredient = material + "connection";
+    val material_plate_item as IIngredient = material + "plate";
+    val material_rotor_item as IIngredient = material + "rotor";
+    val material_transmission_itemstack as IItemstack = "item:" + material + "transmission";
+    val material_connection_itemstack as IItemstack = material + "connection";
+    val material_plate_itemstack as IItemstack = material + "plate";
+    val material_rotor_itemstack as IItemstack = material + "rotor";
+    material_transmission.creativeTab = <creativetab:misc>;
+    material_connection.creativeTab = <creativetab:misc>;
+    material_plate.creativeTab = <creativetab:misc>;
+    material_rotor.creativeTab = <creativetab:misc>;
+    material_transmission.register();
+    material_connection.register();
+    material_plate.register();
+    material_rotor.register();
+    recipes.addShaped(material_connection_itemstack, [
+        [material_ingot,null,null],
+        [material_ingot,null,null],
+        [null,null,null]
+    ]);
+    recipes.addShaped(material_rotor_itemstack, [
+        [material_plate_item,null,material_plate_item],
+        [null,material_connection_item,null],
+        [material_plate_item,null,material_plate_item]
+    ]);
+    recipes.addShaped(material_transmission_itemstack, [
+        [material_connection_item,material_connection_item,material_connection_item],
+        [material_connection_item,null,material_connection_item],
+        [material_connection_item,material_connection_item,material_connection_item]
+    ]);
+    Pressurizer.addRecipe(material_ingot, material_plate_item, 2.0D, 1.5D);
+    Pressurizer.addRecipe(material_plate_item, material_connection_item * 2, 2.0D, 1.5D);
+    RecipeBuilder.newBuilder("endtech" + material_rotor_name, "board_assembly_room", 10)
+        .addEnergyPerTickInput(1000)
+        .addInput(material_rotor_item)
+        .addInput(material_connection_item)
+        .addOutput(material_transmission_item)
+        .build();
+    RecipeBuilder.newBuilder("endtech" + material_rotor_name, "board_assembly_room", 10)
+        .addEnergyPerTickInput(1000)
+        .addInput(material_transmission_item)
+        .addOutput(material_rotor_item)
+        .build();
+}
+regEndTechMaterial("nova",<contenttweaker:nova_ingot>);

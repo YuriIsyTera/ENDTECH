@@ -1,0 +1,15 @@
+{
+	x: -13.0d,
+	y: -9.0d,
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6759bfdb",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy_furnace"
+		}]
+	}]
+}

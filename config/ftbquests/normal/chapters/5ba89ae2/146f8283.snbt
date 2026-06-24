@@ -1,0 +1,27 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	text: [
+		"这是什么？一个闪亮亮的星核",
+		"把它给我，我拿这个宝钻给你换"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"8309e1a6"
+	],
+	tasks: [{
+		uid: "603f875a",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemfragmentcapsule"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40b2e68d",
+		type: "item",
+		item: "ancientspellcraft:astral_diamond_charged"
+	}]
+}

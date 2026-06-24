@@ -1,0 +1,17 @@
+{
+	x: 21.0d,
+	y: 0.0d,
+	text: [
+		"'TheStartOfCycle'"
+	],
+	dependencies: [
+		"edfaafe3"
+	],
+	tasks: [{
+		uid: "346211d1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mega_shroudneedle_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	dependencies: [
+		"90093ee2",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "c09ad53e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:precision_assembler_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

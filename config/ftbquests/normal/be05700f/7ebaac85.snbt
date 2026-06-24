@@ -1,0 +1,21 @@
+{
+	x: 42.5d,
+	y: -2.0d,
+	description: "目前的毕业目标",
+	text: [
+		"这是目前最贵的物品了(大概),他也是目前毕业目标,做出他吧(当然,为了运行时空奇点稳定器,你必须制造他)",
+		"INF-POWER!!!!!!!!!!!!!"
+	],
+	dependencies: [
+		"5f1a517a"
+	],
+	tasks: [{
+		uid: "99aa7f8e",
+		type: "item",
+		items: [{
+			item: "infinitycell:item_cell_inf"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

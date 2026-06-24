@@ -1,0 +1,18 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e82517c6"
+	],
+	tasks: [{
+		uid: "47e7a4ca",
+		type: "item",
+		items: [{
+			item: "modularmachinery:engineering_inscriber_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 63.5d,
+	y: 4.0d,
+	text: [
+		"查看终端中完成研究后的描述来了解怎么使用"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "cecfa975",
+		type: "item",
+		items: [{
+			item: "modularmachinery:space_generator_factory_controller"
+		}]
+	}]
+}

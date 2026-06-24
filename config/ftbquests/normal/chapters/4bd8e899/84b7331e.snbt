@@ -1,0 +1,21 @@
+{
+	title: "也许你意志很坚定，但是迫害怪物多好",
+	x: -11.75d,
+	y: -7.0d,
+	description: "解锁章节 血魔法",
+	text: [
+		""
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6bc50bca",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}]
+}

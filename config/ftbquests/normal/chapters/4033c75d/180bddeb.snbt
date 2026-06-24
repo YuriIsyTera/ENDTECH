@@ -1,0 +1,18 @@
+{
+	x: 71.0d,
+	y: 5.0d,
+	text: [
+		"第二级的太阳帆，需要等级4的框架支持"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"3e3e0126"
+	],
+	tasks: [{
+		uid: "0aaf174a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tyf2"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	dependencies: [
+		"41d497d8"
+	],
+	tasks: [{
+		uid: "8cafaefb",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:infuser"
+		}]
+	}]
+}

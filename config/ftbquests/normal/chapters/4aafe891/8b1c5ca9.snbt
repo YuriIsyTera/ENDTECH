@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: 2.0d,
+	text: [
+		"更快更好更强的nc电解机，也许会有一些用处？"
+	],
+	dependencies: [
+		"41d497d8"
+	],
+	tasks: [{
+		uid: "ed01cd26",
+		type: "item",
+		items: [{
+			item: "modularmachinery:large_electrolyzer_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "这便是你需要的",
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"21674682"
+	],
+	tasks: [{
+		uid: "530cd5c6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "3f97299f",
+		type: "item",
+		items: [{
+			item: "moreplates:empowered_palis_plate"
+		}]
+	},
+	{
+		uid: "c4d832c5",
+		type: "item",
+		items: [{
+			item: "moreplates:empowered_emeradic_plate"
+		}]
+	}]
+}

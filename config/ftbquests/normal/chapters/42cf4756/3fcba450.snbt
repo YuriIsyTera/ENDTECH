@@ -1,0 +1,60 @@
+{
+	title: "出门在外，买套装备",
+	x: 3.5d,
+	y: -3.0d,
+	description: "这有什么用？",
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "1975f0fe",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 128L,
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "0bd4797e",
+		type: "item",
+		item: {
+			tag: {
+				Energy: 200000.0f
+			},
+			id: "draconicadditions:potato_helm"
+		}
+	},
+	{
+		uid: "7a23ef06",
+		type: "item",
+		item: {
+			tag: {
+				Energy: 200000.0f
+			},
+			id: "draconicadditions:potato_chest"
+		}
+	},
+	{
+		uid: "405b63f2",
+		type: "item",
+		item: {
+			tag: {
+				Energy: 200000.0f
+			},
+			id: "draconicadditions:potato_legs"
+		}
+	},
+	{
+		uid: "bb79cf89",
+		type: "item",
+		item: {
+			tag: {
+				Energy: 200000.0f
+			},
+			id: "draconicadditions:potato_boots"
+		}
+	}]
+}

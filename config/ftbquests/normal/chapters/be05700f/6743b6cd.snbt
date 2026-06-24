@@ -1,0 +1,14 @@
+{
+	x: -43.5d,
+	y: 5.0d,
+	text: [
+		"大号Fluix工厂和共价超载器"
+	],
+	tasks: [{
+		uid: "c5dead73",
+		type: "item",
+		items: [{
+			item: "modularmachinery:zerogravity_fieldguidereactor_factory_controller"
+		}]
+	}]
+}

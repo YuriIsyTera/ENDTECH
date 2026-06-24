@@ -1,0 +1,18 @@
+{
+	x: 62.0d,
+	y: -1.5d,
+	text: [
+		"你知道的，数据是在控制器里的",
+		"挖了就和你的数据说再见吧"
+	],
+	dependencies: [
+		"b1cc9a0c"
+	],
+	tasks: [{
+		uid: "b914de48",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dyson_ball_management_center_factory_controller"
+		}]
+	}]
+}

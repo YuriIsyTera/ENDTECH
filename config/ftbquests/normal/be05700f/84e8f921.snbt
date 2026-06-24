@@ -1,0 +1,14 @@
+{
+	x: -19.5d,
+	y: -4.0d,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "5ec0b869",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mab_block"
+		}]
+	}]
+}

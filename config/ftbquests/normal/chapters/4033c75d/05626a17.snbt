@@ -1,0 +1,18 @@
+{
+	title: "魔法到了一个地步还挺科技的",
+	x: 59.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "a34f4f80",
+		type: "item",
+		items: [{
+			item: "novaeng_core:extendable_digital_storage_subsystem_l9"
+		}]
+	}]
+}

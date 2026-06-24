@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"b856efa6",
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "174e4559",
+		type: "item",
+		items: [{
+			item: "modularmachinery:biogenic_simulation_computer_factory_controller"
+		}]
+	}]
+}

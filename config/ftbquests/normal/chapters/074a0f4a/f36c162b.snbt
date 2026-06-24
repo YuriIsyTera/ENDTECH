@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"它确实挺懒人的，但是功能太多了不太好解释	",
+		"建议看看mcmod"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "d660a8c9",
+		type: "item",
+		items: [{
+			item: "enderutilities:builderswand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -41.5d,
+	y: 7.0d,
+	text: [
+		"烧制圆石产出等离子体"
+	],
+	tasks: [{
+		uid: "c311198c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:east_tokamak_factory_controller"
+		}]
+	}]
+}

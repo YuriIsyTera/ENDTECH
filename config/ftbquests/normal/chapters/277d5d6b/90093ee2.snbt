@@ -1,0 +1,19 @@
+{
+	x: 15.0d,
+	y: -2.5d,
+	text: [
+		"你应该制造它完全取代元件装配室",
+		"毕竟在它出现后元件装配室完全退环境了！"
+	],
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "40cc7b5a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:precision_assembler_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

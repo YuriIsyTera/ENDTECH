@@ -1,0 +1,21 @@
+{
+	x: -11.5d,
+	y: -3.0d,
+	dependencies: [
+		"3b435f7a"
+	],
+	tasks: [{
+		uid: "c1a7ea0d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spaceboots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67f62b9c",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

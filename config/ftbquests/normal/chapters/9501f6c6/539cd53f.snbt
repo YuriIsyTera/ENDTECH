@@ -1,0 +1,19 @@
+{
+	x: -16.0d,
+	y: 0.0d,
+	text: [
+		"2*2*2这就不用我多说了吧",
+		"用来做合金的，当然，我也不推荐用这个 "
+	],
+	dependencies: [
+		"c1b8b1cc"
+	],
+	tasks: [{
+		uid: "4dd17d1a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 8L
+	}]
+}

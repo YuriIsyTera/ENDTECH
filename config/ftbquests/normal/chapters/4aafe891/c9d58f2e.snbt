@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"41d497d8"
+	],
+	tasks: [{
+		uid: "b9922407",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:melter"
+		}]
+	}]
+}

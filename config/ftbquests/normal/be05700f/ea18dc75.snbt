@@ -1,0 +1,15 @@
+{
+	x: -39.0d,
+	y: -1.0d,
+	dependencies: [
+		"cccf864f",
+		"b1cc9a0c"
+	],
+	tasks: [{
+		uid: "c72702b8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:laseraccelerator_factory_controller"
+		}]
+	}]
+}

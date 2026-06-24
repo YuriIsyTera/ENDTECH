@@ -1,0 +1,98 @@
+{
+	title: "兑换你的六级信标！",
+	disable_toast: 1b,
+	x: -0.5d,
+	y: 0.0d,
+	shape: "circle",
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"a9a81569"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "4be9cae5",
+		type: "item",
+		items: [{
+			item: "rftools:environmental_controller"
+		}],
+		consume_items: 1b
+	},
+	{
+		uid: "d468a279",
+		type: "item",
+		items: [{
+			item: "contenttweaker:extrememachineblock"
+		}],
+		count: 114L,
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "9467c50b",
+		type: "item",
+		team_reward: 0b,
+		item: {
+			tag: {
+				display: {
+					Name: "#76EEC6这是整个六级纳米信标，不要质疑这一点",
+					Lore: [
+						"#76EEC6把它放地上你就知道了"
+					]
+				},
+				BlockEntityTag: {
+					Items: [{
+						Slot: 0b,
+						id: "environmentaltech:nano_cont_personal_6",
+						Count: 1,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "environmentaltech:modifier_null",
+						Count: 24,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "environmentaltech:structure_frame_6",
+						Count: 64,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "environmentaltech:structure_frame_6",
+						Count: 64,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "environmentaltech:structure_frame_6",
+						Count: 12,
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "environmentaltech:structure_panel",
+						Count: 64,
+						Damage: 0s
+					},
+					{
+						Slot: 6b,
+						id: "environmentaltech:structure_panel",
+						Count: 48,
+						Damage: 0s
+					},
+					{
+						Slot: 7b,
+						id: "environmentaltech:tool_multiblock_assembler",
+						Count: 1,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						Damage: 0s
+					}]
+				}
+			},
+			id: "botania:runealtar"
+		}
+	}]
+}

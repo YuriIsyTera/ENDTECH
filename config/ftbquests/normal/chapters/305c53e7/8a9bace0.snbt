@@ -1,0 +1,27 @@
+{
+	x: -24.5d,
+	y: 0.0d,
+	text: [
+		"发动机的心脏，推荐至少4台发动机搭配单推进燃料箱。",
+		"在造火箭时只能与单推进燃料箱搭配，如果摆双推进燃料箱则不会增加火箭的燃料储量。",
+		"在模组版本1.7.0版本前叫液体火箭发动机，且没有单、双推进之分。",
+		"本服务器内由于无法跃迁，故只推荐使用单推进火箭发动机即可。"
+	],
+	dependencies: [
+		"5517aa86"
+	],
+	tasks: [{
+		uid: "0187f6b3",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "392ff925",
+		type: "item",
+		item: "advancedrocketry:rocketmotor",
+		random_bonus: 9
+	}]
+}

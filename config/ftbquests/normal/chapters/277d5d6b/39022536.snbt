@@ -1,0 +1,18 @@
+{
+	x: 10.5d,
+	y: -5.0d,
+	text: [
+		"在自动化搭建此机器时需要注意中间草方块上的草需要手动放置，jei会错误显示为灌木"
+	],
+	dependencies: [
+		"e0c03b94"
+	],
+	tasks: [{
+		uid: "d36a6666",
+		type: "item",
+		items: [{
+			item: "modularmachinery:phaseinsolator_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

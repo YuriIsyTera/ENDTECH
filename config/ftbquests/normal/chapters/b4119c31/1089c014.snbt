@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -5.0d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"c543a359",
+		"f560642f"
+	],
+	tasks: [{
+		uid: "dee88364",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	}]
+}

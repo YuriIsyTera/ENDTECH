@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"可以从里面买到各种各样的种子",
+		"",
+		"会从天上掉下来一个商人或者从底下钻出来一个商人，会被摔死，也许可以配合什么回血的东西喂血魔法的苦难之井？"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "344a30a6",
+		type: "item",
+		items: [{
+			item: "farmingforblockheads:market"
+		}]
+	}]
+}

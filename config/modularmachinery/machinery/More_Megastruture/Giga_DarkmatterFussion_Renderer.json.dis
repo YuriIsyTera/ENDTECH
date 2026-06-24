@@ -1,0 +1,17 @@
+{
+    "registryname": "Giga_DarkmatterFussion_Renderer",
+    "localizedname": "§9暗物质聚变渲染器§f",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "hide-components-when-formed":true,
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:giga_darkmatterfussion_renderer_controller"
+            ]
+        }
+    ]
+}

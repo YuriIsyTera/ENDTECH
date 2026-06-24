@@ -1,0 +1,14 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/hyperspace_structure_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:hyperspace_structure" }
+			]
+		}
+    }
+}

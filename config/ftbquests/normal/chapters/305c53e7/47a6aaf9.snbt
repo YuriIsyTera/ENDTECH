@@ -1,0 +1,16 @@
+{
+	x: -42.5d,
+	y: 0.0d,
+	text: [
+		"群友出品"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "075c6771",
+		type: "checkmark",
+		title: "来自13xxxj的高级火箭任务线"
+	}]
+}

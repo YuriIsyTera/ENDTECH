@@ -1,0 +1,14 @@
+{
+	x: -37.5d,
+	y: 5.0d,
+	text: [
+		"压板机,还能造碳纤维复合材料"
+	],
+	tasks: [{
+		uid: "622850aa",
+		type: "item",
+		items: [{
+			item: "modularmachinery:advanced_field_facility_factory_controller"
+		}]
+	}]
+}

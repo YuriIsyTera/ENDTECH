@@ -1,0 +1,17 @@
+{
+	x: 78.0d,
+	y: -1.0d,
+	text: [
+		"第三级的太阳帆，需要等级7的框架支持"
+	],
+	dependencies: [
+		"8494f519"
+	],
+	tasks: [{
+		uid: "b4909b7c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tyf3"
+		}]
+	}]
+}

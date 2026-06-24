@@ -1,0 +1,18 @@
+{
+	x: 80.0d,
+	y: -1.0d,
+	text: [
+		"全新的最高发电的发电机",
+		"爆炸不是个玩笑，这是真的会爆炸，不过这并不会破坏多少方块.....除非你删除过配置文件重新生成"
+	],
+	dependencies: [
+		"8494f519"
+	],
+	tasks: [{
+		uid: "b08804d5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:xihe_star_creation_device_controller"
+		}]
+	}]
+}

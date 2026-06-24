@@ -1,0 +1,17 @@
+{
+	x: 23.0d,
+	y: 0.0d,
+	text: [
+		"他和装配线一样重要"
+	],
+	dependencies: [
+		"027fb0c0"
+	],
+	tasks: [{
+		uid: "dcbefb9b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:giga_arcanceassemblyline_factory_controller"
+		}]
+	}]
+}

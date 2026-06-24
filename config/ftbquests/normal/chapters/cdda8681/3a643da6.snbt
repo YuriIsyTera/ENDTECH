@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"是，更大的计算机",
+		"没有新的特性，纯提升"
+	],
+	dependencies: [
+		"85523bad"
+	],
+	tasks: [{
+		uid: "3da9c885",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t3_factory_controller"
+		}]
+	}]
+}

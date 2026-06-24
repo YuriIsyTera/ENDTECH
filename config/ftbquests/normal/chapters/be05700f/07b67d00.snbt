@@ -1,0 +1,20 @@
+{
+	x: -44.0d,
+	y: -1.5d,
+	description: "512x!",
+	text: [
+		"他是目前最强的矿物处理手段,大概",
+		"这台机器可以产出512倍的矿!",
+		"机制与虚相类似,具体请查看配方"
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "8f107781",
+		type: "item",
+		items: [{
+			item: "modularmachinery:massanomaldevice_factory_controller"
+		}]
+	}]
+}

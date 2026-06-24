@@ -1,0 +1,30 @@
+{
+	title: "伤害吸收",
+	disable_toast: 1b,
+	x: 3.0d,
+	y: 3.0d,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8a1b3812"
+	],
+	tasks: [{
+		uid: "d5e7454e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}]
+	},
+	{
+		uid: "1f2339c7",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_apple 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "88b1665a",
+		type: "item",
+		item: "environmentaltech:modifier_absorption"
+	}]
+}

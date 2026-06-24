@@ -1,0 +1,15 @@
+{
+	title: "能源生产与存储",
+	icon: {
+		tag: {
+			mekData: {
+				energyStored: 1.7976931348623157E308d
+			},
+			tier: 4
+		},
+		id: "mekanism:energycube"
+	},
+	always_invisible: 0b,
+	group: 1626059811,
+	default_quest_shape: ""
+}

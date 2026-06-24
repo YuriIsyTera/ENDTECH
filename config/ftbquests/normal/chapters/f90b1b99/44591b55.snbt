@@ -1,0 +1,29 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"在野外冒险时，你会发现一些奇怪的结构",
+		"",
+		"它们有着坚不可摧（一无尽镐下去就没了）的外壳，和一个紫色的屏障",
+		"",
+		"使用任务奖励的卷轴可以清除屏障，显然这是&5消耗品&f,更多的卷轴你自己弄去吧",
+		"",
+		"并不是说只能通过打开屏障的方法进去，你应该运用你的原版智慧",
+		"",
+		"无尽镐无所畏惧，不是吗"
+	],
+	dependencies: [
+		"24424d0d"
+	],
+	tasks: [{
+		uid: "5cc8ff4d",
+		type: "checkmark",
+		title: "古代冒险"
+	}],
+	rewards: [{
+		uid: "8ed45a17",
+		type: "item",
+		team_reward: 0b,
+		item: "ancientspellcraft:unsealing_scroll"
+	}]
+}

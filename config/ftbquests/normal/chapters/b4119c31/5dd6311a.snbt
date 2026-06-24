@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	text: [
+		"打开你的自动化之门！",
+		"",
+		"如果你不知道如何自动化，你可以打开百科看看教程"
+	],
+	dependencies: [
+		"fe3152f3",
+		"9f6f7918"
+	],
+	tasks: [{
+		uid: "fd43be56",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	}]
+}

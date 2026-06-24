@@ -1,0 +1,12 @@
+{
+	x: 35.0d,
+	y: 0.0d,
+	dependencies: [
+		"948a430a"
+	],
+	tasks: [{
+		uid: "e5e94325",
+		type: "checkmark",
+		title: "超越维度与时间的本质!"
+	}]
+}

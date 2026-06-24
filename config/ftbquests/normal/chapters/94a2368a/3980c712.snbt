@@ -1,0 +1,23 @@
+{
+	title: "年轻人的第一台发电机（？）",
+	x: -5.5d,
+	y: 0.5d,
+	text: [
+		"你可能注意到了魔力发射器无法制作",
+		"它们已经不再被需要了，在这里，产能花可以直接链接至魔力池",
+		"对于使用魔力的设备来说，你应该使用火花为它们提供魔力"
+	],
+	dependencies: [
+		"a558004e"
+	],
+	tasks: [{
+		uid: "3305a2dc",
+		type: "item",
+		items: [{
+			tag: {
+				type: "endoflame"
+			},
+			id: "botania:specialflower"
+		}]
+	}]
+}

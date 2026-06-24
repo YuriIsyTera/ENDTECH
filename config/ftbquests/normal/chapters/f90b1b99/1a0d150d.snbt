@@ -1,0 +1,13 @@
+{
+	title: "巫术学的百科链接",
+	x: 0.5d,
+	y: 1.0d,
+	shape: "square",
+	custom_click: "https://www.mcmod.cn/class/1634.html",
+	dependencies: [
+		"8309e1a6",
+		"d2d1bda6",
+		"b8bf5458"
+	],
+	hide: 1b
+}

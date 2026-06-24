@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	shape: "diamond",
+	text: [
+		"好评率最高的一位"
+	],
+	dependencies: [
+		"ef203ef2",
+		"b8760e7d"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "c913dd0c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:di_ci_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "春天种下....直接收获一朵花",
+	x: -13.0d,
+	y: -7.0d,
+	description: "解锁 植物魔法 章节",
+	text: [
+		"我不要你觉得，我要我觉得"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "7873a108",
+		type: "item",
+		items: [{
+			item: "botania:mushroom"
+		},
+		{
+			item: "botania:flower"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e5e413c",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}],
+		ignore_nbt: 1b
+	}]
+}

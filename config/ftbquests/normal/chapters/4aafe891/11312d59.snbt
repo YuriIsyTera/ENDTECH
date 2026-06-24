@@ -1,0 +1,17 @@
+{
+	title: "核电工艺重制版的百科链接",
+	x: -5.5d,
+	y: 1.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	custom_click: "https://www.mcmod.cn/class/2483.html",
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"9d483bdd",
+		"0bea25f3",
+		"8309e1a6"
+	],
+	hide: 1b
+}

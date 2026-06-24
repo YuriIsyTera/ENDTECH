@@ -1,0 +1,12 @@
+{
+	title: "点击就进懒人建筑杖百科",
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	custom_click: "https://www.mcmod.cn/item/188673.html",
+	dependencies: [
+		"f36c162b"
+	]
+}

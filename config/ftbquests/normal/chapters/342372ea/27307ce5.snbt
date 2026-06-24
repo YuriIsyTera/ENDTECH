@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"可以使用一个混沌金属块让它拥有130M的发电",
+		"但是它还是比电磁麻烦多了"
+	],
+	dependencies: [
+		"ef203ef2",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "5b2edd5f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:stellargenerator_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

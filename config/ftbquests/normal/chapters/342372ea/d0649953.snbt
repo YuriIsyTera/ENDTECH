@@ -1,0 +1,16 @@
+{
+	x: 9.5d,
+	y: 1.5d,
+	dependencies: [
+		"ef5a8a9a",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "2d9f8b0c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:energy_crystal_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

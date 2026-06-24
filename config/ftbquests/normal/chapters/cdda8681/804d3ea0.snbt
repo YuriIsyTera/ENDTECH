@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"更多的设备链接，更大的算力上限",
+		"是的，算力有上限"
+	],
+	dependencies: [
+		"bee64ea6"
+	],
+	tasks: [{
+		uid: "422fe345",
+		type: "item",
+		items: [{
+			item: "modularmachinery:computation_center_t2_factory_controller"
+		}]
+	}]
+}

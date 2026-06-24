@@ -1,0 +1,17 @@
+{
+	x: 21.0d,
+	y: -1.5d,
+	text: [
+		"目前最终的发电手段!"
+	],
+	dependencies: [
+		"948a430a"
+	],
+	tasks: [{
+		uid: "b6f11738",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mega_psionicsiphonmatrix_factory_controller"
+		}]
+	}]
+}

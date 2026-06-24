@@ -1,0 +1,18 @@
+{
+	x: -40.0d,
+	y: -4.0d,
+	text: [
+		"你不用堆普通控制器了!"
+	],
+	dependencies: [
+		"a7a0b284",
+		"b2539b2a"
+	],
+	tasks: [{
+		uid: "1b22c6e2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dustcollector_factory_controller"
+		}]
+	}]
+}

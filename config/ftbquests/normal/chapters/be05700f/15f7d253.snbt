@@ -1,0 +1,19 @@
+{
+	x: -39.0d,
+	y: 2.0d,
+	text: [
+		"天体线的核心机器之一",
+		"用于制造终末工程大部分的多方块控制器以及产出模糊天体",
+		"(注:结构成型中的通信阵列必须全部是同一种方块)"
+	],
+	dependencies: [
+		"1b4da8e3"
+	],
+	tasks: [{
+		uid: "59dc5501",
+		type: "item",
+		items: [{
+			item: "modularmachinery:communication_center_factory_controller"
+		}]
+	}]
+}

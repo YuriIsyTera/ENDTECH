@@ -1,0 +1,17 @@
+{
+	x: -30.0d,
+	y: 0.0d,
+	description: "你可以不做他,但你必须做他,为了后期巨量的暗物质与两种流体,同时这也是为数不多的获取抗熵增流质的手段",
+	dependencies: [
+		"8c972a5d",
+		"75ea69c9"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "68f4de25",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dimensionreaper_factory_controller"
+		}]
+	}]
+}

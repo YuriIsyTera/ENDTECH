@@ -1,0 +1,2802 @@
+{
+    "registryname": "astral_device",
+    "localizedname": "§9星辉单元",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "color": "66B2FF",
+    "factory-only": true,
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockfactorycontroller@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarblestairs@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarblestairs@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarbleslab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "astraladditions:block_marble_chiseled_wall@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "astralsorcery:blockmarble@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarbleslab@0"
+            ]
+        }
+    ]}

@@ -1,0 +1,19 @@
+{
+	title: "如果，我是说如果",
+	x: -14.0d,
+	y: -5.5d,
+	text: [
+		"你不会黑到找不到模板吧，当然实在找不到你还可以去ae任务里吃个保底"
+	],
+	dependencies: [
+		"e3c296c2"
+	],
+	tasks: [{
+		uid: "edd4b666",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}],
+		ignore_nbt: 1b
+	}]
+}

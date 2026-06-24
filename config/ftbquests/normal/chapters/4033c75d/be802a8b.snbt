@@ -1,0 +1,21 @@
+{
+	x: 54.5d,
+	y: -1.0d,
+	text: [
+		"终极的存电设施",
+		"需要在模块总线内放入虚空万藏和静籁永恒，并且在存电数量足够后启动额外功能",
+		"极致"
+	],
+	dependencies: [
+		"3ae1e9ff",
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "2f32a6d1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dream_energy_core_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -45.0d,
+	y: -2.0d,
+	text: [
+		"他很便宜,顺便能增产一下你的托卡马克反应堆,然后他很便宜"
+	],
+	dependencies: [
+		"049925d2"
+	],
+	tasks: [{
+		uid: "b803cc01",
+		type: "item",
+		items: [{
+			item: "modularmachinery:solarwindcollector_factory_controller"
+		}]
+	}]
+}

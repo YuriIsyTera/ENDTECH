@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"飞行，没啥好说的		",
+		"",
+		"按住alt可以超级加速！"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "406b6189",
+		type: "item",
+		items: [{
+			Damage: 12344s,
+			tag: {},
+			id: "mets:electric_flight_ring"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

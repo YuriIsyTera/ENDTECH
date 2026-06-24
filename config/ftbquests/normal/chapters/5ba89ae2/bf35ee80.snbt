@@ -1,0 +1,59 @@
+{
+	icon: {
+		tag: {
+			tier: 3
+		},
+		id: "deepmoblearning:data_model_enderman"
+	},
+	x: 3.5d,
+	y: -1.0d,
+	text: [
+		"超速计算！",
+		"",
+		"使用计算机和聚合粘土急速的计算末影人数据",
+		"",
+		"&6仅限一次！"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"4a94e5b5"
+	],
+	tasks: [{
+		uid: "a61bc1c7",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_enderman"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "e3537249",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t1_factory_controller"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7eaab021",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		count: 3032L,
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "25a5e9f0",
+		type: "item",
+		item: {
+			tag: {
+				tier: 3
+			},
+			id: "deepmoblearning:data_model_enderman"
+		}
+	}]
+}

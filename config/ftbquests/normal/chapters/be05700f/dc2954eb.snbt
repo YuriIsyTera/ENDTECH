@@ -1,0 +1,28 @@
+{
+	x: -39.5d,
+	y: 6.0d,
+	text: [
+		"十月大人，给我力量！"
+	],
+	tasks: [{
+		uid: "c6019626",
+		type: "item",
+		items: [{
+			item: "modularmachinery:crafting_adv1_factory_controller"
+		}]
+	},
+	{
+		uid: "a5bd3a86",
+		type: "item",
+		items: [{
+			item: "modularmachinery:crafting_eli2_factory_controller"
+		}]
+	},
+	{
+		uid: "151765da",
+		type: "item",
+		items: [{
+			item: "modularmachinery:crafting_ult3_factory_controller"
+		}]
+	}]
+}

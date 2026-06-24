@@ -1,0 +1,21 @@
+{
+	x: -23.5d,
+	y: 1.5d,
+	text: [
+		"竭尽者，无人可敌...",
+		"虚视阻隔，强行颠覆..."
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"f7e220a2",
+		"7f6b8a05",
+		"4cce4afc"
+	],
+	tasks: [{
+		uid: "becf011a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:surmount-ae_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,78 @@
+{
+	title: "至上保底",
+	icon: "contenttweaker:soul_core",
+	x: 82.5d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "只需要完成任意一个前置！",
+	text: [
+		"你撕开了更大的一条世界缝隙，但是你不会有更多的余力来捞出你想要之物了",
+		"",
+		"你需要一台强大的外脑来帮助你"
+	],
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"5771f19a",
+		"e82465c1",
+		"bc2266ac",
+		"52da9435"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "bbf005ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockInfinity"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any blockInfinity"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		consume_items: 1b
+	},
+	{
+		uid: "faa0b5aa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:field_generator_v1"
+		}],
+		count: 4L,
+		consume_items: 1b
+	},
+	{
+		uid: "d975ba91",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t4_factory_controller"
+		}]
+	},
+	{
+		uid: "3cff3837",
+		type: "item",
+		items: [{
+			item: "mekanism:antimatterpellet"
+		}],
+		count: 320L
+	},
+	{
+		uid: "5bd60eac",
+		type: "item",
+		items: [{
+			item: "eternalsingularity:eternal_singularity"
+		}],
+		count: 320L
+	}],
+	rewards: [{
+		uid: "cf2f1931",
+		type: "item",
+		item: "contenttweaker:soul_core"
+	}]
+}

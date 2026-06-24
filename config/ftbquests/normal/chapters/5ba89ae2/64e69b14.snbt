@@ -1,0 +1,83 @@
+{
+	title: "修复",
+	x: -4.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	text: [
+		"好吧，它足够碎也是一种好处",
+		"",
+		"尝试着修补它到圆满的地步",
+		"不要想着用正经水晶，你应该试试旁边的铲刀任务狠狠来一刀"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"5f62f93e",
+		"8309e1a6"
+	],
+	hide: 1b,
+	hide_text_until_complete: 1b,
+	tasks: [{
+		uid: "368949bd",
+		type: "item",
+		disable_toast: 1b,
+		items: [{
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 0,
+						sizeOverride: -1,
+						purity: 0,
+						collectiveCapability: 0,
+						fract: 99
+					}
+				}
+			},
+			id: "astralsorcery:itemcelestialcrystal"
+		}],
+		consume_items: 1b
+	},
+	{
+		uid: "75921a66",
+		type: "item",
+		disable_toast: 1b,
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 4"
+		}],
+		count: 5L,
+		consume_items: 1b
+	},
+	{
+		uid: "ee1f887b",
+		type: "fluid",
+		disable_toast: 1b,
+		fluid: "astralsorcery.liquidstarlight"
+	},
+	{
+		uid: "e115556e",
+		type: "item",
+		disable_toast: 1b,
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 2"
+		}],
+		count: 5L,
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "73fb8554",
+		type: "item",
+		item: {
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						sizeOverride: -1,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0
+					}
+				}
+			},
+			id: "astralsorcery:itemcelestialcrystal"
+		}
+	}]
+}

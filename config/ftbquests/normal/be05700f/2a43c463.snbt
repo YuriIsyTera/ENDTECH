@@ -1,0 +1,16 @@
+{
+	x: -43.0d,
+	y: 7.0d,
+	description: "他不应该在这里",
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"b2539b2a"
+	],
+	tasks: [{
+		uid: "9a4744f9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infinityplanet"
+		}]
+	}]
+}

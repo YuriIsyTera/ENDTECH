@@ -1,0 +1,18 @@
+{
+	title: "终极燃料！",
+	x: 59.0d,
+	y: -2.0d,
+	text: [
+		"燃尽它回收的反物质将会是你后期的重要材料"
+	],
+	dependencies: [
+		"6abdaa67"
+	],
+	tasks: [{
+		uid: "945cefe2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:energized_fuel_v4"
+		}]
+	}]
+}

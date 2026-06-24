@@ -1,0 +1,20 @@
+{
+	x: 71.0d,
+	y: 3.0d,
+	text: [
+		"终极矿物来源",
+		"",
+		"根据深度决定并行，最高800并行"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "6539d8bd",
+		type: "item",
+		items: [{
+			item: "novaeng_core:geocentric_drill_controller"
+		}]
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "创造飞行",
+	x: 4.5d,
+	y: -1.5d,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8a1b3812"
+	],
+	tasks: [{
+		uid: "f9fb85db",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}]
+	},
+	{
+		uid: "13732a2e",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "botania:flighttiara"
+		},
+		{
+			Damage: 26s,
+			tag: {},
+			id: "ic2:jetpack_electric"
+		},
+		{
+			item: "rftools:flight_module"
+		},
+		{
+			tag: {
+				Material: "draconic_metal"
+			},
+			id: "conarm:armor_plate"
+		},
+		{
+			tag: {
+				Material: "chaotic_metal"
+			},
+			id: "conarm:armor_plate"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "946c3899",
+		type: "item",
+		item: "environmentaltech:modifier_creative_flight"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 55.5d,
+	y: 5.0d,
+	text: [
+		"鸡肋鸡肋，食之无味，弃之可惜"
+	],
+	dependencies: [
+		"a8cd0c64",
+		"3ae1e9ff"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "64f3dae1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:neutron_particle_crystal_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

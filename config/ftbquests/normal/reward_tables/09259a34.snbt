@@ -1,0 +1,365 @@
+{
+	title: "灵魂瓶",
+	icon: "enderio:item_soul_vial",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:wither_skeleton"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:stray"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:husk"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:zombie_villager"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:evocation_illager"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:vindication_illager"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:skeleton"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:creeper"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:zombie"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:slime"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:ghast"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:zombie_pigman"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:enderman"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:cave_spider"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:silverfish"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:blaze"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:magma_cube"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:witch"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:endermite"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:guardian"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:shulker"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:pig"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:sheep"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:cow"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:chicken"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:squid"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:wolf"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:mooshroom"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:snowman"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:ocelot"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:villager_golem"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:rabbit"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:polar_bear"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:parrot"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "minecraft:villager"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "thermalfoundation:blizz"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "thermalfoundation:blitz"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "thermalfoundation:basalz"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "tconstruct:blueslime"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	},
+	{
+		item: {
+			Damage: 1s,
+			tag: {
+				entityId: "mekanism:babyskeleton"
+			},
+			id: "enderio:item_soul_vial"
+		}
+	}]
+}

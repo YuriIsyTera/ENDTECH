@@ -1,0 +1,20 @@
+{
+	title: "mek",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"https://www.mcmod.cn/class/187.html"
+	],
+	dependencies: [
+		"9d483bdd",
+		"4c801e85"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "b0fad053",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}]
+}

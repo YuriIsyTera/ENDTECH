@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "contenttweaker:blocks/arcancemartrix_surface",
+      "1": "contenttweaker:blocks/arcancemartrix_inside",
+      "2": "contenttweaker:blocks/arcancemartrix_structure",
+      "particle": "contenttweaker:blocks/arcancemartrix_inside"
+    },
+    "model": "contenttweaker:arcancemartrix_core",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

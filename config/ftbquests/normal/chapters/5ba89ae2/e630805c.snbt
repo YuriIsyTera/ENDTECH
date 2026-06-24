@@ -1,0 +1,59 @@
+{
+	icon: {
+		tag: {
+			tier: 4
+		},
+		id: "deepmoblearning:data_model_witch"
+	},
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"超速计算！",
+		"",
+		"使用计算机和聚合粘土急速的计算女巫数据",
+		"",
+		"&6仅限一次！"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"4a94e5b5"
+	],
+	tasks: [{
+		uid: "78ac765e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_witch"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "6ad1db32",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		count: 7032L,
+		consume_items: 1b
+	},
+	{
+		uid: "b0053c8d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t1_factory_controller"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b29cbbe0",
+		type: "item",
+		item: {
+			tag: {
+				tier: 4
+			},
+			id: "deepmoblearning:data_model_witch"
+		}
+	}]
+}

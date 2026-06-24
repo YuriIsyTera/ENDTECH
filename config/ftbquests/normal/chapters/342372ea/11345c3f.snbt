@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"ef203ef2",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "cde8a0d1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:weather_generator_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,146 @@
+{
+	title: "神圣改造",
+	icon: {
+		tag: {
+			display: {
+				Name: "Alpha's Stacked 32k 's 改",
+				Lore: [
+					"§9难度: §c11+"
+				]
+			},
+			Unbreakable: 1b,
+			ench: [{
+				id: 16s,
+				lvl: 32767s
+			},
+			{
+				id: 19s,
+				lvl: 10s
+			},
+			{
+				id: 20s,
+				lvl: 32767s
+			},
+			{
+				id: 21s,
+				lvl: 10s
+			},
+			{
+				id: 22s,
+				lvl: 3s
+			},
+			{
+				id: 34s,
+				lvl: 32767s
+			},
+			{
+				id: 70s,
+				lvl: 1s
+			},
+			{
+				id: 71s,
+				lvl: 1s
+			}]
+		},
+		id: "avaritia:infinity_sword"
+	},
+	x: 82.0d,
+	y: -5.0d,
+	shape: "hexagon",
+	text: [
+		"我是谁，我在哪，我为什么要写这个任务",
+		"实际上这是一个恶作剧，因为附魔这么高锋利的无尽剑...不太能用"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"2536f21d"
+	],
+	tasks: [{
+		uid: "e91d7890",
+		type: "item",
+		items: [{
+			tag: {
+				display: {
+					Name: "Alpha's Stacked 32k 's",
+					Lore: [
+						"§9难度: §c11+"
+					]
+				},
+				Unbreakable: 1b
+			},
+			id: "minecraft:diamond_sword"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "4222d49e",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_sword"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bd5fe67f",
+		type: "item",
+		items: [{
+			item: "avaritiatweaks:enhancement_crystal"
+		}]
+	},
+	{
+		uid: "938c3371",
+		type: "fluid",
+		fluid: "crystalloid",
+		amount: 50000000
+	}],
+	rewards: [{
+		uid: "b316e5a1",
+		type: "item",
+		item: {
+			tag: {
+				display: {
+					Name: "Alpha's Stacked 32k 's 改",
+					Lore: [
+						"§9难度: §c11+"
+					]
+				},
+				Unbreakable: 1b,
+				ench: [{
+					id: 16s,
+					lvl: 32767s
+				},
+				{
+					id: 19s,
+					lvl: 10s
+				},
+				{
+					id: 20s,
+					lvl: 32767s
+				},
+				{
+					id: 21s,
+					lvl: 10s
+				},
+				{
+					id: 22s,
+					lvl: 3s
+				},
+				{
+					id: 34s,
+					lvl: 32767s
+				},
+				{
+					id: 70s,
+					lvl: 1s
+				},
+				{
+					id: 71s,
+					lvl: 1s
+				}]
+			},
+			id: "avaritia:infinity_sword"
+		}
+	}]
+}

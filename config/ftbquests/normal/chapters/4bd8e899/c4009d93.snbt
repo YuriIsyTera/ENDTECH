@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: -10.0d,
+	text: [
+		"用于处理网络终端发配的研究任务，注意每个等级的研究站有它所能达到的极限",
+		"",
+		"研究将会在算力足够最低值的前提下开始。有富余的算力时将会消耗多倍算力换取多倍研究速度，极限为5倍",
+		"",
+		"ps：这东西一定是Nova设计的时候出了什么毛病，算力超频会超出计算机所能提供的极限导致宕机一瞬间，不过很快他就会调整过来，起码研究时间还是减少了对吧（"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"db8f9c2d",
+		"7d844cde",
+		"8328e276",
+		"b5f88bc6"
+	],
+	tasks: [{
+		uid: "291d11a2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:research_station_t1_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

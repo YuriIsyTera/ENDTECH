@@ -1,0 +1,21 @@
+{
+	x: -35.5d,
+	y: 6.0d,
+	text: [
+		"超级中子素吸积盘",
+		"同时大量产出时空束流和零度行星流体",
+		"可以退役你的光帆了"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"15f7d253",
+		"75ea69c9"
+	],
+	tasks: [{
+		uid: "d2ec8387",
+		type: "item",
+		items: [{
+			item: "modularmachinery:simulateneutronstarpointx_factory_controller"
+		}]
+	}]
+}

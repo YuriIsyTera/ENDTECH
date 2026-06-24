@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	text: [
+		"实际上是超级聚星缸"
+	],
+	dependencies: [
+		"5f62f93e",
+		"8449ab25"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "9e114616",
+		type: "item",
+		items: [{
+			item: "modularmachinery:starlight_well_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

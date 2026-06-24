@@ -1,0 +1,16 @@
+{
+	title: "至上之道，登神长阶",
+	x: 71.5d,
+	y: -3.0d,
+	dependencies: [
+		"3e3e0126"
+	],
+	tasks: [{
+		uid: "51a26950",
+		type: "item",
+		items: [{
+			item: "modularmachinery:star_collapser_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

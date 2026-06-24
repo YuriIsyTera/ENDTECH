@@ -1,0 +1,15 @@
+{
+	x: 72.5d,
+	y: 4.0d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"3e3e0126"
+	],
+	tasks: [{
+		uid: "f949aef2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}]
+	}]
+}

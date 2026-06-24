@@ -1,0 +1,41 @@
+{
+	title: "新奇小线缆",
+	x: -9.5d,
+	y: 2.5d,
+	text: [
+		"像沉浸传输电力一样传输频道！"
+	],
+	dependencies: [
+		"4debc615"
+	],
+	tasks: [{
+		uid: "50d01f18",
+		type: "item",
+		items: [{
+			item: "immersivecables:relay_fluix"
+		},
+		{
+			item: "immersivecables:relay_fluix 1 1"
+		}]
+	},
+	{
+		uid: "8888e626",
+		type: "item",
+		items: [{
+			item: "immersivecables:transformer_fluix"
+		},
+		{
+			item: "immersivecables:transformer_fluix 1 1"
+		}]
+	},
+	{
+		uid: "437c8b6a",
+		type: "item",
+		items: [{
+			item: "immersivecables:wire_coil"
+		},
+		{
+			item: "immersivecables:wire_coil 1 1"
+		}]
+	}]
+}

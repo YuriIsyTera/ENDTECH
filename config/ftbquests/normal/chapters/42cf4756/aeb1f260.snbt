@@ -1,0 +1,148 @@
+{
+	title: "开局福利小铺",
+	x: 2.5d,
+	y: -2.0d,
+	text: [
+		"哦，天呐，快买买买"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "4e4e16ed",
+		type: "item",
+		title: "任意圆石",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "cobblestone"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 1024L,
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "6a923666",
+		type: "item",
+		team_reward: 0b,
+		item: {
+			tag: {
+				Items: [{
+					Slot: 0b,
+					Damage: 0s,
+					Count: 1,
+					id: "minecraft:cobblestone"
+				},
+				{
+					Slot: 1b,
+					Damage: 7s,
+					Count: 1,
+					id: "chisel:basalt2"
+				},
+				{
+					Slot: 2b,
+					Damage: 3s,
+					Count: 1,
+					id: "minecraft:stone"
+				},
+				{
+					Slot: 3b,
+					Damage: 0s,
+					Count: 1,
+					id: "minecraft:sandstone"
+				},
+				{
+					Slot: 4b,
+					Damage: 7s,
+					Count: 1,
+					id: "chisel:limestone2"
+				},
+				{
+					Slot: 5b,
+					Damage: 1s,
+					Count: 1,
+					id: "minecraft:stone"
+				}],
+				Nullifier: {
+					Slot: 0b,
+					Disabled: 0b
+				},
+				display: {
+					Lore: [
+						"§6它很不错，事实上它是个随身垃圾桶",
+						"§按G打开它，可以取出和放入内部的物品",
+						"§7它会自动拾取内部已经存放的物品，并且在堆叠超过1024的时候销毁多出部分",
+						"§8已经为你设置好了主世界常见的垃圾堆，你可以自己替换",
+						"§9手持时shfit+G可以暂时关闭它"
+					]
+				},
+				UUID: {
+					UUIDL: -7809314162715671218L,
+					UUIDM: -4820903276302086373L
+				},
+				RepairCost: 0
+			},
+			id: "enderutilities:nullifier"
+		}
+	},
+	{
+		uid: "361cbe14",
+		type: "item",
+		team_reward: 0b,
+		item: {
+			tag: {
+				RepairCost: 0,
+				display: {
+					Lore: [
+						"§4这个物品有非常强大的功能",
+						"§6右键打开它，你可以配置传输和拾取两个配置",
+						"§9潜行右键一个容器，如箱子和me接口即可绑定它，右键打开，配置你需要传输的物品黑白名单，配置完成后拾取物品时，会消耗其中末影电容的2点能量传送一个物品",
+						"§6给你的这个的预设电容足够你传输10万个物品，没电了可以通过末影桥结构充电，或者使用工具工作台取出电§6容，用电容在末地右键末影水晶§6充能,当然，你也可以使用末影灌注§6器充能，但是一个末影珍珠只能充1000，一个末影之眼只能充2000，你为什么不取出电容去末地？",
+						"§5拾取设置可以控制你所能捡起的物品，黑名单设置可以让你捡不起来这些物品，白名单相反"
+					]
+				},
+				UUID: {
+					UUIDL: -8285516262133953638L,
+					UUIDM: -3203414261611608091L
+				},
+				PickupManager: {
+					SelPreset: 0b,
+					Preset_0: {
+						TxFiltMode: 0b,
+						InvFiltEnabled: 1b,
+						TxFiltEnabled: 1b
+					}
+				},
+				Items: [{
+					Slot: 0b,
+					Damage: 2s,
+					id: "enderutilities:endercapacitor",
+					ForgeCaps: {
+						"astralsorcery:cap_item_amulet_holder": {}
+					},
+					Count: 1,
+					tag: {
+						EnderChargeAmount: 200000
+					}
+				},
+				{
+					Slot: 1b,
+					id: "enderutilities:linkcrystal",
+					Count: 1,
+					Damage: 1s
+				}]
+			},
+			id: "enderutilities:pickupmanager"
+		}
+	}]
+}

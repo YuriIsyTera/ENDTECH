@@ -1,0 +1,22 @@
+{
+	title: "走路进入模块化时代！",
+	x: -9.0d,
+	y: -2.5d,
+	text: [
+		"制造出它，你就可以做一些实用的机器了，使用它们可以节省一些你前面被迫手搓的材料）",
+		"当然，这也是你正式的起点，虽然你早就可以做了，但是你现在才能开始使用它 "
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"7747d28b"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "c8fa366e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mach_crafter_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

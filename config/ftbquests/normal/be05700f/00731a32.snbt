@@ -1,0 +1,15 @@
+{
+	x: -21.0d,
+	y: 6.0d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"4cce4afc"
+	],
+	tasks: [{
+		uid: "4d9e2c7b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mega_industrialcrusher_factory_controller"
+		}]
+	}]
+}

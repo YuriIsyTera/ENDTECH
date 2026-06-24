@@ -1,0 +1,53 @@
+{
+	x: -36.5d,
+	y: 0.0d,
+	text: [
+		"用户界面是一种常用的合成材料，用于合成多种机器，基本合成所有的多方块结构主方块都需要它。",
+		"物品IO芯片板是一种重要的合成材料，多用于带输入口/输出口的机器的合成。",
+		"控制芯片板是一种重要的合成材料。",
+		"液体IO芯片板是一种重要的合成材料，多用于带液体输入口/液体输出口的机器的合成。",
+		"AR多方块结构主方块必备材料四兄贵，缺一不可。"
+	],
+	dependencies: [
+		"4eca5229",
+		"21e7c850",
+		"98f78268"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "924940ce",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 4"
+		}],
+		count: 5L
+	},
+	{
+		uid: "19e5197d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 3"
+		}],
+		count: 5L
+	},
+	{
+		uid: "9dfb2a62",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:misc"
+		}],
+		count: 6L
+	},
+	{
+		uid: "6c506d18",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "a6ff8ea1",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

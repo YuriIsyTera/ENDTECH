@@ -1,0 +1,77 @@
+{
+	title: "登神长阶",
+	icon: "modularmachinery:light-speed_material_accelerator_controller",
+	description: [
+		"长梦至此醒",
+		"现在你该开始狠狠的烧无尽了"
+	],
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 59.0d,
+		y: -2.0d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/9.0-10.9_1.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 70.5d,
+		y: -2.0d,
+		width: 10.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/11.0-11.9_0.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 80.0d,
+		y: -2.0d,
+		width: 10.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/12.0-12.9_0.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 59.0d,
+		y: 4.0d,
+		width: 13.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l15.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 70.5d,
+		y: 4.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l10.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 80.0d,
+		y: 4.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l10.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

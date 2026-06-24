@@ -1,0 +1,14 @@
+{
+	x: -34.5d,
+	y: 2.0d,
+	dependencies: [
+		"75ea69c9"
+	],
+	tasks: [{
+		uid: "7f4808e0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:acdcenter_factory_controller"
+		}]
+	}]
+}

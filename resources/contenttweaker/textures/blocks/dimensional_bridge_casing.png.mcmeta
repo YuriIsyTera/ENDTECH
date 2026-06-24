@@ -1,0 +1,18 @@
+{
+    "animation": {
+      "frametime": 8,
+      "interpolate": true
+    },
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/dimensional_bridge_casing_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:dimensional_bridge_casing" }
+			]
+		}
+    }
+}

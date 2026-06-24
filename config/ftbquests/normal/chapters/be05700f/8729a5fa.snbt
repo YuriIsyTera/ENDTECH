@@ -1,0 +1,37 @@
+{
+	title: "超乎神迹，超越极限！",
+	x: -19.5d,
+	y: -3.0d,
+	shape: "octagon",
+	text: [
+		"我们蹚过科学的千山万水，终于在将尽的希望中创造出了无穷的梦想。"
+	],
+	dependencies: [
+		"c3221362",
+		"929828f8",
+		"983fe17d",
+		"ca614cc2",
+		"c80423e7",
+		"270245c6",
+		"63a9f9ae",
+		"62e6a7ef",
+		"84e8f921",
+		"61e4bc0d",
+		"54d45d19",
+		"b209deb8",
+		"b880d432",
+		"c374bea7",
+		"d0aa4e76",
+		"2a6f85b0"
+	],
+	dependency_requirement: "one_completed",
+	size: 1.5d,
+	tasks: [{
+		uid: "3f4a4b29",
+		type: "item",
+		items: [{
+			item: "modularmachinery:wallcreation_factory_controller"
+		}],
+		consume_items: 0b
+	}]
+}

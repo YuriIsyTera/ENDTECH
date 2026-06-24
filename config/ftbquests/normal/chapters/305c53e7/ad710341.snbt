@@ -1,0 +1,26 @@
+{
+	title: "万事俱备只欠百科",
+	x: -22.0d,
+	y: 0.0d,
+	text: [
+		"准备好所有材料后，具体的火箭搭建教程请点击下一步链接，进入百科攻略查看。"
+	],
+	dependencies: [
+		"ff49ac4d",
+		"874fe56b",
+		"c3f08ba9",
+		"db723f08",
+		"fa83b9e9",
+		"8a9bace0",
+		"366492db"
+	],
+	tasks: [{
+		uid: "b312b106",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "39e2b13e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

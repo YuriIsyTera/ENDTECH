@@ -1,0 +1,24 @@
+{
+	x: -9.5d,
+	y: -5.0d,
+	text: [
+		"可以让ae的物品和流体在低于某个数量时自动开启合成，保持ae内这个物品的数量",
+		"Nova 特注：别放太多，TPS 会爆炸的捏。"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"82f06c01",
+		"fe3152f3"
+	],
+	tasks: [{
+		uid: "e16bda69",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_level_maintainer"
+		},
+		{
+			item: "threng:machine 1 4"
+		}],
+		only_from_crafting: 0b
+	}]
+}

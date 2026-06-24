@@ -1,0 +1,28 @@
+{
+	x: -28.5d,
+	y: -1.5d,
+	text: [
+		"在建造火箭时放置在发射台与结构塔组成的三维空间内的任意位置，为火箭增加1000mb的燃油储量。",
+		"上下相邻的燃料箱可以合并为更大的液体燃料箱，但对角连接以及横向连接的燃料箱不能合并。",
+		"已经组合好的火箭如果燃料未满，可以使用燃油站，将装有火箭燃料装填燃料，并用连接器联机燃油站与火箭。",
+		"潜行右键火箭即可看到燃料储量（Tank那一条）。"
+	],
+	dependencies: [
+		"5517aa86",
+		"f5761c5d"
+	],
+	tasks: [{
+		uid: "c13e4864",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "590571cc",
+		type: "item",
+		item: "advancedrocketry:fueltank",
+		random_bonus: 9
+	}]
+}

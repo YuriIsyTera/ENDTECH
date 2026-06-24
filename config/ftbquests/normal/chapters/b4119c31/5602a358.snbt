@@ -1,0 +1,33 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"f560642f"
+	],
+	tasks: [{
+		uid: "c029b17f",
+		type: "item",
+		items: [{
+			tag: {
+				internalCurrentPower: 1600000.0d,
+				modes: [I;
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				],
+				internalMaxPower: 1600000.0d
+			},
+			id: "ae2wut:wireless_universal_terminal"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "[NCO]核电工艺：重置版",
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		"这是【NCO】核电工艺重置版",
+		"只标注用得上的一些小玩意",
+		"",
+		"不过其中有一些你发展所需的必需品",
+		"",
+		"在https://www.mcmod.cn/class/2483.html看更多"
+	],
+	dependencies: [
+		"9d483bdd",
+		"0bea25f3"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "62fa9578",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

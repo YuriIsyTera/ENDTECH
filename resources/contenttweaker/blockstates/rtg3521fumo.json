@@ -1,0 +1,31 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "2": "contenttweaker:blocks/rtg3521_skin",
+      "particle": "contenttweaker:blocks/asteroidcontrolblock"
+    },
+    "model": "contenttweaker:rtg3521fumo",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{"model":"contenttweaker:rtg3521fumo"}],
+    "inventory": [{"model":"contenttweaker:rtg3521fumo"}],
+        "facing=east": {
+      "model": "contenttweaker:rtg3521fumo",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "contenttweaker:rtg3521fumo"
+    },
+    "facing=south": {
+      "model": "contenttweaker:rtg3521fumo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:rtg3521fumo",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+	title: "复刻神迹的失败",
+	x: -4.0d,
+	y: 2.5d,
+	shape: "hexagon",
+	text: [
+		"raa的失败造物，利用了nova的神迹尝试复刻而出的仿品缩小药水",
+		"",
+		"比起原版是远远不如，但是胜在可以大批发"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "8b45bf70",
+		type: "item",
+		items: [{
+			tag: {
+				Potion: "resize:strong_shrinking"
+			},
+			id: "minecraft:potion"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f85590fa",
+		type: "item",
+		items: [{
+			Damage: 4s,
+			tag: {},
+			id: "thermalinnovation:injector"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a0c7fe5",
+		type: "item",
+		item: {
+			Damage: 4s,
+			tag: {
+				Fluid: {
+					Amount: 44444444,
+					FluidName: "potion",
+					Tag: {
+						Potion: "resize:strong_shrinking"
+					}
+				},
+				ench: []
+			},
+			id: "thermalinnovation:injector"
+		}
+	}]
+}

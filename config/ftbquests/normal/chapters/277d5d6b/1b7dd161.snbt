@@ -1,0 +1,15 @@
+{
+	x: 22.5d,
+	y: -0.5d,
+	dependencies: [
+		"b014427b"
+	],
+	tasks: [{
+		uid: "fb4880f0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mana_collector_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	icon: {
+		tag: {
+			tier: 3
+		},
+		id: "deepmoblearning:data_model_wither_skeleton"
+	},
+	x: -0.5d,
+	y: 0.0d,
+	text: [
+		"顶级计算！",
+		"",
+		"使用不错的计算机在网络中心中使用聚合粘土急速的计算凋灵骷髅数据",
+		"",
+		"&6仅限一次！"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"4d3046a1"
+	],
+	tasks: [{
+		uid: "01a202b3",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_wither_skeleton"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "3b16513e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		count: 3032L,
+		consume_items: 1b
+	},
+	{
+		uid: "57650657",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t2_factory_controller"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "03ac57dc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:computation_center_t1_factory_controller"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a952146e",
+		type: "item",
+		item: {
+			tag: {
+				tier: 3
+			},
+			id: "deepmoblearning:data_model_wither_skeleton"
+		}
+	}]
+}

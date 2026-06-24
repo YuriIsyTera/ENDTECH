@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"自动搭建此机器时需要注意有一个双层石台阶，需要手动放置"
+	],
+	dependencies: [
+		"c9d58f2e"
+	],
+	tasks: [{
+		uid: "5a808049",
+		type: "item",
+		items: [{
+			item: "modularmachinery:high_temp_melting_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

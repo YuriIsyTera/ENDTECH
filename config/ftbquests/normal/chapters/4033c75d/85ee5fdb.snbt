@@ -1,0 +1,15 @@
+{
+	x: 61.0d,
+	y: 5.0d,
+	dependencies: [
+		"0cbe2a0d"
+	],
+	tasks: [{
+		uid: "e1b23d6f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:material_isomers_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

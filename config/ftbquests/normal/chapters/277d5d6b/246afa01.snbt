@@ -1,0 +1,19 @@
+{
+	x: 19.0d,
+	y: -2.5d,
+	shape: "square",
+	text: [
+		"用于制造盈能水晶，后期可以用梦之能量核心替代"
+	],
+	dependencies: [
+		"90093ee2"
+	],
+	tasks: [{
+		uid: "8d6736df",
+		type: "item",
+		items: [{
+			item: "modularmachinery:pure_crystal_synthesis_instrument_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

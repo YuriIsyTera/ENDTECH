@@ -1,0 +1,14 @@
+{
+	x: -19.0d,
+	y: -1.0d,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "619a0eec",
+		type: "item",
+		items: [{
+			item: "contenttweaker:overworld_block"
+		}]
+	}]
+}

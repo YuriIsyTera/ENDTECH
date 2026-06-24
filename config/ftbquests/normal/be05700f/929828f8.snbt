@@ -1,0 +1,14 @@
+{
+	x: -19.5d,
+	y: -2.5d,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "64a85510",
+		type: "item",
+		items: [{
+			item: "contenttweaker:neb_block"
+		}]
+	}]
+}

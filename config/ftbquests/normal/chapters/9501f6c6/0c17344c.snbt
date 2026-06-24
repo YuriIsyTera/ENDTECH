@@ -1,0 +1,19 @@
+{
+	x: -13.0d,
+	y: -1.5d,
+	text: [
+		"3*3*3你不会摆错了吧",
+		"这个东西是用来做焦煤和杂酚油的呢"
+	],
+	dependencies: [
+		"c1b8b1cc"
+	],
+	tasks: [{
+		uid: "1f7f1400",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}]
+}

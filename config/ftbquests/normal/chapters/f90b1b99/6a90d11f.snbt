@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"d3ee478f"
+	],
+	tasks: [{
+		uid: "61e72340",
+		type: "item",
+		items: [{
+			item: "additions:novaextended-novaextended_medal"
+		}]
+	}]
+}

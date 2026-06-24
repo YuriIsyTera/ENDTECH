@@ -1,0 +1,19 @@
+{
+	x: -37.0d,
+	y: 3.5d,
+	text: [
+		"一台十分强劲的发电机",
+		"有两个发电模式，可以根据需要自由选择"
+	],
+	dependencies: [
+		"2fdd1e00"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "71137c32",
+		type: "item",
+		items: [{
+			item: "modularmachinery:zeromatrix_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,135 @@
+{
+	title: "嗯？听说你缺原木？",
+	icon: "thermalfoundation:fertilizer 1 2",
+	x: 2.5d,
+	y: 2.0d,
+	text: [
+		"打粉机打原石出沙子，进合成器合成砂岩，进小制造机出硝石。",
+		"感应炉进沙子和指南针出富炉渣。",
+		"硝石和富炉渣进合成器，外加碳粉合成富集光合堆肥。",
+		"光合堆肥进能量灌注机出光合堆肥。",
+		"",
+		"现在你有一套产线了，但是他并不完整，需要手动提供碳粉才能运转，但是你一定知道光合堆肥出原木烧制再磨粉就可以自动的提供碳粉吧！",
+		"产线只消耗红石和原石（能量不算），你可以用红色羊毛进分子重组，就有无线的红石了。"
+	],
+	dependencies: [
+		"646494a2"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "7058787e",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 47"
+		}]
+	},
+	{
+		uid: "4169ee4d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:manufactory"
+		}]
+	},
+	{
+		uid: "f8888388",
+		type: "item",
+		items: [{
+			item: "rftools:crafter1"
+		}]
+	},
+	{
+		uid: "1d92fdf8",
+		type: "item",
+		items: [{
+			Damage: 3s,
+			tag: {
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Facing: 3b,
+				RSControl: 0b,
+				Level: 0b,
+				Energy: 0
+			},
+			id: "thermalexpansion:machine"
+		}]
+	},
+	{
+		uid: "53242ee9",
+		type: "item",
+		items: [{
+			Damage: 9s,
+			tag: {
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Facing: 3b,
+				RSControl: 0b,
+				Level: 0b,
+				Energy: 0
+			},
+			id: "thermalexpansion:machine"
+		}]
+	},
+	{
+		uid: "52d0d29d",
+		type: "item",
+		items: [{
+			Damage: 4s,
+			tag: {
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Facing: 3b,
+				RSControl: 0b,
+				Level: 0b,
+				Energy: 0
+			},
+			id: "thermalexpansion:machine"
+		}]
+	},
+	{
+		uid: "d0a9019f",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 323"
+		}]
+	}],
+	rewards: [{
+		uid: "44655337",
+		type: "item",
+		team_reward: 1b,
+		item: "thermalfoundation:material 1 769",
+		count: 64
+	},
+	{
+		uid: "da2c71a1",
+		type: "item",
+		item: "minecraft:sapling"
+	},
+	{
+		uid: "01e98ed7",
+		type: "item",
+		item: "harvestcraft:spiderweb_sapling"
+	},
+	{
+		uid: "70164760",
+		type: "item",
+		item: "thermalfoundation:fertilizer 1 2"
+	}]
+}

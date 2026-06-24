@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: -5.0d,
+	text: [
+		"更快，更好，更强的压印器！",
+		"天呐，他硅板都没压就做出了处理器"
+	],
+	dependencies: [
+		"82f06c01"
+	],
+	tasks: [{
+		uid: "1b3ba9e9",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "contenttweaker:blocks/etherengine_behind",
+		"1": "contenttweaker:blocks/etherengine_bottom",
+		"2": "contenttweaker:blocks/etherengine_face",
+		"3": "contenttweaker:blocks/etherengine_side",
+		"4": "contenttweaker:blocks/etherengine_top",
+		"particle": "contenttweaker:blocks/etherengine_behind"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

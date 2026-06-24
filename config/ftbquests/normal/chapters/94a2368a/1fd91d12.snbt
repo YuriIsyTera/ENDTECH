@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: 4.5d,
+	text: [
+		"其实盖亚3关闭了缴械",
+		"不过召唤的时候还是会检测违禁品，自己想办法偷渡吧！"
+	],
+	dependencies: [
+		"a383b997"
+	],
+	tasks: [{
+		uid: "3264dda7",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}]
+	}]
+}

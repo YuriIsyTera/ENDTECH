@@ -1,0 +1,19 @@
+{
+	x: 37.5d,
+	y: -1.0d,
+	text: [
+		"这不是必须的,你不用吃下去这坨小作文",
+		"他的机制没有你想象的那么复杂,只是自动化难了一点,亿点",
+		"与冷暗物质相变阵列二选一即可"
+	],
+	dependencies: [
+		"2a973b11"
+	],
+	tasks: [{
+		uid: "932262e2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:giga_negativephasecollector_factory_controller"
+		}]
+	}]
+}

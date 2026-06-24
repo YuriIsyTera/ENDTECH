@@ -1,0 +1,20 @@
+{
+	title: "其实是封包版本的",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"为了让这个老登能用，和无尽的魔改对战了10分钟"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"42935327",
+		"7687e8ba"
+	],
+	tasks: [{
+		uid: "2cc5a3b2",
+		type: "item",
+		items: [{
+			item: "packagedavaritia:extreme_crafter"
+		}]
+	}]
+}

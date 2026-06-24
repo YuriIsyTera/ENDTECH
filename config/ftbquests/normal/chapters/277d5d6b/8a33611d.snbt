@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"完美执行mek的部分配方"
+	],
+	dependencies: [
+		"e82517c6"
+	],
+	tasks: [{
+		uid: "30e53b97",
+		type: "item",
+		items: [{
+			item: "modularmachinery:beng_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

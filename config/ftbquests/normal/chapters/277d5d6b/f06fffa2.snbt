@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	dependencies: [
+		"e82517c6"
+	],
+	tasks: [{
+		uid: "98d9d5c8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:covalent_overloader_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,6 @@
+{
+	title: "隐藏任务",
+	always_invisible: 1b,
+	group: 0,
+	default_quest_shape: "square"
+}

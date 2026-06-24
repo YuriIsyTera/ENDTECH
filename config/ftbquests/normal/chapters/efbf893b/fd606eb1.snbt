@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"瓜！瓜！！！！！！！！！"
+	],
+	dependencies: [
+		"2536f21d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "05ccfbef",
+		type: "item",
+		items: [{
+			item: "modularmachinery:melonfusion_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

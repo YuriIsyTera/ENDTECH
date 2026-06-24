@@ -1,0 +1,17 @@
+{
+	title: "工业时代2的百科链接",
+	x: -5.0d,
+	y: 5.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	custom_click: "https://www.mcmod.cn/class/2.html",
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"2bb90ca1",
+		"9d483bdd",
+		"8309e1a6"
+	],
+	hide: 1b
+}

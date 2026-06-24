@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: 7.5d,
+	text: [
+		" 猜猜他能存多少组"
+	],
+	dependencies: [
+		"9532a734"
+	],
+	tasks: [{
+		uid: "30dd60b5",
+		type: "item",
+		items: [{
+			item: "avaritiaddons:avaritiaddons_chest 1 1"
+		}]
+	}]
+}

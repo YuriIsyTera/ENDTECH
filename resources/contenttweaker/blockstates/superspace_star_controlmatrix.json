@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "contenttweaker:blocks/superspace_star_controlmatrix",
+      "1": "contenttweaker:blocks/superspace_star_controlmatrix_bottom",
+      "2": "contenttweaker:blocks/superspace_star_controlmatrix_top",
+      "particle": "contenttweaker:blocks/superspace_star_controlmatrix"
+    },
+    "model": "contenttweaker:superspace_star_controlmatrix_core",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

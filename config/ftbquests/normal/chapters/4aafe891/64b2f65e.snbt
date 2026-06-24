@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: 4.5d,
+	text: [
+		"只能用于炼钢的勾石",
+		"我是说，复制机不好吗"
+	],
+	dependencies: [
+		"fdc7ae13"
+	],
+	tasks: [{
+		uid: "0defe3ba",
+		type: "item",
+		items: [{
+			item: "mets:te 1 23"
+		}]
+	}]
+}

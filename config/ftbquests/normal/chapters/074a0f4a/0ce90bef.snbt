@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"功能已经写在物品上了",
+		"",
+		"大规模铺设导管的时候很好用"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6475f170",
+		type: "item",
+		items: [{
+			item: "enderio:item_conduit_probe"
+		}],
+		ignore_nbt: 1b
+	}]
+}

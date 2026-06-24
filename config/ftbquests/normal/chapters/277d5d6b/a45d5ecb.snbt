@@ -1,0 +1,19 @@
+{
+	x: 19.0d,
+	y: 0.0d,
+	text: [
+		"一个进阶的矿物提取机，但是更慢",
+		"和虚空采掘机一样，它使用坐标卡读取坐标而不是直接取决于控制器位置"
+	],
+	dependencies: [
+		"246afa01"
+	],
+	tasks: [{
+		uid: "3cc95267",
+		type: "item",
+		items: [{
+			item: "modularmachinery:different_world_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

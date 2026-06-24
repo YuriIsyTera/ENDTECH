@@ -1,0 +1,10 @@
+{
+	title: "沉浸工艺",
+	icon: "immersiveengineering:tool",
+	description: [
+		"原则上只推荐做斗轮和园艺玻璃罩， 起码现在是这样"
+	],
+	always_invisible: 0b,
+	group: 1626059811,
+	default_quest_shape: ""
+}

@@ -1,0 +1,15 @@
+{
+	x: -22.5d,
+	y: 6.0d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"4cce4afc"
+	],
+	tasks: [{
+		uid: "68686977",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mega_injectiondevice_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "压印板保底",
+	x: -9.5d,
+	y: -3.5d,
+	text: [
+		"留给服务器里挖到一堆被土匪抢劫过的陨石的倒霉蛋",
+		"",
+		"有点感情，但不多"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"d0a8646a"
+	],
+	tasks: [{
+		uid: "a305acad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSkyStone"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any blockSkyStone"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 1024L,
+		consume_items: 1b
+	},
+	{
+		uid: "fa5c02ff",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "b0ae3c76",
+		type: "item",
+		item: "appliedenergistics2:material 1 13"
+	},
+	{
+		uid: "602a2b1c",
+		type: "item",
+		item: "appliedenergistics2:material 1 14"
+	},
+	{
+		uid: "9f7db407",
+		type: "item",
+		item: "appliedenergistics2:material 1 15"
+	},
+	{
+		uid: "f51fc947",
+		type: "item",
+		item: "appliedenergistics2:material 1 19"
+	}]
+}

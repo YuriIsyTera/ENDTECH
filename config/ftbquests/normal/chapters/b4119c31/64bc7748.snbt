@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	text: [
+		"可以不需要此物品",
+		"",
+		"贴在封包机旁边可以让一些需要多份打包的样板快一点，但是说实话...没啥需求"
+	],
+	dependencies: [
+		"42935327"
+	],
+	tasks: [{
+		uid: "6c173679",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager_extension"
+		}]
+	}]
+}

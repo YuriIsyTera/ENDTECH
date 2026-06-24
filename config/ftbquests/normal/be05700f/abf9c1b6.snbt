@@ -1,0 +1,17 @@
+{
+	x: -45.0d,
+	y: 2.0d,
+	text: [
+		"超越中子素吸积盘!"
+	],
+	dependencies: [
+		"049925d2"
+	],
+	tasks: [{
+		uid: "b00dfaa5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dustcollector_controller"
+		}]
+	}]
+}

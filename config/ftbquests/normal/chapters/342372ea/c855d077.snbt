@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	dependencies: [
+		"ef203ef2",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "5c2d45fb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:reactor_ic2_2_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

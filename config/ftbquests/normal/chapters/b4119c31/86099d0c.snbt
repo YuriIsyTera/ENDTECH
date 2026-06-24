@@ -1,0 +1,12 @@
+{
+	title: "ae大百科",
+	x: -13.0d,
+	y: 0.0d,
+	shape: "square",
+	custom_click: "https://www.mcmod.cn/class/260.html",
+	dependencies: [
+		"e3c296c2"
+	],
+	hide: 1b,
+	size: 2.0d
+}

@@ -1,0 +1,19 @@
+{
+	x: 12.5d,
+	y: 0.0d,
+	text: [
+		"肉，很多肉，寰宇肉丸就靠它",
+		"你大可以用别的什么"
+	],
+	dependencies: [
+		"ffa0e47b"
+	],
+	tasks: [{
+		uid: "80731b70",
+		type: "item",
+		items: [{
+			item: "modularmachinery:bootes_ritual_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

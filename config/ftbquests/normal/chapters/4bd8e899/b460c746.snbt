@@ -1,0 +1,62 @@
+{
+	title: "ME Infinity!",
+	x: -5.0d,
+	y: -3.5d,
+	text: [
+		"更好的ae无限水，以及无限圆石！",
+		"",
+		"如同它们的名字一样，无尽水元件可以让你ae内始终保持2.1G桶的水，无尽圆石元件可以让你的ae内始终保持2.1G圆石",
+		"",
+		"它们很便宜，非常好用！"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"2d799b84",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "55f8dae3",
+		type: "item",
+		items: [{
+			tag: {
+				t: "f",
+				r: {
+					FluidName: "water",
+					Count: 0b,
+					Cnt: 1L,
+					Req: 0L,
+					Craft: 0b
+				}
+			},
+			id: "extendedae:infinity_cell"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3de12339",
+		type: "item",
+		items: [{
+			tag: {
+				t: "i",
+				r: {
+					id: "minecraft:cobblestone",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 1L,
+					Req: 0L,
+					Craft: 0b
+				}
+			},
+			id: "extendedae:infinity_cell"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56958f44",
+		type: "item",
+		item: "appliedenergistics2:material 1 37"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -11.75d,
+	y: -4.5d,
+	text: [
+		"一块最小的魂石也能有足够的意志量制造的玩意",
+		"也许你的计算机真的有灵魂呢"
+	],
+	dependencies: [
+		"84b7331e"
+	],
+	tasks: [{
+		uid: "9294345a",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 30"
+		}]
+	}]
+}

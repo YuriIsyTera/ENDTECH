@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"制造核心元件告别数据塔换内存"
+	],
+	dependencies: [
+		"2536f21d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "ee217ec6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hypernet_ram_max"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef1c8a2e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hypernet_gpu_max"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

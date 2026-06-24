@@ -1,0 +1,15 @@
+{
+	x: 27.5d,
+	y: 4.5d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"90093ee2"
+	],
+	tasks: [{
+		uid: "c8b6f895",
+		type: "item",
+		items: [{
+			item: "modularmachinery:fluix_factory_controller"
+		}]
+	}]
+}

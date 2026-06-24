@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"使用气血碎片和生命源质，你成功的在精密的设备里制造出了这个",
+		"不错，你可以建造4级祭坛和5级祭坛了"
+	],
+	dependencies: [
+		"15052757",
+		"6c5df253"
+	],
+	tasks: [{
+		uid: "2de9cac3",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		}]
+	}]
+}

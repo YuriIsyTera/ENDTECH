@@ -1,0 +1,44 @@
+{
+	x: -8.5d,
+	y: -8.0d,
+	text: [
+		"凿子是本服的重要mod，你应该制造它来制作一些模块化结构的所需方块",
+		"",
+		"所以你必须完成这个任务",
+		"",
+		"当你使用jei发现某个方块只有凿子配方时，说明你需要这个了，制造它，手持它右键打开它",
+		"",
+		"选中你找到的那个方块可以正常合成的初始状态，比如工业方块（风扇），你只能制造出工厂方块（点状锈迹的镶板），制造它，放在背包，打开凿子界面，选择工厂方块，然后在列出的界面里找到你所需的方块，点击雕凿，就完成了"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "024516e8",
+		type: "item",
+		title: "如你所见，是个凿子",
+		items: [{
+			item: "chisel:chisel_iron"
+		},
+		{
+			tag: {
+				chiseldata: {}
+			},
+			id: "chisel:chisel_diamond"
+		},
+		{
+			tag: {
+				chiseldata: {}
+			},
+			id: "chisel:chisel_hitech"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81b8df9f",
+		type: "item",
+		item: "minecraft:stick"
+	}]
+}

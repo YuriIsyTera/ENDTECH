@@ -1,0 +1,57 @@
+{
+	title: "你好朋友，你看见我丢失的末地传送门了吗",
+	x: -8.5d,
+	y: -7.0d,
+	text: [
+		"你也许已经发现部分模块要用上末地的材料了，但是你找末地门非常难受",
+		"现在不会了，只要一个末影之眼就能抢购！",
+		"（假装你一个眼找到了生成时就满眼睛的门）",
+		"#FFD700我承认传送点有点高，小心摔死"
+	],
+	dependencies: [
+		"b5f88bc6"
+	],
+	tasks: [{
+		uid: "1b611e6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "pearlEnderEye"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any pearlEnderEye"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "7d478db5",
+		type: "item",
+		team_reward: 0b,
+		item: {
+			tag: {
+				Selection: 0s,
+				Locations: [{
+					Name: "末地",
+					Dimension: 1,
+					Z: 0.0d,
+					Pitch: -4.6499906f,
+					X: 0.0d,
+					Y: 80.0d,
+					WP: 0b,
+					Yaw: 192.00093f,
+					DimentionName: "终结之处....吗？"
+				}],
+				SelectionOffset: 0,
+				Fuel: 10000
+			},
+			id: "draconicevolution:dislocator_advanced"
+		}
+	}]
+}

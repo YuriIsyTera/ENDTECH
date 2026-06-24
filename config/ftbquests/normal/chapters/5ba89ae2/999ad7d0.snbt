@@ -1,0 +1,81 @@
+{
+	title: "神圣的保底",
+	icon: {
+		tag: {
+			tier: 0
+		},
+		id: "deepmoblearning:data_model_dragon"
+	},
+	x: -5.5d,
+	y: 2.5d,
+	text: [
+		"一次性任务",
+		"但是它足够神圣"
+	],
+	dependencies: [
+		"90093ee2",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "9f5b7207",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blank"
+		}],
+		count: 10L,
+		consume_items: 1b
+	},
+	{
+		uid: "3522d343",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 5"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_dragon"
+		}],
+		count: 40L,
+		consume_items: 1b
+	},
+	{
+		uid: "ef463b4a",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		},
+		{
+			item: "deepmoblearning:pristine_matter_dragon"
+		}],
+		count: 80L,
+		consume_items: 1b
+	},
+	{
+		uid: "3c306db3",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}],
+		count: 320L,
+		consume_items: 1b
+	},
+	{
+		uid: "6719657c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:dragon_heart"
+		}],
+		count: 10L,
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "d4d605dd",
+		type: "item",
+		item: {
+			tag: {
+				tier: 0
+			},
+			id: "deepmoblearning:data_model_dragon"
+		}
+	}]
+}

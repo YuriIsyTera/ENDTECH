@@ -1,0 +1,25 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	text: [
+		"特殊的模块，开局就可以制造",
+		"不需要算力，不需要网络，不过它就是个熔炉而已",
+		"相比于各大科技的电炉，它能保存经验并且以液态经验的形式输出",
+		"你也可以不输出，经验满了自动销毁"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"2d799b84",
+		"db8f9c2d",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "8edbe579",
+		type: "item",
+		items: [{
+			item: "modularmachinery:purpur_furance_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

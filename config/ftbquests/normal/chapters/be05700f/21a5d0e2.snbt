@@ -1,0 +1,21 @@
+{
+	x: -42.5d,
+	y: -3.0d,
+	text: [
+		"",
+		"可以在相应的阶段提供可观的发电",
+		"最主要的功能是产出燃料基质供给基态零点压",
+		"所有配方中可用的燃料燃烧均可独立进行",
+		"所以有多少给多少就可以了"
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "95e31a62",
+		type: "item",
+		items: [{
+			item: "modularmachinery:orionengine_factory_controller"
+		}]
+	}]
+}

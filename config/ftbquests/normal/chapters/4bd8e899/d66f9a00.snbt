@@ -1,0 +1,36 @@
+{
+	title: "星辉魔法",
+	disable_toast: 1b,
+	x: -17.0d,
+	y: -9.5d,
+	description: "解锁魔法总览 星辉魔法",
+	dependencies: [
+		"c49f3e7a"
+	],
+	hide_text_until_complete: 1b,
+	tasks: [{
+		uid: "a6b9926b",
+		type: "observation",
+		title: "注视一个放在地上的星辉合成台",
+		icon: "astralsorcery:blockaltar",
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_1"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "34f3cdec",
+		type: "command",
+		team_reward: 0b,
+		auto: "invisible",
+		command: "/astralsorcery research @p BASIC_CRAFT"
+	},
+	{
+		uid: "6546ba0e",
+		type: "custom",
+		team_reward: 0b,
+		auto: "invisible"
+	}]
+}

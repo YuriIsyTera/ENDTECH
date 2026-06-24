@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 2.5d,
+	text: [
+		"插入一个成型的连接了网络的量子环中",
+		"这个量子环就可以视为一个无限举例而且跨维度的无线访问点供无线终端使用"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"01bbcb5a"
+	],
+	tasks: [{
+		uid: "2cde1fad",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 59"
+		}]
+	}]
+}

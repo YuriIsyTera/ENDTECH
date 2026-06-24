@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: 7.0d,
+	text: [
+		"这个等级的开始可以刷怪物"
+	],
+	dependencies: [
+		"8730ff36"
+	],
+	tasks: [{
+		uid: "f40423a0",
+		type: "item",
+		items: [{
+			item: "tinymobfarm:iron_farm"
+		}]
+	}]
+}

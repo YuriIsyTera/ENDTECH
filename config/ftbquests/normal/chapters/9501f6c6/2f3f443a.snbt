@@ -1,0 +1,25 @@
+{
+	x: -13.0d,
+	y: -3.0d,
+	text: [
+		"瞧瞧，是谁做了个高炉的升级呀"
+	],
+	dependencies: [
+		"c89ee95e"
+	],
+	tasks: [{
+		uid: "7471b60c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 2"
+		}],
+		count: 27L
+	},
+	{
+		uid: "c8e5138d",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}]
+}

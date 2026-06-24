@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"e5ed6090"
+	],
+	tasks: [{
+		uid: "cb2c8a98",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		},
+		{
+			item: "contenttweaker:wyvern_upgrade_device"
+		}],
+		ignore_nbt: 1b
+	}]
+}

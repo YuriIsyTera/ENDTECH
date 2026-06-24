@@ -1,0 +1,17 @@
+{
+	x: 6.5d,
+	y: 4.0d,
+	text: [
+		"相当于ME接口上半部分的标记区和物品输入仓的结合"
+	],
+	dependencies: [
+		"41407914"
+	],
+	tasks: [{
+		uid: "50be4bdb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockmeiteminputbus"
+		}]
+	}]
+}

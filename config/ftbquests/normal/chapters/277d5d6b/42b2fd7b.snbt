@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: 4.5d,
+	text: [
+		"更加强大，但是并非终点"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"70f7fece",
+		"a9a81569"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "d306a255",
+		type: "item",
+		items: [{
+			item: "modularmachinery:purpur_smelting_plant_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

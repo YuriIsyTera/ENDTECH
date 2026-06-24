@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: -7.0d,
+	text: [
+		"通过它你才能向研究站发配研究任务，密钥卡需要在绑定完成之后放入其中",
+		"记得通电",
+		"网络终端和结构方块其实新手礼包里就有，在第四页里，看见了对吧（）"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"db8f9c2d",
+		"7d844cde",
+		"8328e276",
+		"b5f88bc6"
+	],
+	tasks: [{
+		uid: "5bf2b0d6",
+		type: "item",
+		items: [{
+			item: "novaeng_core:hypernet_terminal_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

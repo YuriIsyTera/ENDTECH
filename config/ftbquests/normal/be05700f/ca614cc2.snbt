@@ -1,0 +1,14 @@
+{
+	x: -21.0d,
+	y: 2.5d,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "105bd94e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hab_block"
+		}]
+	}]
+}

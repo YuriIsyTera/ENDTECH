@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: 1.5d,
+	text: [
+		"他们将会是你初入模块化世界的好帮手"
+	],
+	dependencies: [
+		"8449ab25",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "8a34ad61",
+		type: "item",
+		items: [{
+			item: "modularmachinery:board_assembly_room_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

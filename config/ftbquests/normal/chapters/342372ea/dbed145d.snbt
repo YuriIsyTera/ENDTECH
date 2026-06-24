@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	text: [
+		"一切的拼搏与梦想终结于此，这是存电的终极设备，与一个8级能量核心存电量相当，输入输出速率极高，并且可以使用虚空万藏进行模块化特化，从而制造一些配方"
+	],
+	dependencies: [
+		"ecce174c",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "28f197e8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dream_energy_core_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

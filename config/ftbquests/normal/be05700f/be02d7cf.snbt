@@ -1,0 +1,19 @@
+{
+	x: -36.5d,
+	y: 6.0d,
+	text: [
+		"主要的功能是产时空束流与零度行星流体,别指望他能产巨量中子素"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"15f7d253",
+		"75ea69c9"
+	],
+	tasks: [{
+		uid: "d2ec8387",
+		type: "item",
+		items: [{
+			item: "modularmachinery:simulateneutronstarpointx_factory_controller"
+		}]
+	}]
+}

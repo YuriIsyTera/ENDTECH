@@ -1,0 +1,94 @@
+{
+	title: "神之赠礼",
+	icon: {
+		tag: {
+			t: "f",
+			r: {
+				FluidName: "lava",
+				Cnt: 1,
+				Count: 0,
+				Req: 0,
+				Craft: 0
+			}
+		},
+		id: "extendedae:infinity_cell"
+	},
+	x: 57.5d,
+	y: 5.0d,
+	text: [
+		"以紫晶素为引，将近乎奇迹数量的熔岩炉封装进入LE9型流体存储矩阵",
+		"这是神的赠礼，更是人的奇迹，无尽的熔岩从中喷涌而出"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "a230a8a4",
+		type: "item",
+		items: [{
+			Damage: 6s,
+			tag: {
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Facing: 3b,
+				RSControl: 0b,
+				Level: 0b,
+				Energy: 0
+			},
+			id: "thermalexpansion:machine"
+		}],
+		count: 512L,
+		consume_items: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "152fdbba",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 352"
+		}],
+		count: 512L,
+		consume_items: 1b
+	},
+	{
+		uid: "98d7c0aa",
+		type: "fluid",
+		fluid: "crystalloid",
+		amount: 2048
+	},
+	{
+		uid: "e74cd663",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "novaeng_core:estorage_cell_fluid_256m"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c7e371f",
+		type: "item",
+		item: {
+			tag: {
+				t: "f",
+				r: {
+					FluidName: "lava",
+					Cnt: 1,
+					Count: 0,
+					Req: 0,
+					Craft: 0
+				}
+			},
+			id: "extendedae:infinity_cell"
+		}
+	}]
+}

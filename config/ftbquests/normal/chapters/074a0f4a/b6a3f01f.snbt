@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 4.5d,
+	text: [
+		"1561耐久，可以一次放1561"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "ff552d45",
+		type: "item",
+		items: [{
+			item: "betterbuilderswands:wanddiamond"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

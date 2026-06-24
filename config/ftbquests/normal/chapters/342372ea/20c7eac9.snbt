@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	text: [
+		"并不推荐使用它，它会导致掉帧，建议使用下一阶段的能量液化进行中期能量存储"
+	],
+	dependencies: [
+		"8309e1a6",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "3776b73c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_storage_core"
+		}]
+	},
+	{
+		uid: "bedc46c2",
+		type: "item",
+		items: [{
+			item: "draconicevolution:energy_pylon"
+		}]
+	}]
+}

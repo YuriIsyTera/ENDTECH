@@ -1,0 +1,19 @@
+{
+	x: -24.0d,
+	y: 0.0d,
+	text: [
+		"你可以不做他,但我觉得你不做他大概发展不下去"
+	],
+	dependencies: [
+		"cccf864f",
+		"4cce4afc"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "71137c32",
+		type: "item",
+		items: [{
+			item: "modularmachinery:zeromatrix_factory_controller"
+		}]
+	}]
+}

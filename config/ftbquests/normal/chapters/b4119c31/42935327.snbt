@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"链接频道即可，可以放置在任意位置"
+	],
+	dependencies: [
+		"e97096c6"
+	],
+	tasks: [{
+		uid: "b53ed964",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	}]
+}

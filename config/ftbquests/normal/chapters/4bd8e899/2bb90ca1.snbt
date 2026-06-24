@@ -1,0 +1,20 @@
+{
+	title: "经典时尚工业mod",
+	x: -12.0d,
+	y: -9.0d,
+	description: "解锁IC2任务",
+	text: [
+		"不幸的是，为了制造研究站，你得玩IC2"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "37f07603",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 12"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "成为律者！",
+	x: -4.5d,
+	y: 1.5d,
+	text: [
+		"律者，但是只能飞，魔力还是自己出的没有崩坏能给你用（"
+	],
+	dependencies: [
+		"1fd91d12"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "4286d31c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "coreGod"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any coreGod"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}]
+}

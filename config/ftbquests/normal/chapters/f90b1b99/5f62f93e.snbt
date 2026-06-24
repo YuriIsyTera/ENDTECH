@@ -1,0 +1,25 @@
+{
+	title: "星辉魔法",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"https://www.mcmod.cn/class/639.html欢迎你"
+	],
+	dependencies: [
+		"d2d1bda6",
+		"d66f9a00"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "9207ce9a",
+		type: "item",
+		items: [{
+			tag: {
+				astralsorcery: {}
+			},
+			id: "astralsorcery:itemwand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

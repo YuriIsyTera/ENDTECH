@@ -1,0 +1,59 @@
+{
+	icon: {
+		tag: {
+			tier: 4
+		},
+		id: "deepmoblearning:data_model_creeper"
+	},
+	x: -0.5d,
+	y: -1.0d,
+	text: [
+		"超速计算！",
+		"",
+		"使用计算机和聚合粘土急速的计算爬行者数据",
+		"",
+		"&6仅限一次！"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"4a94e5b5"
+	],
+	tasks: [{
+		uid: "7b3a6488",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_creeper"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "30eaf0c6",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		count: 7032L,
+		consume_items: 1b
+	},
+	{
+		uid: "eebc937a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t1_factory_controller"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "886460ea",
+		type: "item",
+		item: {
+			tag: {
+				tier: 4
+			},
+			id: "deepmoblearning:data_model_creeper"
+		}
+	}]
+}

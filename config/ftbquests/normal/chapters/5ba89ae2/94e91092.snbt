@@ -1,0 +1,49 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"你受够了一个一个兑换，你需要掌握奇迹本身",
+		"来个灵魂"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "b95b0baf",
+		type: "item",
+		items: [{
+			item: "novaeng_core:angel_block"
+		}],
+		consume_items: 1b
+	},
+	{
+		uid: "039e5a08",
+		type: "item",
+		items: [{
+			tag: {
+				EntityName: "minecraft:chicken"
+			},
+			id: "draconicevolution:mob_soul"
+		}],
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "e8e6bb9c",
+		type: "item",
+		item: {
+			tag: {
+				t: "i",
+				r: {
+					Cnt: 1,
+					Count: 1,
+					Damage: 0,
+					Req: 0,
+					id: "novaeng_core:angel_block",
+					Craft: 0
+				}
+			},
+			id: "extendedae:infinity_cell"
+		}
+	}]
+}

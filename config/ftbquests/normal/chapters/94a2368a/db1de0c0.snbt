@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: 4.5d,
+	text: [
+		"也许观赏性大于实用性？",
+		"大型盆栽！"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"a9a81569",
+		"246afa01",
+		"83f7292c"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "80451c13",
+		type: "item",
+		items: [{
+			item: "modularmachinery:black_dragon_lotus_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

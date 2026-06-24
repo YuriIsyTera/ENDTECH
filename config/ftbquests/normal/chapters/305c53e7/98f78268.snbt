@@ -1,0 +1,25 @@
+{
+	x: -38.5d,
+	y: 2.0d,
+	text: [
+		"机器结构方块可用于多方块结构的搭建，也用于合成机器等方块。",
+		"该方块不会阻挡光线，也是较为便宜和美观的建材。"
+	],
+	dependencies: [
+		"3db4e400"
+	],
+	tasks: [{
+		uid: "f4b6b64a",
+		type: "item",
+		items: [{
+			item: "libvulpes:structuremachine"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3c56c9eb",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		random_bonus: 15
+	}]
+}

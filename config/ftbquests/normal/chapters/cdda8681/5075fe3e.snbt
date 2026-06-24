@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		"也是提升",
+		"到14.1哩"
+	],
+	dependencies: [
+		"56dd047a"
+	],
+	tasks: [{
+		uid: "b493c52c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:research_station_t3_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "更快，更好，更强！",
+	x: -3.5d,
+	y: -6.5d,
+	text: [
+		"本质上是加强版的电路蚀刻机,但是这加强的可不止一点两点"
+	],
+	dependencies: [
+		"8449ab25",
+		"f41458d7"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "e15f3259",
+		type: "item",
+		items: [{
+			item: "modularmachinery:engineering_inscriber_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

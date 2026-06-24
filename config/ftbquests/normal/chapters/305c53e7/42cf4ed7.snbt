@@ -1,0 +1,24 @@
+{
+	x: -34.5d,
+	y: 1.5d,
+	text: [
+		"精确组装机（Precision Assembler）是多方块结构精确组装机的核心方块。",
+		"可合成物品请查询JEI。"
+	],
+	dependencies: [
+		"71b9dbe8",
+		"9c08d90a"
+	],
+	tasks: [{
+		uid: "b161a596",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "406cb052",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

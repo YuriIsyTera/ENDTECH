@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"现在你可以获取星能力了，大概"
+	],
+	dependencies: [
+		"5f62f93e"
+	],
+	tasks: [{
+		uid: "2283df17",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "速度",
+	x: 1.5d,
+	y: -1.5d,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8a1b3812"
+	],
+	tasks: [{
+		uid: "b5999bfe",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}]
+	},
+	{
+		uid: "7f25a488",
+		type: "item",
+		items: [{
+			item: "valkyrielib:modifier_speed"
+		}]
+	}],
+	rewards: [{
+		uid: "aa53b30e",
+		type: "item",
+		item: "environmentaltech:modifier_speed"
+	}]
+}

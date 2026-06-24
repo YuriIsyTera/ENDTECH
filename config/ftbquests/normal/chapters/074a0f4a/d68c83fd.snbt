@@ -1,0 +1,19 @@
+{
+	x: -11.5d,
+	y: 4.0d,
+	text: [
+		"刚做出来并没有用，你需要插入储存仓",
+		"."
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "d70897d7",
+		type: "item",
+		items: [{
+			item: "rftools:modular_storage"
+		}]
+	}]
+}

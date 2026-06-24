@@ -1,0 +1,15 @@
+{
+	x: 69.5d,
+	y: -5.0d,
+	dependencies: [
+		"3e3e0126"
+	],
+	tasks: [{
+		uid: "f085b349",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ark_auxiliary_warehouse_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "末  地  物  质",
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		"和之前相同，现在你应该使用术式：阴阳变化了，这个术式在末地才能正确的转化它们"
+	],
+	dependencies: [
+		"98eddcac"
+	],
+	tasks: [{
+		uid: "fe9eb21d",
+		type: "item",
+		items: [{
+			item: "psi:material 1 6"
+		}]
+	},
+	{
+		uid: "6421a5b6",
+		type: "item",
+		items: [{
+			item: "psi:material 1 5"
+		}]
+	}]
+}

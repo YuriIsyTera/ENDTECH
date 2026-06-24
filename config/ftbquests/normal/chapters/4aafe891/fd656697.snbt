@@ -1,0 +1,17 @@
+{
+	title: "通用机械的百科链接",
+	x: 5.5d,
+	y: 5.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	custom_click: "https://www.mcmod.cn/class/187.html",
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"9d483bdd",
+		"4c801e85",
+		"8309e1a6"
+	],
+	hide: 1b
+}

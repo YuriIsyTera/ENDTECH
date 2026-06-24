@@ -1,0 +1,399 @@
+{
+	title: "神也会犯懒癌",
+	x: 4.5d,
+	y: -2.0d,
+	text: [
+		"一步到位总是更好的，不是吗"
+	],
+	dependencies: [
+		"8bff38c5"
+	],
+	tasks: [{
+		uid: "7f231663",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "cobblestone"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 64L,
+		consume_items: 1b
+	},
+	{
+		uid: "c3f684b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotGold"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any ingotGold"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 64L,
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "52edb39f",
+		type: "item",
+		item: {
+			Damage: 4s,
+			tag: {
+				inventory: {
+					Items: [{
+						Slot: 0b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "conarm:helmet_core"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:large_sword_blade"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:binding"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:cross_guard"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:axe_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "conarm:boots_core"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 6b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:pan_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 7b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:excavator_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 8b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "conarm:leggings_core"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 9b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:tough_binding"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 10b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:shovel_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 11b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:bow_string"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 12b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:large_plate"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 13b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:hammer_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 14b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "conarm:armor_trim"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 15b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconevo:part_arcane_focus"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 16b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:kama_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 17b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:shard"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 18b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "conarm:chest_core"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 19b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "conarm:armor_plate"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 20b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:tough_tool_rod"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 21b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:sign_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 22b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:scythe_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 23b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:sharpening_kit"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 24b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:bow_limb"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 25b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:arrow_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 26b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:broad_axe_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 27b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:tool_rod"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 28b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:sword_blade"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 29b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:hand_guard"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 30b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:wide_guard"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 31b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:pick_head"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 32b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "conarm:polishing_kit"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 33b,
+						Count: 1,
+						id: "tconstruct:cast",
+						tag: {
+							PartType: "tconstruct:knife_blade"
+						},
+						Damage: 0s
+					},
+					{
+						Slot: 34b,
+						Damage: 0s,
+						Count: 1,
+						id: "tconstruct:cast_custom"
+					},
+					{
+						Slot: 35b,
+						Damage: 1s,
+						Count: 1,
+						id: "tconstruct:cast_custom"
+					},
+					{
+						Slot: 36b,
+						Damage: 2s,
+						Count: 1,
+						id: "tconstruct:cast_custom"
+					},
+					{
+						Slot: 37b,
+						Damage: 3s,
+						Count: 1,
+						id: "tconstruct:cast_custom"
+					},
+					{
+						Slot: 38b,
+						Damage: 4s,
+						Count: 1,
+						id: "tconstruct:cast_custom"
+					}]
+				}
+			},
+			id: "tconstruct:tooltables"
+		}
+	}]
+}

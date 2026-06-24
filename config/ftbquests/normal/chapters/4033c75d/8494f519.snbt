@@ -1,0 +1,9 @@
+{
+	title: "&4超凡设计",
+	x: 78.0d,
+	y: -3.0d,
+	shape: "gear",
+	dependencies: [
+		"275375e2"
+	]
+}

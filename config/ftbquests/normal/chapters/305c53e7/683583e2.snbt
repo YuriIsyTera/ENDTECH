@@ -1,0 +1,29 @@
+{
+	x: -11.0d,
+	y: 0.0d,
+	text: [
+		"气密检测器（Seal Detector）是一种功能性物品，可用于对着一个方块右键检测该方块的密封性。",
+		"如果提示“应该保持一个很好的密封”说明该方块不会渗透空气，如果提示“空气会渗透这个方块”则反之。",
+		"请保证密封空间站时使用的材料为密封性良好不会侧漏。",
+		"可以在空间站密封完成后于内部右键空气检测当前空间站是否密封。",
+		"确认空间站完全密封后，可以准备后续材料进行氧气供给工作。"
+	],
+	dependencies: [
+		"b61e4e1e"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "78296234",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:sealdetector"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c4709254",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,31 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "2": "contenttweaker:blocks/newmaa_skin",
+      "particle": "contenttweaker:blocks/asteroidcontrolblock"
+    },
+    "model": "contenttweaker:newmaafumo",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{"model":"contenttweaker:newmaafumo"}],
+    "inventory": [{"model":"contenttweaker:newmaafumo"}],
+        "facing=east": {
+      "model": "contenttweaker:newmaafumo",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "contenttweaker:newmaafumo"
+    },
+    "facing=south": {
+      "model": "contenttweaker:newmaafumo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:newmaafumo",
+      "y": 270
+    }
+  }
+}

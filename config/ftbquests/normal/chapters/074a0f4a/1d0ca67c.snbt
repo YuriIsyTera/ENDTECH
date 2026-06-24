@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"一个很大的箱子，需要插卡，有更高等级，可以提供更多的格子"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "65629842",
+		type: "item",
+		items: [{
+			item: "enderutilities:storage_0 1 3"
+		}]
+	}]
+}

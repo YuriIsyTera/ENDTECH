@@ -1,0 +1,20 @@
+{
+	x: -6.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"90093ee2"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "94dc7951",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:deep_learner"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 6.5d,
+	dependencies: [
+		"84ca640e"
+	],
+	tasks: [{
+		uid: "478ce710",
+		type: "item",
+		items: [{
+			item: "yabba:upgrade_iron_tier"
+		}]
+	}]
+}

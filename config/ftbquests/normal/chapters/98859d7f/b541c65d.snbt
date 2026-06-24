@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"读书能让你知道祭坛到底是个什么结构"
+	],
+	dependencies: [
+		"73e20f27"
+	],
+	tasks: [{
+		uid: "2d25d90d",
+		type: "item",
+		title: "一本好书",
+		items: [{
+			item: "bloodmagic:sanguine_book"
+		},
+		{
+			item: "akashictome:tome"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

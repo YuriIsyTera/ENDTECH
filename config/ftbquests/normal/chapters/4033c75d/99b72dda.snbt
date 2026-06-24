@@ -1,0 +1,14 @@
+{
+	x: 62.0d,
+	y: 1.5d,
+	dependencies: [
+		"b1cc9a0c"
+	],
+	tasks: [{
+		uid: "20114fde",
+		type: "item",
+		items: [{
+			item: "modularmachinery:orbital_framework_launch_site_factory_controller"
+		}]
+	}]
+}

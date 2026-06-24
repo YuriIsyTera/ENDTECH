@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: -5.5d,
+	text: [
+		"致敬无中生有",
+		"但并不空岛，以及用途不大"
+	],
+	dependencies: [
+		"9f7a8bbe"
+	],
+	tasks: [{
+		uid: "1fd64e22",
+		type: "item",
+		items: [{
+			item: "modularmachinery:large_sieving_machine_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

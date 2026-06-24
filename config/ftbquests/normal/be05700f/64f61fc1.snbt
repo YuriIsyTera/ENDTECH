@@ -1,0 +1,28 @@
+{
+	title: "清洁能源!",
+	x: -43.5d,
+	y: -1.5d,
+	text: [
+		"这两个机器真的很好用,真的",
+		"在这个阶段,他十分的便宜,并且这还是被动发电!",
+		"集成控制器最大线程数:32"
+	],
+	dependencies: [
+		"cccf864f",
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "e86a3fbe",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mega_windturbine_controller"
+		}]
+	},
+	{
+		uid: "2104951c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mega_windturbine_factory_controller"
+		}]
+	}]
+}

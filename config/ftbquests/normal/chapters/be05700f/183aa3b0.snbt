@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"很强,为了继续发展,你逃不掉她",
+		"*自带64x产出"
+	],
+	dependencies: [
+		"481619f2"
+	],
+	tasks: [{
+		uid: "66b30618",
+		type: "item",
+		items: [{
+			item: "modularmachinery:giga_qft_factory_controller"
+		}]
+	}]
+}

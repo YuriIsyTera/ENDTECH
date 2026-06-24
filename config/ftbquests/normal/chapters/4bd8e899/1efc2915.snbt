@@ -1,0 +1,19 @@
+{
+	x: -9.69642857142857d,
+	y: -9.517857142857146d,
+	text: [
+		"一款好用的前期发电机？！",
+		"是的就是这样,但是要用来供应模块堆的有点够呛，最好想想别的，比如乙烯发电什么的 "
+	],
+	dependencies: [
+		"b5f88bc6"
+	],
+	tasks: [{
+		uid: "de2e75e6",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 6"
+		}],
+		ignore_nbt: 1b
+	}]
+}

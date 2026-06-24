@@ -1,0 +1,93 @@
+{
+	title: "小贴士",
+	x: -41.0d,
+	y: -4.5d,
+	shape: "gear",
+	text: [
+		"'终末工程'私货包的机器远远不止任务呈现的这一部分,您可以在JEI内搜索EndTech以查阅'终末工程'私货中绝大部分的机器与物品",
+		"同时,本私货包添加了'无限元件'模组,内置了深度元件和无限元件!"
+	],
+	hide_dependency_lines: 1b,
+	tasks: [{
+		uid: "dfaa845a",
+		type: "checkmark",
+		icon: "modularmachinery:blockfactorycontroller"
+	}],
+	rewards: [{
+		uid: "f985ae2e",
+		type: "item",
+		item: {
+			Damage: 54s,
+			tag: {
+				Items: [{
+					Slot: 2b,
+					Count: 1,
+					Damage: 0s,
+					id: "avaritia:infinity_helmet"
+				},
+				{
+					Slot: 3b,
+					Count: 1,
+					Damage: 0s,
+					id: "avaritia:infinity_chestplate"
+				},
+				{
+					Slot: 4b,
+					Count: 1,
+					Damage: 0s,
+					id: "avaritia:infinity_boots"
+				},
+				{
+					Slot: 5b,
+					Count: 1,
+					Damage: 0s,
+					id: "avaritia:infinity_pants"
+				}]
+			},
+			id: "enderutilities:enderpart"
+		}
+	},
+	{
+		uid: "fbfadd7b",
+		type: "item",
+		item: {
+			Damage: 54s,
+			tag: {
+				Items: [{
+					Slot: 0b,
+					Count: 1,
+					Damage: 0s,
+					id: "avaritia:infinity_sword"
+				},
+				{
+					Slot: 1b,
+					tag: {
+						ench: [{
+							id: 35,
+							lvl: 10s
+						}]
+					},
+					id: "avaritia:infinity_pickaxe",
+					Count: 1,
+					Damage: 0s
+				}]
+			},
+			id: "enderutilities:enderpart"
+		}
+	},
+	{
+		uid: "375d2797",
+		type: "item",
+		item: "infinitycell:item_cell_16384k"
+	},
+	{
+		uid: "892688a4",
+		type: "item",
+		item: "infinitycell:fluid_cell_16384k"
+	},
+	{
+		uid: "7423d67a",
+		type: "item",
+		item: "infinitycell:gas_cell_16384k"
+	}]
+}

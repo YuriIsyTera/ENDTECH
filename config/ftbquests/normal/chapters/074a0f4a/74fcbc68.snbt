@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		"虽然说它是钻石到下界之星，但是实际上你可以直接加入它",
+		"",
+		"理论上它是无穷大的储量，但是实际上也许是2.1G？不过这不重要，反正没这么多东西要存"
+	],
+	dependencies: [
+		"84ca640e",
+		"541441db"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "53efffb8",
+		type: "item",
+		items: [{
+			item: "yabba:upgrade_star_tier"
+		}]
+	}]
+}

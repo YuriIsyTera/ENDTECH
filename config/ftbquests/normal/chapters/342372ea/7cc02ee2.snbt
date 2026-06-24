@@ -1,0 +1,16 @@
+{
+	x: 9.5d,
+	y: 4.5d,
+	dependencies: [
+		"ef5a8a9a",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "0882fa28",
+		type: "item",
+		items: [{
+			item: "modularmachinery:alppm_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

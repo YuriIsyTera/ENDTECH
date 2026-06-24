@@ -1,0 +1,20 @@
+{
+	x: -39.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"推进主线的必要机器,我建议造出来就开始挂机配方"
+	],
+	dependencies: [
+		"cccf864f",
+		"ea18dc75",
+		"6031c6c3"
+	],
+	tasks: [{
+		uid: "d1e7b9bb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:lhcparticle_factory_controller"
+		}]
+	}]
+}

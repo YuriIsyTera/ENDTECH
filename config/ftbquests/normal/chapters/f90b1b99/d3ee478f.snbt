@@ -1,0 +1,34 @@
+{
+	title: "五彩祭坛",
+	x: -3.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5f62f93e"
+	],
+	tasks: [{
+		uid: "fc185b9e",
+		type: "observation",
+		icon: "astralsorcery:blockaltar 1 3",
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_4"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "ef6b15a5",
+		type: "command",
+		team_reward: 0b,
+		auto: "invisible",
+		command: "/astralsorcery research @p RADIANCE"
+	},
+	{
+		uid: "dc8f36ff",
+		type: "custom",
+		auto: "invisible"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 20.5d,
+	y: 4.5d,
+	text: [
+		"魔法科技，小子",
+		"为了这个b还得玩通星辉魔法，虽然本来也要玩通就是（）",
+		"为了彻底淘汰魔力池需要5台....嗯？"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "a65e7e0a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:illum_pool_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

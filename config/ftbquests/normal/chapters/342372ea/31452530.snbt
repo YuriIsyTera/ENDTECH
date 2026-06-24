@@ -1,0 +1,50 @@
+{
+	title: "输导矩阵",
+	x: -2.0d,
+	y: 4.5d,
+	text: [
+		"它会是你早期存电的好方案，但是你早期还存电？"
+	],
+	dependencies: [
+		"8309e1a6",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "0487cbcf",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 1"
+		}]
+	},
+	{
+		uid: "acce146e",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 2"
+		}]
+	},
+	{
+		uid: "7c992ed2",
+		type: "item",
+		items: [{
+			Damage: 3s,
+			tag: {
+				tier: 0
+			},
+			id: "mekanism:basicblock2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8874bfe",
+		type: "item",
+		items: [{
+			Damage: 4s,
+			tag: {
+				tier: 0
+			},
+			id: "mekanism:basicblock2"
+		}]
+	}]
+}

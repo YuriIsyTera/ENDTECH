@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -6.5d,
+	text: [
+		"更大的并行处理单元，一个当好几个用"
+	],
+	dependencies: [
+		"918a45f5"
+	],
+	tasks: [{
+		uid: "efd76230",
+		type: "item",
+		items: [{
+			item: "nae2:coprocessor_4x"
+		}]
+	}]
+}

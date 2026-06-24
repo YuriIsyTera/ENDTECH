@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"在它的界面里你可以自由的调整它的格数和一格能存的数量",
+		"",
+		"也许一些自动化里你用得上？"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "1be2b15f",
+		type: "item",
+		items: [{
+			item: "enderutilities:asu"
+		}]
+	}]
+}

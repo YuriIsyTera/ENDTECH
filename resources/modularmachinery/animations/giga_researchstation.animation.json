@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"run_01": {
+			"loop": true,
+			"animation_length": 20,
+			"bones": {
+				"qiu": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"20.0": [0, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

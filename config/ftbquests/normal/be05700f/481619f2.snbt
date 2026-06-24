@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"在这个阶段,他很贵",
+		"但是你必须制作他,太空电梯不需要堆量,你可以通过简单的io提升配方的速度"
+	],
+	dependencies: [
+		"c6a39cf7"
+	],
+	tasks: [{
+		uid: "3d03f4c2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mega_spaceelevator_factory_controller"
+		}]
+	}]
+}

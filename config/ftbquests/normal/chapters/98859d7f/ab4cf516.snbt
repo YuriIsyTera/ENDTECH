@@ -1,0 +1,34 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	text: [
+		"现在，你可以制造一些简单的仪式了",
+		"有个集贸用"
+	],
+	dependencies: [
+		"f0b23ef1"
+	],
+	tasks: [{
+		uid: "5a0eda84",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	},
+	{
+		uid: "2da00ad5",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "041c5363",
+		type: "item",
+		items: [{
+			item: "bloodmagic:activation_crystal"
+		}],
+		ignore_nbt: 1b
+	}]
+}

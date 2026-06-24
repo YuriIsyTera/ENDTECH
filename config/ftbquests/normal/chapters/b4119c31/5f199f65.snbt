@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"也没啥说的，对应模式即可",
+		"标记基座用于替换普通的基座，需要和核心在同一个XY轴平面内"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"42935327",
+		"7687e8ba"
+	],
+	tasks: [{
+		uid: "48067c7e",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:combination_crafter"
+		}]
+	},
+	{
+		uid: "ed8d2540",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:marked_pedestal"
+		}]
+	}]
+}

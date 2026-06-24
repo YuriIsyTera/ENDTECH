@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	text: [
+		"分子装配室流体款，直接使用流体而不是桶合成",
+		"只能使用流体样板终端写出的特殊合成样板",
+		"事实上，它不需要贴me接口，它直接内置了一个me接口（）"
+	],
+	dependencies: [
+		"5dd6311a"
+	],
+	tasks: [{
+		uid: "ba5514a2",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_assembler"
+		}]
+	}]
+}

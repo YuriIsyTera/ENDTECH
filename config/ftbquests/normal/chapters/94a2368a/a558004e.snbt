@@ -1,0 +1,29 @@
+{
+	title: "[BOT]植物魔法",
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"从各种角度来说，它明明是植物科技！"
+	],
+	dependencies: [
+		"83f7292c"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "643a5b9f",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	},
+	{
+		uid: "c08560bb",
+		type: "item",
+		items: [{
+			tag: {
+				type: "puredaisy"
+			},
+			id: "botania:specialflower"
+		}]
+	}]
+}

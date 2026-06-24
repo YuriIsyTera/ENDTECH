@@ -1,0 +1,26 @@
+{
+	x: -30.5d,
+	y: 1.5d,
+	text: [
+		"跟踪芯片（Tracking Circuit）是一种芯片合成材料。",
+		"（也就是说，除了合成没有任何作用）",
+		"通过在精确组装机里使用1个基础电路板、1个末影之眼和1个红石组装而成。"
+	],
+	dependencies: [
+		"7303a4f0"
+	],
+	tasks: [{
+		uid: "98bed4a9",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic 1 1"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f89e4c0b",
+		type: "item",
+		item: "minecraft:ender_eye",
+		random_bonus: 3
+	}]
+}

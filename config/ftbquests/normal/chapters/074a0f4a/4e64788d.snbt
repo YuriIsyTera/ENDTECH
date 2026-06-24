@@ -1,0 +1,68 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"作用和效果已经写上边了",
+		"来一个看看？"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "d0cc9aaa",
+		type: "item",
+		items: [{
+			Damage: 2s,
+			tag: {
+				astralsorcery: {
+					modifiers: [{
+						type: "astralsorcery.meleeattackdamage",
+						baseValue: 0.0f,
+						mode: 1,
+						idMost: 3289292649233599360L,
+						mId: 99629L,
+						idLeast: -8940154039009252938L
+					}]
+				},
+				HideFlags: 63,
+				display: {
+					Name: "§e万物至理长存",
+					Lore: [
+						"§6与任意工具或武器合成以获取无法破坏词条",
+						"§4会被消耗"
+					]
+				}
+			},
+			id: "astralsorcery:itemperkgem"
+		}]
+	}],
+	rewards: [{
+		uid: "9db53daf",
+		type: "item",
+		item: {
+			Damage: 2s,
+			tag: {
+				astralsorcery: {
+					modifiers: [{
+						type: "astralsorcery.meleeattackdamage",
+						baseValue: 0.0f,
+						mode: 1,
+						idMost: 3289292649233599360L,
+						mId: 99629L,
+						idLeast: -8940154039009252938L
+					}]
+				},
+				HideFlags: 63,
+				display: {
+					Name: "§e万物至理长存",
+					Lore: [
+						"§6与任意工具或武器合成以获取无法破坏词条",
+						"§4会被消耗"
+					]
+				}
+			},
+			id: "astralsorcery:itemperkgem"
+		}
+	}]
+}

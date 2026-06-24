@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	dependencies: [
+		"3ae1e9ff",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "0b348b1e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:energy_conversion_station_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

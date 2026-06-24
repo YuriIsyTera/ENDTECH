@@ -1,0 +1,5711 @@
+{
+        "registryname": "precisecomplex",
+    "localizedname": "§a精密元件装配§b复合体",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "factory-only": true,
+    "color": "808080",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:precisecomplex_factory_controller@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technical1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+"item_in"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@11"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+"item_in"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+"item_in"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+"item_in"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+
+              "elements": [
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+"item_in"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@11"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:technical1@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+
+             "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmefluidinputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technical1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -4,
+
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "minecraft:quartz_stairs@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:technical1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+"item_in"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technical1@1"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "minecraft:quartz_stairs@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:quartz_stairs@4"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@3"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:stained_glass_pane@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:technical1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+"item_in"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "chisel:futura@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_stairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+"item_in"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "chisel:glasspane@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:laboratory@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@7"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_rod@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:tyrian@10"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        }
+    ]}

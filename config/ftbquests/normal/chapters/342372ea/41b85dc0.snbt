@@ -1,0 +1,16 @@
+{
+	x: 11.0d,
+	y: 3.0d,
+	dependencies: [
+		"4ffe6a9a",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "6c0014a3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:starburst_reactor_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

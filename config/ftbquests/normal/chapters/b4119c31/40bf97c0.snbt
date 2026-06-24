@@ -1,0 +1,55 @@
+{
+	title: "新世纪的福音",
+	x: -5.5d,
+	y: -6.5d,
+	text: [
+		"告别lazy的卡服大分子，并且更快，更好，更强！",
+		"",
+		"样板终端里可以直接上传样板到其中，支持ae2fc的流体样板",
+		"",
+		"写出样板在样板格子里然后按一下样板终端的那个按键即可上传",
+		"",
+		"结构可以拓展，参考装配线或者ECO存储的拓展方法",
+		"",
+		"如果你觉得这个还是慢，你应该去给你的CPU放置更多的并行处理单元了...."
+	],
+	dependencies: [
+		"3b24ee2b"
+	],
+	tasks: [{
+		uid: "6d7e9036",
+		type: "item",
+		items: [{
+			item: "novaeng_core:extendable_fabricator_subsystem_l9"
+		},
+		{
+			item: "novaeng_core:extendable_fabricator_subsystem_l6"
+		},
+		{
+			item: "novaeng_core:extendable_fabricator_subsystem_l4"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "173a242f",
+		type: "item",
+		items: [{
+			item: "novaeng_core:efabricator_worker"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "869b90e0",
+		type: "item",
+		items: [{
+			item: "novaeng_core:efabricator_parallel_proc_l9"
+		},
+		{
+			item: "novaeng_core:efabricator_parallel_proc_l6"
+		},
+		{
+			item: "novaeng_core:efabricator_parallel_proc_l4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

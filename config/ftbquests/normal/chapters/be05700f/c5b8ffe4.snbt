@@ -1,0 +1,19 @@
+{
+	x: -43.5d,
+	y: 2.0d,
+	description: "你不懂的,他不是必要的",
+	text: [
+		"骗你的啦()",
+		"你需要他来产出初期的时空束流,所以这也是必要的"
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "e60b8535",
+		type: "item",
+		items: [{
+			item: "modularmachinery:lightpressurelaunchunit_factory_controller"
+		}]
+	}]
+}

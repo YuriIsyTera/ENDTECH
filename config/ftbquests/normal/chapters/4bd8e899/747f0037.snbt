@@ -1,0 +1,20 @@
+{
+	title: "一些小机器",
+	x: -14.0d,
+	y: -9.5d,
+	description: "解锁科技总览eio任务",
+	text: [
+		"虽然发电不能指望，速度也不好说，但是他起码是个不错的开局mod"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "d5b806eb",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}]
+}

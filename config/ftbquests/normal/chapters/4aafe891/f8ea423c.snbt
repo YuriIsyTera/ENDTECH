@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	text: [
+		"我只能说，它比普通的快一点"
+	],
+	dependencies: [
+		"ab0c6a43"
+	],
+	tasks: [{
+		uid: "712ce547",
+		type: "item",
+		items: [{
+			item: "mets:te 1 5"
+		}]
+	}]
+}

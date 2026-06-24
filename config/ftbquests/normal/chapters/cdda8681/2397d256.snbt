@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"神，是神，超级便宜的20T算力",
+		"虽然自动化不太方便，但是他还是便宜"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"bee64ea6"
+	],
+	tasks: [{
+		uid: "20f7d98f",
+		type: "item",
+		items: [{
+			Damage: 42s,
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					artificial_zombie: {}
+				}
+			},
+			id: "enderio:item_material"
+		}]
+	}]
+}

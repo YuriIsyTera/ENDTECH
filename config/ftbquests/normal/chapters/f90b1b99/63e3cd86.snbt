@@ -1,0 +1,18 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	text: [
+		"自动搭建此机器时需要注意，田里的作物需要手动种植，且与jei一致"
+	],
+	dependencies: [
+		"6a90d11f"
+	],
+	tasks: [{
+		uid: "d1b81e20",
+		type: "item",
+		items: [{
+			item: "modularmachinery:bootes_ritual_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

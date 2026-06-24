@@ -1,0 +1,41 @@
+{
+	title: "星座核心",
+	icon: "packagedastral:constellation_focus",
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"它很麻烦",
+		"是的，我也觉得",
+		"所以就有了这个任务，这得取决于你觉得哪个比较麻烦uwu",
+		""
+	],
+	dependencies: [
+		"d3ee478f",
+		"e0faaebc",
+		"6abdaa67"
+	],
+	tasks: [{
+		uid: "a36a0c6a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotInfinity"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any ingotInfinity"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "62a606b7",
+		type: "item",
+		item: "packagedastral:constellation_focus"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	text: [
+		"没有耐久，一次鬼知道能放多少，反正你背包装不下那么多"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "578d0e83",
+		type: "item",
+		items: [{
+			item: "betterbuilderswands:wandunbreakable"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

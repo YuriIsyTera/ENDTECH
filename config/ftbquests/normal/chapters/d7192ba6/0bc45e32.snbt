@@ -1,0 +1,68 @@
+{
+	title: "后悔药",
+	disable_toast: 1b,
+	x: 6.0d,
+	y: 3.0d,
+	text: [
+		"换之前想好不好吗（）"
+	],
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8a1b3812"
+	],
+	tasks: [{
+		uid: "bdeb7c78",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_speed"
+		},
+		{
+			item: "environmentaltech:modifier_luck"
+		},
+		{
+			item: "environmentaltech:modifier_creative_flight"
+		},
+		{
+			item: "environmentaltech:modifier_haste"
+		},
+		{
+			item: "environmentaltech:modifier_strength"
+		},
+		{
+			item: "environmentaltech:modifier_jump_boost"
+		},
+		{
+			item: "environmentaltech:modifier_regeneration"
+		},
+		{
+			item: "environmentaltech:modifier_resistance"
+		},
+		{
+			item: "environmentaltech:modifier_fire_resistance"
+		},
+		{
+			item: "environmentaltech:modifier_water_breathing"
+		},
+		{
+			item: "environmentaltech:modifier_night_vision"
+		},
+		{
+			item: "environmentaltech:modifier_invisibility"
+		},
+		{
+			item: "environmentaltech:modifier_saturation"
+		},
+		{
+			item: "environmentaltech:modifier_absorption"
+		},
+		{
+			item: "environmentaltech:modifier_glowing"
+		}]
+	}],
+	rewards: [{
+		uid: "ac170bb9",
+		type: "item",
+		item: "environmentaltech:modifier_null"
+	}]
+}

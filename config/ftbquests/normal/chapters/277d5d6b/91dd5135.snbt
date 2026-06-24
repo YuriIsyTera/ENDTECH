@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 5.0d,
+	dependencies: [
+		"41407914"
+	],
+	tasks: [{
+		uid: "45a214a7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockmefluidoutputbus"
+		}]
+	}]
+}

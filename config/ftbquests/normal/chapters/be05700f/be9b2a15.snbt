@@ -1,0 +1,14 @@
+{
+	x: 25.0d,
+	y: 0.0d,
+	dependencies: [
+		"deed47dc"
+	],
+	tasks: [{
+		uid: "f759c420",
+		type: "item",
+		items: [{
+			item: "modularmachinery:giga_dimensionallyfocusengravingarray_factory_controller"
+		}]
+	}]
+}

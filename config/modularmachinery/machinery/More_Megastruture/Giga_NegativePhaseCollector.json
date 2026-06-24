@@ -1,0 +1,209 @@
+{
+    "registryname": "Giga_NegativePhaseCollector",
+    "localizedname": "§0负相§e收集者§f",
+    "failure-action": "still",
+    "has_factroy": "yes",
+    "requires-blueprint": false,
+    "factory-only": true,
+    "parts": [
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "novaeng_core:redstone_logical_port"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 159,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 159,
+            "elements": [
+                "modularmachinery:giga_singularitycore_controller@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 159,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        }
+    ]}

@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	text: [
+		"没啥说的，在编码器内调整好对应模式写封包，解包机直接贴着就是了"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"42935327",
+		"7687e8ba"
+	],
+	tasks: [{
+		uid: "dd5487d3",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:advanced_crafter"
+		},
+		{
+			item: "packagedexcrafting:elite_crafter"
+		},
+		{
+			item: "packagedexcrafting:ultimate_crafter"
+		}]
+	}]
+}

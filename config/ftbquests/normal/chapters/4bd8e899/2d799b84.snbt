@@ -1,0 +1,38 @@
+{
+	title: "抵达新世界",
+	x: -14.0d,
+	y: -8.0d,
+	shape: "square",
+	description: "新的开始",
+	text: [
+		"你，作为 ECO 实验室的实习成员",
+		"现在已经成功抵达了这个世界",
+		"你将在这个世界上完成你的实习任务，并且在实习结束之后继续进行发展",
+		"对此，实验室为你准备了基本的发展物资",
+		"你可以搭建网络终端并且查询“千里之行，始于终端”来了解网络系统的基本用法",
+		"",
+		"祝你好运"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "2a5c8711",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

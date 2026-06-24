@@ -1,0 +1,20 @@
+{
+	x: -20.5d,
+	y: -2.5d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"c3effe2d"
+	],
+	tasks: [{
+		uid: "63b602fc",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:itemcircuitplate"
+		}]
+	}],
+	rewards: [{
+		uid: "82d4e059",
+		type: "item",
+		item: "advancedrocketry:itemcircuitplate"
+	}]
+}

@@ -1,0 +1,74 @@
+{
+	title: "不可思议",
+	disable_toast: 1b,
+	x: 3.5d,
+	y: 1.0d,
+	text: [
+		"将所有的模型提升后，你明悟了真理"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"a708bb28",
+		"409dd69c",
+		"7fbf4b78",
+		"2c9b2872",
+		"6c97fe3c",
+		"e630805c",
+		"4ce2d94c",
+		"42dc5393",
+		"60196cf6",
+		"bf35ee80",
+		"15249f3e",
+		"a4bb1881",
+		"eaf6f54d",
+		"1b8160df"
+	],
+	hide: 1b,
+	hide_text_until_complete: 1b,
+	tasks: [{
+		uid: "dea6b140",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockInfinity"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any blockInfinity"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		consume_items: 1b
+	},
+	{
+		uid: "3c479ad5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:data_model_emerald"
+		}],
+		consume_items: 1b
+	},
+	{
+		uid: "48743e28",
+		type: "item",
+		title: "拥有满级的混沌守卫模型来证明你自己",
+		items: [{
+			tag: {
+				tier: 4
+			},
+			id: "deepmoblearning:data_model_chaosguardian"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b,
+		only_from_crafting: 0b
+	}],
+	rewards: [{
+		uid: "79d10aa9",
+		type: "item",
+		item: "deepmoblearning:creative_model_learner"
+	}]
+}

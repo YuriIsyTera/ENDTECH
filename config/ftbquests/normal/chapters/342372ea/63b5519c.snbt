@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 4.5d,
+	text: [
+		"将能量以流体形式存储",
+		"",
+		"通过3个转化机器可以将其转换回电量"
+	],
+	dependencies: [
+		"a9a81569",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "e87be2ee",
+		type: "item",
+		items: [{
+			item: "modularmachinery:energy_liquefier_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -41.5d,
+	y: 2.0d,
+	text: [
+		"你懂的,必要的"
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "b72d063e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:starcontrolx_factory_controller"
+		}]
+	}]
+}

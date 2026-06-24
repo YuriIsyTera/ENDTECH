@@ -1,0 +1,20 @@
+{
+	x: -40.5d,
+	y: 6.0d,
+	description: "批量生产纳米蜂群!",
+	text: [
+		"后期你需要很多纳米蜂群"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"15f7d253",
+		"75ea69c9"
+	],
+	tasks: [{
+		uid: "a16d40be",
+		type: "item",
+		items: [{
+			item: "modularmachinery:spacetime_gestalt_factory_controller"
+		}]
+	}]
+}

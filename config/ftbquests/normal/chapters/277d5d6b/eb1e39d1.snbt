@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: -4.0d,
+	dependencies: [
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "2d0ea4dc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:biogas_generator_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

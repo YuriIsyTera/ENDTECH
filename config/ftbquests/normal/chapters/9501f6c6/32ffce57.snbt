@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"俗称，磕头机 "
+	],
+	dependencies: [
+		"953a2879"
+	],
+	tasks: [{
+		uid: "d94b6f9a",
+		type: "item",
+		items: [{
+			tag: {
+				multiblock: "IP:Pumpjack"
+			},
+			id: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"好像是什么奇妙的东西",
+		"也许你会用的上"
+	],
+	dependencies: [
+		"73e20f27"
+	],
+	tasks: [{
+		uid: "bb9c113a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller 1 1"
+		}]
+	}]
+}

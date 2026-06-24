@@ -1,0 +1,8 @@
+{
+	x: -48.5d,
+	y: -3.5d,
+	dependencies: [
+		"7747d28b"
+	],
+	hide: 1b
+}

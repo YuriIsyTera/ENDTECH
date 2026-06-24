@@ -1,0 +1,18 @@
+{
+	x: -42.0d,
+	y: 0.0d,
+	text: [
+		"性价比十分高,拥有非常多独有配方"
+	],
+	dependencies: [
+		"049925d2"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "25034fa4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:atomicprocessequipx_factory_controller"
+		}]
+	}]
+}

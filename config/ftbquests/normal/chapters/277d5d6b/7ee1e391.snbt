@@ -1,0 +1,20 @@
+{
+	title: "魔法，这一定是魔法",
+	x: 0.5d,
+	y: 1.0d,
+	text: [
+		"你见到了，这个它是一个me驱动器",
+		"可以拓展片层，最长14即为中间12长度，36个驱动位",
+		"详细内容可以查看ae2章节的对应任务"
+	],
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "74547062",
+		type: "item",
+		items: [{
+			item: "novaeng_core:extendable_digital_storage_subsystem_l4"
+		}]
+	}]
+}

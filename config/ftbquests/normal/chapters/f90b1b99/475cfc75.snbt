@@ -1,0 +1,43 @@
+{
+	title: "三，三生万物？",
+	icon: "psicosts:creative_cell",
+	x: 0.0d,
+	y: -6.5d,
+	text: [
+		"买它，买它！他会是你无尽的PSI能量来源！",
+		"",
+		"评价是3个充满的电池都用不完"
+	],
+	dependencies: [
+		"30a615f3"
+	],
+	tasks: [{
+		uid: "027eaa46",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource 1 1"
+		}],
+		count: 3L,
+		consume_items: 1b
+	},
+	{
+		uid: "f6190472",
+		type: "item",
+		items: [{
+			Damage: 3s,
+			tag: {
+				PsioCharge: 2560000
+			},
+			id: "psicosts:psi_cell"
+		}],
+		count: 3L,
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "297ed84a",
+		type: "item",
+		team_reward: 0b,
+		item: "psicosts:creative_cell"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -7.5d,
+	y: -3.5d,
+	text: [
+		"原则上你应该先做一个这个降低另外几个lazy ae2机器的成本",
+		"你要先做电路板蚀刻机？你开心就好"
+	],
+	dependencies: [
+		"82f06c01"
+	],
+	tasks: [{
+		uid: "b8e8cec2",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}]
+}

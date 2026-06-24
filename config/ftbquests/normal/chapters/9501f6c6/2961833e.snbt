@@ -1,0 +1,22 @@
+{
+	x: -3.5d,
+	y: 1.5d,
+	text: [
+		"嗯，分解原油用的，嗯"
+	],
+	dependencies: [
+		"32ffce57"
+	],
+	tasks: [{
+		uid: "c678a2e4",
+		type: "item",
+		items: [{
+			tag: {
+				multiblock: "IP:DistillationTower"
+			},
+			id: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

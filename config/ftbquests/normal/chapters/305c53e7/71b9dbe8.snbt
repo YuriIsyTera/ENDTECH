@@ -1,0 +1,26 @@
+{
+	x: -32.5d,
+	y: 3.0d,
+	text: [
+		"硅晶圆（Silicon Wafer）是一种重要的芯片基础合成材料。",
+		"合成方式是把硅 球放到切割机里制作，1个硅 球可生成4个硅晶片。",
+		"它可用于合成卫星使用的多种传感器以及两种电路板。"
+	],
+	dependencies: [
+		"ab59330b"
+	],
+	tasks: [{
+		uid: "c2c102dd",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:wafer"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "68baad8a",
+		type: "item",
+		item: "libvulpes:productingot 1 3",
+		random_bonus: 3
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -38.0d,
+	y: -4.0d,
+	text: [
+		"这台机器是必要的,至少在以后你会用到它"
+	],
+	dependencies: [
+		"b2539b2a"
+	],
+	tasks: [{
+		uid: "b76bb56a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:asteroidlockdevice_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	text: [
+		"它的搭建与普通注入一致，不过核心换成这个，注入器换成标记注入器（其实就是和龙尘合成一下）",
+		"解包机需要贴在封包聚合核心上 ，其余部分查看ae2章节中封包合成",
+		"",
+		"&6它并不是聚合装置自动化的必需品"
+	],
+	dependencies: [
+		"0fdaa491"
+	],
+	tasks: [{
+		uid: "2b0696a0",
+		type: "item",
+		items: [{
+			item: "packageddraconic:fusion_crafter"
+		}]
+	}]
+}

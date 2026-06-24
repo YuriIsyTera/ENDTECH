@@ -1,0 +1,15 @@
+{
+	x: 69.5d,
+	y: -3.0d,
+	dependencies: [
+		"57037fbc"
+	],
+	tasks: [{
+		uid: "3c388180",
+		type: "item",
+		items: [{
+			item: "modularmachinery:atomic_reconstructor_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

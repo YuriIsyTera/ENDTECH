@@ -1,0 +1,27 @@
+{
+	title: "你的前期自动化助手",
+	x: 0.0d,
+	y: -5.0d,
+	text: [
+		"你要手搓16384再开始自动化我认输"
+	],
+	dependencies: [
+		"1089c014"
+	],
+	tasks: [{
+		uid: "91d18163",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_4k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_16k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_64k"
+		}]
+	}]
+}

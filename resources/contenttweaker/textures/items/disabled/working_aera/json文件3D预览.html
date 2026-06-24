@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>模块化机械 完全隐藏式预览器（最终版）</title>
+    <style>
+        body { margin: 0; overflow: hidden; font-family: 'Microsoft YaHei', sans-serif; }
+        
+        /* 拖拽提示层（静态提示） */
+        #drop-hint {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgba(255,255,255,0.5);
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+            pointer-events: none;
+            z-index: 5;
+            transition: opacity 0.3s;
+        }
+        #drop-hint.hidden {
+            opacity: 0;
+        }
+        
+        /* 拖拽动态提示层（覆盖） */
+        #drop-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 30;
+        }
+        body.dragover #drop-overlay {
+            opacity: 1;
+        }
+        
+        /* 左侧触发区域 - 加宽至20px */
+        #left-trigger {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 100%;
+            background: transparent;
+            z-index: 40;
+            cursor: pointer;
+        }
+        /* 右侧触发区域 - 加宽至20px */
+        #right-trigger {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 20px;
+            height: 100%;
+            background: transparent;
+            z-index: 40;
+            cursor: pointer;
+        }
+        
+        /* 左侧侧边栏（类型目录） */
+        #sidebar-left {
+            position: absolute;
+            top: 0;
+            left: -550px; /* 初始隐藏 */
+            width: 550px;
+            height: 100vh;
+            background: rgba(30,30,30,0.95);
+            backdrop-filter: blur(5px);
+            transition: left 0.3s ease;
+            z-index: 50;
+            overflow: hidden;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column;
+        }
+        #sidebar-left.visible {
+            left: 0;
+        }
+        #sidebar-left-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 15px;
+            box-sizing: border-box;
+            color: #eee;
+        }
+        
+        /* 左侧栏标题行（包含按钮） */
+        .left-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 15px 0 5px;
+            border-left: 3px solid #ffaa00;
+            padding-left: 8px;
+        }
+        .left-header .title {
+            font-size: 14px;
+            color: #ddd;
+        }
+        .left-header .update-all {
+            background: #4CAF50;
+            border: none;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .left-header .update-all:hover { background: #45a049; }
+        
+        /* 右侧侧边栏（控制面板） */
+        #sidebar-right {
+            position: absolute;
+            top: 0;
+            right: -500px; /* 初始隐藏 */
+            width: 500px;
+            height: 100vh;
+            background: rgba(30,30,30,0.95);
+            backdrop-filter: blur(5px);
+            transition: right 0.3s ease;
+            z-index: 50;
+            overflow: hidden;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column;
+        }
+        #sidebar-right.visible {
+            right: 0;
+        }
+        #sidebar-right-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 15px;
+            box-sizing: border-box;
+            color: #eee;
+        }
+        
+        /* 控件样式（右侧） */
+        #sidebar-right-content button { width: 100%; padding: 10px; margin: 8px 0; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+        #sidebar-right-content button:hover { background: #45a049; }
+        #sidebar-right-content button.export { background: #2196F3; }
+        #sidebar-right-content button.export:hover { background: #0b7dda; }
+        .section-title { font-size: 14px; color: #ddd; margin: 15px 0 5px; border-left: 3px solid #ffaa00; padding-left: 8px; }
+        .slider-row { display: flex; align-items: center; gap: 10px; margin: 8px 0; }
+        .slider-row input[type=range] { flex: 1; }
+        .slider-row span { min-width: 45px; text-align: right; }
+
+        /* 目录树样式 */
+        #type-tree { 
+            flex: 1;
+            overflow-y: auto; 
+            border: 1px solid #444; 
+            padding: 5px; 
+            margin: 10px 0; 
+            background: #2a2a2a; 
+        }
+        .type-folder { margin-bottom: 5px; border: 1px solid #555; border-radius: 4px; }
+        .type-header { display: flex; align-items: center; padding: 8px; background: #3a3a3a; cursor: pointer; user-select: none; gap: 12px; }
+        .type-header .color-box { width: 20px; height: 20px; border-radius: 3px; flex-shrink: 0; }
+        .type-header .type-name { width: 250px; background: #444; border: 1px solid #666; color: white; padding: 4px 6px; border-radius: 3px; font-size: 13px; }
+        .type-header .count { color: #aaa; font-size: 12px; min-width: 45px; text-align: right; margin-left: auto; }
+        .type-header .expand-icon { font-size: 12px; color: #aaa; }
+        .type-content { display: none; padding: 5px; background: #2f2f2f; border-top: 1px solid #444; max-height: 300px; overflow-y: auto; }
+        .type-content.expanded { display: block; }
+        .block-item { display: flex; align-items: center; padding: 6px 8px; border-bottom: 1px solid #444; font-size: 12px; cursor: pointer; line-height: 1.6; gap: 15px; }
+        .block-item:hover { background: #3e3e3e; }
+        .block-item .idx { width: 45px; color: #ffaa00; font-weight: bold; }
+        .block-item .coords { color: #aaa; width: 90px; }
+        .block-item .type-input { width: 200px; background: #444; border: 1px solid #666; color: white; padding: 3px 5px; border-radius: 3px; font-size: 12px; }
+
+        #status { font-size: 12px; color: #aaa; text-align: center; margin-top: 10px; }
+        .note { font-size: 11px; color: #888; margin-top: 5px; }
+        #limit-warning { color: #ff6666; display: none; margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <!-- 静态拖拽提示 -->
+    <div id="drop-hint">📁 拖拽JSON文件到窗口</div>
+    <!-- 拖拽动态提示层 -->
+    <div id="drop-overlay">📁 释放文件以加载</div>
+
+    <!-- 触发区域（加宽至20px） -->
+    <div id="left-trigger"></div>
+    <div id="right-trigger"></div>
+
+    <!-- 左侧侧边栏：类型目录（含更新所有按钮） -->
+    <div id="sidebar-left">
+        <div id="sidebar-left-content">
+            <div class="left-header">
+                <span class="title">📁 类型目录</span>
+                <button class="update-all" id="update-all-btn">更新所有</button>
+            </div>
+            <div id="type-tree"></div>
+            <div class="note">• 点击坐标项可高亮方块<br>• 修改目录名或方块名后点击“更新所有”应用修改</div>
+        </div>
+    </div>
+
+    <!-- 右侧侧边栏：控制面板（导出按钮始终可见） -->
+    <div id="sidebar-right">
+        <div id="sidebar-right-content">
+            <input type="file" id="file-input" accept=".json" style="display: none;" />
+            <button id="load-btn">📂 点击加载 JSON 文件</button>
+            
+            <div id="dynamic-controls" style="display: none;">
+                <div class="section-title">🔁 动态结构尺寸</div>
+                <div class="slider-row">
+                    <span>尺寸:</span>
+                    <input type="range" id="dynamic-size" min="1" max="5" value="1" step="1">
+                    <span id="size-value">1</span>
+                </div>
+            </div>
+
+            <div class="section-title">📐 分层预览 (Y轴范围)</div>
+            <div class="slider-row">
+                <span>最小Y:</span>
+                <input type="range" id="min-y" min="-10" max="10" value="-10" step="1">
+                <span id="min-y-val">-10</span>
+            </div>
+            <div class="slider-row">
+                <span>最大Y:</span>
+                <input type="range" id="max-y" min="-10" max="10" value="10" step="1">
+                <span id="max-y-val">10</span>
+            </div>
+
+            <div class="section-title">📊 显示百分比 (默认30%)</div>
+            <div class="slider-row">
+                <span>百分比:</span>
+                <input type="range" id="display-percent" min="0" max="100" value="30" step="1">
+                <span id="percent-val">30%</span>
+            </div>
+            <div id="limit-warning">⚠️ 部分方块未显示</div>
+
+            <div class="section-title">⏱️ 追踪时长 (秒)</div>
+            <div class="slider-row">
+                <span>时长:</span>
+                <input type="range" id="highlight-duration" min="1" max="10" value="3" step="0.5">
+                <span id="duration-val">3.0s</span>
+            </div>
+
+            <button id="export-btn" class="export">💾 导出 JSON 文件</button>
+            <div id="status">等待加载文件...</div>
+            <div class="note">• 鼠标移动到左边缘显示目录树<br>• 鼠标移动到右边缘显示控制面板<br>• 默认显示30%方块以勾勒轮廓</div>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.126.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.126.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+
+        // --- 初始化场景 ---
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x111122);
+
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.set(20, 15, 20);
+        camera.lookAt(0, 0, 0);
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.shadowMap.enabled = false;
+        document.body.appendChild(renderer.domElement);
+
+        const labelRenderer = new CSS2DRenderer();
+        labelRenderer.setSize(window.innerWidth, window.innerHeight);
+        labelRenderer.domElement.style.position = 'absolute';
+        labelRenderer.domElement.style.top = '0px';
+        labelRenderer.domElement.style.left = '0px';
+        labelRenderer.domElement.style.pointerEvents = 'none';
+        document.body.appendChild(labelRenderer.domElement);
+
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.05;
+        controls.screenSpacePanning = true;
+        controls.maxPolarAngle = Math.PI; // 允许从正上方到正下方180°旋转
+
+        const ambientLight = new THREE.AmbientLight(0x404060);
+        scene.add(ambientLight);
+        const dirLight = new THREE.DirectionalLight(0xffffff, 1);
+        dirLight.position.set(5, 10, 7);
+        scene.add(dirLight);
+        const fillLight = new THREE.PointLight(0x446688, 0.5);
+        fillLight.position.set(-5, 3, 5);
+        scene.add(fillLight);
+
+        const COLOR_PALETTE = [
+            0xff5733, 0x33ff57, 0x3357ff, 0xff33f1, 0xffd733,
+            0x33fff5, 0xf533ff, 0xff8c33, 0x8c33ff, 0x33ff8c,
+            0xff3333, 0x33ff33, 0x3333ff, 0xffff33, 0xff33ff,
+            0x33ffff, 0xff6633, 0x66ff33, 0x3366ff, 0xff3366
+        ];
+
+        let allBlocksData = [];
+        let originalJson = null;
+        let dynamicPatterns = [];
+        let dynamicSize = 1;
+        let minY = -10, maxY = 10;
+        let displayPercent = 30;
+        let highlightDuration = 3000;
+        let typeVisibility = {};
+        let typeColorMap = new Map();
+        let originalFileName = 'machine.json'; // 默认文件名
+
+        let instancesGroup = new THREE.Group();
+        scene.add(instancesGroup);
+
+        let highlightedIndex = -1;
+        let highlightMesh = null;
+        let highlightLabel = null;
+        let highlightTimeout = null;
+
+        function getColorForType(type, isDynamic = false, isModifier = false) {
+            if (isModifier) return new THREE.Color(0xff6666);
+            if (!typeColorMap.has(type)) {
+                const idx = typeColorMap.size % COLOR_PALETTE.length;
+                typeColorMap.set(type, COLOR_PALETTE[idx]);
+            }
+            let color = new THREE.Color(typeColorMap.get(type));
+            if (isDynamic) color.multiplyScalar(1.2);
+            return color;
+        }
+
+        // 解析函数
+        function expandCoords(xVal, yVal, zVal) {
+            const xList = Array.isArray(xVal) ? xVal : [xVal];
+            const yList = Array.isArray(yVal) ? yVal : [yVal];
+            const zList = Array.isArray(zVal) ? zVal : [zVal];
+            const results = [];
+            xList.forEach(x => {
+                yList.forEach(y => {
+                    zList.forEach(z => {
+                        results.push({ x, y, z });
+                    });
+                });
+            });
+            return results;
+        }
+
+        function extractTypeFromElements(elem) {
+            if (typeof elem === 'string') return elem;
+            if (Array.isArray(elem) && elem.length > 0) {
+                const first = elem[0];
+                return typeof first === 'string' ? first : String(first);
+            }
+            return 'unknown';
+        }
+
+        function parseStaticParts(parts) {
+            const list = [];
+            if (!parts) return list;
+            parts.forEach(part => {
+                const coords = expandCoords(part.x, part.y, part.z);
+                const type = extractTypeFromElements(part.elements);
+                coords.forEach(c => {
+                    list.push({
+                        x: c.x, y: c.y, z: c.z,
+                        type: type,
+                        isModifier: false,
+                        isDynamic: false
+                    });
+                });
+            });
+            return list;
+        }
+
+        function parseDynamicPatterns(patterns, size) {
+            const list = [];
+            if (!patterns) return list;
+            patterns.forEach(pattern => {
+                const minSize = pattern.minSize || 1;
+                const maxSize = pattern.maxSize || 1;
+                const actualSize = Math.min(Math.max(size, minSize), maxSize);
+                const offsetStart = pattern['structure-size-offset-start'] || { x: 0, y: 0, z: 0 };
+                const offsetStep = pattern['structure-size-offset'] || { x: 0, y: 0, z: 1 };
+                const baseParts = pattern.parts || [];
+                const endParts = pattern['parts-end'] || [];
+
+                let currentOffset = { x: offsetStart.x, y: offsetStart.y, z: offsetStart.z };
+                for (let i = 0; i < actualSize; i++) {
+                    baseParts.forEach(part => {
+                        const coords = expandCoords(part.x, part.y, part.z);
+                        const type = extractTypeFromElements(part.elements);
+                        coords.forEach(c => {
+                            list.push({
+                                x: c.x + currentOffset.x,
+                                y: c.y + currentOffset.y,
+                                z: c.z + currentOffset.z,
+                                type,
+                                isModifier: false,
+                                isDynamic: true
+                            });
+                        });
+                    });
+                    if (i < actualSize - 1) {
+                        currentOffset.x += offsetStep.x;
+                        currentOffset.y += offsetStep.y;
+                        currentOffset.z += offsetStep.z;
+                    } else {
+                        endParts.forEach(part => {
+                            const coords = expandCoords(part.x, part.y, part.z);
+                            const type = extractTypeFromElements(part.elements);
+                            coords.forEach(c => {
+                                list.push({
+                                    x: c.x + currentOffset.x + offsetStep.x,
+                                    y: c.y + currentOffset.y + offsetStep.y,
+                                    z: c.z + currentOffset.z + offsetStep.z,
+                                    type,
+                                    isModifier: false,
+                                    isDynamic: true
+                                });
+                            });
+                        });
+                    }
+                }
+            });
+            return list;
+        }
+
+        function parseModifiers(modifiers) {
+            const list = [];
+            if (!modifiers) return list;
+            modifiers.forEach(mod => {
+                const coords = expandCoords(mod.x, mod.y, mod.z);
+                const type = mod.elements ? extractTypeFromElements(mod.elements) : 'modifier';
+                coords.forEach(c => {
+                    list.push({
+                        x: c.x, y: c.y, z: c.z,
+                        type: type,
+                        isModifier: true,
+                        isDynamic: false
+                    });
+                });
+            });
+            return list;
+        }
+
+        function parseMultiBlockModifiers(multiblockModifiers) {
+            const list = [];
+            if (!multiblockModifiers) return list;
+            multiblockModifiers.forEach(mbm => {
+                const blockArray = mbm.blockArray;
+                if (blockArray && blockArray.parts) {
+                    blockArray.parts.forEach(part => {
+                        const coords = expandCoords(part.x, part.y, part.z);
+                        const type = extractTypeFromElements(part.elements);
+                        coords.forEach(c => {
+                            list.push({
+                                x: c.x, y: c.y, z: c.z,
+                                type: type,
+                                isModifier: true,
+                                isDynamic: false
+                            });
+                        });
+                    });
+                }
+            });
+            return list;
+        }
+
+        function mergeBlocks(staticBlocks, dynamicBlocks, modifierBlocks) {
+            const map = new Map();
+            staticBlocks.forEach(b => map.set(`${b.x},${b.y},${b.z}`, b));
+            dynamicBlocks.forEach(b => {
+                const key = `${b.x},${b.y},${b.z}`;
+                if (!map.has(key) || map.get(key).isDynamic === false) {
+                    map.set(key, b);
+                }
+            });
+            modifierBlocks.forEach(b => map.set(`${b.x},${b.y},${b.z}`, b));
+            return Array.from(map.values());
+        }
+
+        function clearInstances() {
+            while(instancesGroup.children.length > 0) {
+                instancesGroup.remove(instancesGroup.children[0]);
+            }
+        }
+
+        function clearHighlight() {
+            if (highlightMesh) {
+                scene.remove(highlightMesh);
+                highlightMesh.geometry.dispose();
+                highlightMesh.material.dispose();
+                highlightMesh = null;
+            }
+            if (highlightLabel) {
+                scene.remove(highlightLabel);
+                if (highlightLabel.material) highlightLabel.material.dispose();
+                highlightLabel = null;
+            }
+            if (highlightTimeout) {
+                clearTimeout(highlightTimeout);
+                highlightTimeout = null;
+            }
+        }
+
+        function updateHighlight() {
+            clearHighlight();
+
+            if (highlightedIndex >= 0 && highlightedIndex < allBlocksData.length) {
+                const block = allBlocksData[highlightedIndex];
+                let visible = allBlocksData.filter(b => b.y >= minY && b.y <= maxY && typeVisibility[b.type]);
+                const limitCount = Math.floor(visible.length * displayPercent / 100);
+                if (limitCount === 0) return;
+                visible = visible.slice(0, limitCount);
+                if (visible.length === 0) return;
+
+                let minX = Infinity, maxX = -Infinity, minY_ = Infinity, maxY_ = -Infinity, minZ = Infinity, maxZ = -Infinity;
+                visible.forEach(b => {
+                    minX = Math.min(minX, b.x); maxX = Math.max(maxX, b.x);
+                    minY_ = Math.min(minY_, b.y); maxY_ = Math.max(maxY_, b.y);
+                    minZ = Math.min(minZ, b.z); maxZ = Math.max(maxZ, b.z);
+                });
+                const centerX = (minX + maxX) / 2;
+                const centerY = (minY_ + maxY_) / 2;
+                const centerZ = (minZ + maxZ) / 2;
+
+                const posX = block.x - centerX;
+                const posY = block.y - centerY;
+                const posZ = block.z - centerZ;
+
+                const geometry = new THREE.BoxGeometry(1.15, 1.15, 1.15);
+                const material = new THREE.MeshBasicMaterial({ color: 0xff0000, wireframe: true });
+                highlightMesh = new THREE.Mesh(geometry, material);
+                highlightMesh.position.set(posX, posY, posZ);
+                scene.add(highlightMesh);
+
+                const div = document.createElement('div');
+                div.textContent = `#${highlightedIndex} (${block.x},${block.y},${block.z})`;
+                div.style.color = 'white';
+                div.style.fontSize = '14px';
+                div.style.fontWeight = 'bold';
+                div.style.textShadow = '1px 1px 2px black';
+                div.style.backgroundColor = 'rgba(255,0,0,0.7)';
+                div.style.borderRadius = '4px';
+                div.style.padding = '2px 6px';
+                div.style.border = '1px solid white';
+                highlightLabel = new CSS2DObject(div);
+                highlightLabel.position.set(posX, posY + 1.2, posZ);
+                scene.add(highlightLabel);
+
+                highlightTimeout = setTimeout(() => {
+                    clearHighlight();
+                }, highlightDuration);
+            }
+        }
+
+        function renderInstances(visibleBlocks) {
+            clearInstances();
+            if (visibleBlocks.length === 0) return;
+
+            let minX = Infinity, maxX = -Infinity, minY_ = Infinity, maxY_ = -Infinity, minZ = Infinity, maxZ = -Infinity;
+            visibleBlocks.forEach(b => {
+                minX = Math.min(minX, b.x); maxX = Math.max(maxX, b.x);
+                minY_ = Math.min(minY_, b.y); maxY_ = Math.max(maxY_, b.y);
+                minZ = Math.min(minZ, b.z); maxZ = Math.max(maxZ, b.z);
+            });
+            const centerX = (minX + maxX) / 2;
+            const centerY = (minY_ + maxY_) / 2;
+            const centerZ = (minZ + maxZ) / 2;
+
+            const typeGroups = new Map();
+            visibleBlocks.forEach(block => {
+                const key = block.type + (block.isModifier ? '_mod' : '') + (block.isDynamic ? '_dyn' : '');
+                if (!typeGroups.has(key)) typeGroups.set(key, []);
+                typeGroups.get(key).push(block);
+            });
+
+            typeGroups.forEach((blocks, key) => {
+                const first = blocks[0];
+                const color = getColorForType(first.type, first.isDynamic, first.isModifier);
+                const geometry = new THREE.BoxGeometry(0.9, 0.9, 0.9);
+                const material = first.isDynamic
+                    ? new THREE.MeshPhongMaterial({ color, transparent: true, opacity: 0.6 })
+                    : new THREE.MeshStandardMaterial({ color, emissive: 0x222222 });
+                
+                const mesh = new THREE.InstancedMesh(geometry, material, blocks.length);
+                mesh.castShadow = false;
+                mesh.receiveShadow = false;
+                
+                const dummy = new THREE.Object3D();
+                blocks.forEach((b, i) => {
+                    dummy.position.set(b.x - centerX, b.y - centerY, b.z - centerZ);
+                    dummy.updateMatrix();
+                    mesh.setMatrixAt(i, dummy.matrix);
+                });
+                mesh.instanceMatrix.needsUpdate = true;
+                instancesGroup.add(mesh);
+            });
+
+            updateHighlight();
+        }
+
+        function rerender() {
+            let visible = allBlocksData.filter(b => b.y >= minY && b.y <= maxY && typeVisibility[b.type]);
+            const totalVisible = visible.length;
+            const limitCount = Math.floor(totalVisible * displayPercent / 100);
+            const limitWarning = document.getElementById('limit-warning');
+            if (limitCount < totalVisible) {
+                limitWarning.style.display = 'block';
+            } else {
+                limitWarning.style.display = 'none';
+            }
+            visible = visible.slice(0, limitCount);
+            renderInstances(visible);
+            updateStatus(totalVisible, limitCount);
+        }
+
+        function updateStatus(totalVisible, limitCount) {
+            document.getElementById('status').innerHTML = `✅ 总方块 ${allBlocksData.length} | 可见 ${totalVisible} | 显示 ${limitCount}`;
+        }
+
+        // 构建目录树
+        function buildTypeTree() {
+            const container = document.getElementById('type-tree');
+            container.innerHTML = '';
+            const typeMap = new Map();
+            allBlocksData.forEach((block, idx) => {
+                if (!typeMap.has(block.type)) typeMap.set(block.type, []);
+                typeMap.get(block.type).push({ idx, ...block });
+            });
+
+            const sortedTypes = Array.from(typeMap.entries()).sort((a,b) => a[0].localeCompare(b[0]));
+
+            sortedTypes.forEach(([type, blocks]) => {
+                const color = getColorForType(type);
+                const hex = color.getHexString();
+                const folderDiv = document.createElement('div');
+                folderDiv.className = 'type-folder';
+
+                const header = document.createElement('div');
+                header.className = 'type-header';
+                header.innerHTML = `
+                    <span class="color-box" style="background:#${hex};"></span>
+                    <input type="text" class="type-name" value="${type}">
+                    <span class="count">${blocks.length}</span>
+                    <span class="expand-icon">▼</span>
+                `;
+                folderDiv.appendChild(header);
+
+                const content = document.createElement('div');
+                content.className = 'type-content';
+                blocks.forEach(({ idx, x, y, z, type }) => {
+                    const item = document.createElement('div');
+                    item.className = 'block-item';
+                    item.dataset.index = idx;
+                    item.innerHTML = `
+                        <span class="idx">#${idx}</span>
+                        <span class="coords">(${x},${y},${z})</span>
+                        <input type="text" class="type-input" value="${type}" data-oldtype="${type}">
+                    `;
+                    content.appendChild(item);
+                });
+                folderDiv.appendChild(content);
+
+                container.appendChild(folderDiv);
+
+                header.addEventListener('click', (e) => {
+                    if (e.target.tagName === 'INPUT') return;
+                    content.classList.toggle('expanded');
+                    header.querySelector('.expand-icon').textContent = content.classList.contains('expanded') ? '▲' : '▼';
+                });
+
+                content.querySelectorAll('.block-item').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        if (e.target.tagName === 'INPUT') return;
+                        const idx = parseInt(item.dataset.index);
+                        highlightedIndex = idx;
+                        updateHighlight();
+                    });
+                });
+            });
+        }
+
+        // 全局更新按钮
+        document.getElementById('update-all-btn').addEventListener('click', () => {
+            let changed = false;
+
+            const headers = document.querySelectorAll('.type-header');
+            headers.forEach(header => {
+                const input = header.querySelector('.type-name');
+                const newType = input.value.trim();
+                const oldType = input.defaultValue;
+                if (newType && newType !== oldType) {
+                    allBlocksData.forEach(b => {
+                        if (b.type === oldType) b.type = newType;
+                    });
+                    const oldColor = typeColorMap.get(oldType);
+                    if (oldColor) {
+                        typeColorMap.set(newType, oldColor);
+                        typeColorMap.delete(oldType);
+                    }
+                    typeVisibility[newType] = typeVisibility[oldType];
+                    delete typeVisibility[oldType];
+                    input.defaultValue = newType;
+                    changed = true;
+                }
+            });
+
+            const blockItems = document.querySelectorAll('.block-item .type-input');
+            blockItems.forEach(input => {
+                const newType = input.value.trim();
+                const oldType = input.dataset.oldtype;
+                if (newType && newType !== oldType) {
+                    const idx = parseInt(input.closest('.block-item').dataset.index);
+                    if (idx >= 0 && idx < allBlocksData.length) {
+                        allBlocksData[idx].type = newType;
+                        input.dataset.oldtype = newType;
+                        changed = true;
+                    }
+                }
+            });
+
+            if (changed) {
+                buildTypeTree();
+                rerender();
+            }
+        });
+
+        // 文件加载
+        document.getElementById('load-btn').addEventListener('click', () => {
+            document.getElementById('file-input').click();
+        });
+
+        document.getElementById('file-input').addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            loadFile(file);
+        });
+
+        // 拖拽导入
+        document.body.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            document.body.classList.add('dragover');
+        });
+        document.body.addEventListener('dragleave', (e) => {
+            e.preventDefault();
+            document.body.classList.remove('dragover');
+        });
+        document.body.addEventListener('drop', (e) => {
+            e.preventDefault();
+            document.body.classList.remove('dragover');
+            const file = e.dataTransfer.files[0];
+            if (file && file.name.endsWith('.json')) {
+                loadFile(file);
+            } else {
+                alert('请拖拽一个JSON文件');
+            }
+        });
+
+        function loadFile(file) {
+            document.getElementById('drop-hint').classList.add('hidden');
+            originalFileName = file.name; // 保存文件名
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    const jsonText = event.target.result;
+                    const json = JSON.parse(jsonText);
+                    originalJson = json;
+
+                    typeColorMap.clear();
+
+                    const staticParts = parseStaticParts(json.parts || []);
+                    dynamicPatterns = json['dynamic-patterns'] || [];
+                    const modifiers = parseModifiers(json.modifiers || []);
+                    const multiModifiers = parseMultiBlockModifiers(json['multiblock-modifiers'] || []);
+                    
+                    const dynamicBlocks = parseDynamicPatterns(dynamicPatterns, dynamicSize);
+                    
+                    allBlocksData = mergeBlocks(staticParts, dynamicBlocks, [...modifiers, ...multiModifiers]);
+
+                    const ys = allBlocksData.map(b => b.y);
+                    if (ys.length > 0) {
+                        const minYVal = Math.min(...ys);
+                        const maxYVal = Math.max(...ys);
+                        document.getElementById('min-y').min = minYVal;
+                        document.getElementById('min-y').max = maxYVal;
+                        document.getElementById('min-y').value = minYVal;
+                        document.getElementById('max-y').min = minYVal;
+                        document.getElementById('max-y').max = maxYVal;
+                        document.getElementById('max-y').value = maxYVal;
+                        document.getElementById('min-y-val').textContent = minYVal;
+                        document.getElementById('max-y-val').textContent = maxYVal;
+                        minY = minYVal;
+                        maxY = maxYVal;
+                    }
+
+                    allBlocksData.forEach(b => typeVisibility[b.type] = true);
+                    buildTypeTree();
+                    rerender();
+                    
+                } catch (error) {
+                    alert('解析JSON失败：' + error.message);
+                    document.getElementById('status').innerHTML = '❌ 解析失败';
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        // 滑块事件
+        const sizeSlider = document.getElementById('dynamic-size');
+        const sizeSpan = document.getElementById('size-value');
+        sizeSlider.addEventListener('input', (e) => {
+            dynamicSize = parseInt(e.target.value);
+            sizeSpan.textContent = dynamicSize;
+            if (originalJson) {
+                const staticParts = parseStaticParts(originalJson.parts || []);
+                const dynamicBlocks = parseDynamicPatterns(dynamicPatterns, dynamicSize);
+                const modifiers = parseModifiers(originalJson.modifiers || []);
+                const multiModifiers = parseMultiBlockModifiers(originalJson['multiblock-modifiers'] || []);
+                allBlocksData = mergeBlocks(staticParts, dynamicBlocks, [...modifiers, ...multiModifiers]);
+                const newTypes = new Set(allBlocksData.map(b => b.type));
+                newTypes.forEach(t => { if (typeVisibility[t] === undefined) typeVisibility[t] = true; });
+                buildTypeTree();
+                rerender();
+            }
+        });
+
+        const minYSlider = document.getElementById('min-y');
+        const maxYSlider = document.getElementById('max-y');
+        const minYVal = document.getElementById('min-y-val');
+        const maxYVal = document.getElementById('max-y-val');
+        minYSlider.addEventListener('input', (e) => {
+            minY = parseInt(e.target.value);
+            minYVal.textContent = minY;
+            if (minY > maxY) {
+                maxYSlider.value = minY;
+                maxY = minY;
+                maxYVal.textContent = minY;
+            }
+            rerender();
+        });
+        maxYSlider.addEventListener('input', (e) => {
+            maxY = parseInt(e.target.value);
+            maxYVal.textContent = maxY;
+            if (maxY < minY) {
+                minYSlider.value = maxY;
+                minY = maxY;
+                minYVal.textContent = maxY;
+            }
+            rerender();
+        });
+
+        const percentSlider = document.getElementById('display-percent');
+        const percentVal = document.getElementById('percent-val');
+        percentSlider.addEventListener('input', (e) => {
+            displayPercent = parseInt(e.target.value);
+            percentVal.textContent = displayPercent + '%';
+            rerender();
+        });
+
+        const durationSlider = document.getElementById('highlight-duration');
+        const durationVal = document.getElementById('duration-val');
+        durationSlider.addEventListener('input', (e) => {
+            const secs = parseFloat(e.target.value);
+            durationVal.textContent = secs.toFixed(1) + 's';
+            highlightDuration = secs * 1000;
+            if (highlightedIndex >= 0) updateHighlight();
+        });
+
+        // 导出按钮（始终可见，未加载数据时提示）
+        document.getElementById('export-btn').addEventListener('click', () => {
+            if (!originalJson || allBlocksData.length === 0) {
+                alert('请先加载一个JSON文件');
+                return;
+            }
+            
+            const newParts = [];
+            allBlocksData.forEach(block => {
+                newParts.push({
+                    x: block.x,
+                    y: block.y,
+                    z: block.z,
+                    elements: block.type
+                });
+            });
+            
+            const newJson = JSON.parse(JSON.stringify(originalJson));
+            newJson.parts = newParts;
+            delete newJson['dynamic-patterns'];
+            delete newJson.modifiers;
+            delete newJson['multiblock-modifiers'];
+            
+            const jsonStr = JSON.stringify(newJson, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = originalFileName; // 使用原文件名
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+
+        // ========== 侧边栏延迟隐藏逻辑 ==========
+        const leftTrigger = document.getElementById('left-trigger');
+        const rightTrigger = document.getElementById('right-trigger');
+        const sidebarLeft = document.getElementById('sidebar-left');
+        const sidebarRight = document.getElementById('sidebar-right');
+
+        let leftHideTimer = null;
+        let rightHideTimer = null;
+
+        function showLeft() {
+            if (leftHideTimer) clearTimeout(leftHideTimer);
+            sidebarLeft.classList.add('visible');
+        }
+
+        function hideLeft() {
+            leftHideTimer = setTimeout(() => {
+                sidebarLeft.classList.remove('visible');
+            }, 300);
+        }
+
+        function showRight() {
+            if (rightHideTimer) clearTimeout(rightHideTimer);
+            sidebarRight.classList.add('visible');
+        }
+
+        function hideRight() {
+            rightHideTimer = setTimeout(() => {
+                sidebarRight.classList.remove('visible');
+            }, 300);
+        }
+
+        leftTrigger.addEventListener('mouseenter', showLeft);
+        leftTrigger.addEventListener('mouseleave', hideLeft);
+        sidebarLeft.addEventListener('mouseenter', showLeft);
+        sidebarLeft.addEventListener('mouseleave', hideLeft);
+
+        rightTrigger.addEventListener('mouseenter', showRight);
+        rightTrigger.addEventListener('mouseleave', hideRight);
+        sidebarRight.addEventListener('mouseenter', showRight);
+        sidebarRight.addEventListener('mouseleave', hideRight);
+
+        // 动画循环
+        function animate() {
+            requestAnimationFrame(animate);
+            controls.update();
+            renderer.render(scene, camera);
+            labelRenderer.render(scene, camera);
+        }
+        animate();
+
+        window.addEventListener('resize', onWindowResize, false);
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            labelRenderer.setSize(window.innerWidth, window.innerHeight);
+        }
+    </script>
+</body>
+</html>

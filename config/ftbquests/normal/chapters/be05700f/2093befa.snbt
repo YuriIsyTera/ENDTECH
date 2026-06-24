@@ -1,0 +1,18 @@
+{
+	x: -41.0d,
+	y: -1.5d,
+	description: "推演室ProMax",
+	text: [
+		"支持无上限的模型导入，执行原始物质的产出和怪物产物配方产出"
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "e48c5196",
+		type: "item",
+		items: [{
+			item: "modularmachinery:warmatrix_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 26.5d,
+	y: -4.5d,
+	text: [
+		"把能量转换为液态能量",
+		"一种能量存储了属于是"
+	],
+	dependencies: [
+		"72cd79ad"
+	],
+	tasks: [{
+		uid: "928c576b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:energy_liquefier_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

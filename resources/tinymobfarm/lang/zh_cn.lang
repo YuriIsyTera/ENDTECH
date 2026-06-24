@@ -1,0 +1,86 @@
+g#sideonly client
+#reloadable
+
+import crafttweaker.mods.ILoadedMods;
+import mods.modularmachinery.MachineModifier;
+import crafttweaker.item.IItemStack;
+import mods.zenutils.I18n;
+
+tinymobfarm.tip.output_part_2=相邻的容器。
+tinymobfarm.tip.output_part_1=物品被弹出到
+tinymobfarm.tip.redstone=可以被红石信号禁用。
+tinymobfarm.tooltip.default_durability=- 有%d%%的几率消耗%d耐久度
+tinymobfarm.tooltip.no_durability=- 有%d%%的几率不消耗耐久
+tinymobfarm.tooltip.no_hostile=不能处理敌对性生物。
+tinymobfarm.tooltip.durability_info=套索耐久消耗：
+tinymobfarm.tooltip.farm_rate=每 %d 秒生成一次掉落物.
+tinymobfarm.tooltip.hold_shift=按住%s<SHIFT>%s 来查看状态。
+tinymobfarm.tooltip.capture=右键一个生物来捕捉它。
+tinymobfarm.tooltip.hostile=此生物是敌对生物。
+tinymobfarm.tooltip.health=血量: %d/%d
+tinymobfarm.tooltip.mob_name=生物: %s
+tinymobfarm.tooltip.release_mob=在方块上右键来释放这个生物。
+tinymobfarm.gui.no_lasso=放入一个套索来启动农场。
+tinymobfarm.gui.redstone_disable=已被红石信号禁用。
+tinymobfarm.gui.higher_tier=这种生物需要更高级的农场。
+tinymobfarm.error.blacklisted_mob=这种生物在黑名单里。
+tinymobfarm.error.cannot_capture_boss=不能捕捉Boss类生物。
+itemGroup.tinymobfarm=小型生物农场
+tile.tinymobfarm:ultimate_farm.name=终极生物农场
+tile.tinymobfarm:inferno_farm.name=下界生物农场
+tile.tinymobfarm:emerald_farm.name=绿宝石生物农场
+tile.tinymobfarm:diamond_farm.name=钻石生物农场
+tile.tinymobfarm:gold_farm.name=金制生物农场
+tile.tinymobfarm:iron_farm.name=铁制生物农场
+tile.tinymobfarm:stone_farm.name=石制生物农场
+tile.tinymobfarm:wood_farm.name=木制生物农场
+tile.tinymobfarm:default_mob_farm.name=生物农场
+item.tinymobfarm:lasso.name=套索
+
+tile.contenttweaker.overworld_block.name=§f主世界
+tile.contenttweaker.neb_block.name=§f下界
+tile.contenttweaker.edb_block.name=§f末地
+tile.contenttweaker.moonb_block.name=T0：月球
+tile.contenttweaker.meb_block.name=§3T1：水星
+tile.contenttweaker.mab_block.name=§cT2：火星
+tile.contenttweaker.veb_block.name=§eT3：金星
+tile.contenttweaker.plb_block.name=§7T4：冥王星
+tile.contenttweaker.ceb_block.name=§9T5：谷神星
+tile.contenttweaker.mmb_block.name=§6T6：鸟神星
+tile.contenttweaker.hab_block.name=§5T7：妊神星
+tile.contenttweaker.npb_block.name=§2T8：奈佩里
+tile.contenttweaker.anb_block.name=§l§6T9：阿努比斯
+tile.contenttweaker.mhb_block.name=§l§3T9：马赫斯
+tile.contenttweaker.hob_block.name=§l§5T9：荷鲁斯
+tile.contenttweaker.seb_block.name=§l§bT9：赛特
+tile.contenttweaker.tfb_block.name=§l§8暮色森林
+tile.contenttweaker.ddb_block.name=§l§0T10：漆黑世界
+item.contenttweaker.sssssscore.name=§6压缩超光速奇点
+item.contenttweaker.nanites_dusts.name=§3衔星引力尘埃
+item.contenttweaker.riotdata.name=§4暴乱数据
+item.contenttweaker.planet_ff.name=§9星体磁令
+item.contenttweaker.hypercrystal.name=§6超蕴源晶
+
+
+new.particle_accelerator.tooltip0=§9无限向上，我们做好准备。
+new.particle_accelerator.tooltip1=§4物质变化，带动科技的整体成长！
+
+new.surmount_ae.tooltip0=§9依照超能计划标准 §6AE-CHAOS-0001 §9制造的高效规能矩阵塔
+new.surmount_ae.tooltip1=§3可以是个有用的机器，不考虑造价的话（）
+
+new.starmagn-pro.tooltip0=§9依照超能计划标准 §6PRO-STMA-5000 §9制造的星力延变凝护器
+new.starmagn-pro.tooltip1=§3这个跨越很短暂，还好未来是长远的。
+
+new.surmount-uts.tooltip0=§9依照超能计划标准 §6UTS-UNIV-9999 §9制造的超限星能烘炉
+new.surmount-uts.tooltip1=§3这个跨越很短暂，还好未来是长远的。
+new.surmount-uts.tooltip2=————该机器主要用作星球制造。
+
+new.wallcreation.tooltip0=§9依照超能计划标准 §6CRE-WALL-10000 §9装配的星辉转化仪式
+new.wallcreation.tooltip1=§1超级造物
+new.wallcreation.tooltip2=§3走到今天，我们亲手造就无限。
+new.wallcreation.tooltip3=§4过往的先贤，也请将力量赐予我，开拓未来！
+
+new.newengineerworkshop1.tooltip0=§2依照超能计划标准 §7EW-0001 §2制造的自动化工坊
+new.newengineerworkshop1.tooltip1=§7也许它能帮到你？谁知道呢？
+
+new.superelect.tooltip0=§7始于无厘头的厘头牌机器，并不强大，也帮不到你（）

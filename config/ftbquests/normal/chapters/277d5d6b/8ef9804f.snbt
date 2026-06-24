@@ -1,0 +1,19 @@
+{
+	title: "更先进的魔法也是魔法",
+	x: 29.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "04fa1cab",
+		type: "item",
+		items: [{
+			item: "novaeng_core:extendable_digital_storage_subsystem_l6"
+		}]
+	}]
+}

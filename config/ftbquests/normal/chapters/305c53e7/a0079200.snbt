@@ -1,0 +1,26 @@
+{
+	title: "空间站用电需求",
+	x: -9.0d,
+	y: 1.5d,
+	text: [
+		"因氧气排放口需用电才能供氧，故空间站需发电设备或存点设施。",
+		"个人解决方案为携带输导矩阵4X4X4一套，充电后携带放入空间站进行多方块及氧气供电。",
+		"别忘记带电线~"
+	],
+	dependencies: [
+		"683583e2"
+	],
+	tasks: [{
+		uid: "2455eb14",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a512b4f4",
+		type: "item",
+		item: {
+			Damage: 26s,
+			tag: {},
+			id: "ic2:re_battery"
+		}
+	}]
+}

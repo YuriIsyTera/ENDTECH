@@ -1,0 +1,19 @@
+{
+	x: 57.5d,
+	y: -5.5d,
+	text: [
+		"为了终章的中子压缩复制机而制造的辅助装置",
+		"那玩意出来之前做了也没用"
+	],
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "d4f75e88",
+		type: "item",
+		items: [{
+			item: "modularmachinery:nsemc_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

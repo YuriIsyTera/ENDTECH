@@ -1,0 +1,33 @@
+{
+	title: "注灵祭坛的小小保底",
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"找遗灵总比注灵祭坛简单，对吧，实在找不到求求你别跑图了",
+		"",
+		"你一定要注意这个物品的摆放！它是基岩硬度的！如果你放错了位置，那么你就只能在制造出世界崩解之镐后再把它挖下来了",
+		"（ps：匠魂碎金材质的镐子的特效疑似可以把它弄下来）"
+	],
+	dependencies: [
+		"24424d0d"
+	],
+	tasks: [{
+		uid: "088708ff",
+		type: "kill",
+		entity: "ebwizardry:remnant",
+		value: 64L
+	}],
+	rewards: [{
+		uid: "1fbb3912",
+		type: "item",
+		team_reward: 1b,
+		item: "ebwizardry:imbuement_altar"
+	},
+	{
+		uid: "a925387d",
+		type: "item",
+		team_reward: 1b,
+		item: "ebwizardry:receptacle",
+		count: 4
+	}]
+}

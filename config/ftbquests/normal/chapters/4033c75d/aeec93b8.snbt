@@ -1,0 +1,49 @@
+{
+	title: "终极保底",
+	icon: {
+		Damage: 1s,
+		tag: {
+			entityId: "mekanism:babyskeleton"
+		},
+		id: "enderio:item_soul_vial"
+	},
+	x: 78.5d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "只需要完成任意一个前置！",
+	text: [
+		"奇点爆炸的光华转瞬即逝",
+		"",
+		"但是这刹那光阴，足以让你自世界中捞出你所想之物"
+	],
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"5771f19a",
+		"e82465c1",
+		"bc2266ac",
+		"52da9435"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "70be0088",
+		type: "item",
+		items: [{
+			item: "mekanism:antimatterpellet"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7cc6bb0e",
+		type: "item",
+		items: [{
+			item: "eternalsingularity:eternal_singularity"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "001b4c42",
+		type: "choice",
+		table: 1
+	}]
+}

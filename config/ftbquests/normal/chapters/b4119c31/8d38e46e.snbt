@@ -1,0 +1,18 @@
+{
+	x: -7.5d,
+	y: -6.5d,
+	text: [
+		"很难评价它的实用性，因为它真的只能充能",
+		"我说，热力的不好吗"
+	],
+	dependencies: [
+		"82f06c01"
+	],
+	tasks: [{
+		uid: "53ff1892",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 5"
+		}]
+	}]
+}

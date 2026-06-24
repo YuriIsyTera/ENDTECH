@@ -1,0 +1,25 @@
+{
+	x: -24.5d,
+	y: 2.0d,
+	text: [
+		"连接器（Linker）是一种辅助性物品，用于高级火箭mod部分机器的链接绑定，如燃油站、火箭监测站等。"
+	],
+	dependencies: [
+		"5517aa86"
+	],
+	tasks: [{
+		uid: "656b7f82",
+		type: "item",
+		items: [{
+			item: "libvulpes:linker"
+		}],
+		count: 2L,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efb5e2c8",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

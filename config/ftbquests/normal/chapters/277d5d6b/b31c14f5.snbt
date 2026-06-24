@@ -1,0 +1,20 @@
+{
+	x: 34.5d,
+	y: 4.5d,
+	text: [
+		"本阶段的最高级发电设备之一",
+		"并且将会是你混沌碎片的最稳定来源（而不是使用复制机复制）"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"3ae1e9ff"
+	],
+	tasks: [{
+		uid: "2e8ce896",
+		type: "item",
+		items: [{
+			item: "modularmachinery:draconic_reactor_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

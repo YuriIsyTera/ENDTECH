@@ -1,0 +1,20 @@
+{
+	x: 37.5d,
+	y: 4.5d,
+	text: [
+		"嗯....",
+		"非常没用，做出来可能仅供观赏"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"811cd082"
+	],
+	tasks: [{
+		uid: "a64b5dd6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:pelotrio_ritual_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -7.0d,
+	y: 4.5d,
+	text: [
+		"生产星能液",
+		"堆聚星缸毕竟还是有点卡"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8449ab25"
+	],
+	tasks: [{
+		uid: "48dee6a9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:starlight_well_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

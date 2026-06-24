@@ -1,0 +1,66 @@
+{
+	title: "抽象王中王赞助播出",
+	icon: {
+		Damage: 1s,
+		tag: {
+			sacrifice: 0b
+		},
+		id: "bloodmagic:sacrificial_dagger"
+	},
+	x: 6.0d,
+	y: 4.5d,
+	description: "999感冒灵颗粒清肺热治疗反复咳嗽",
+	text: [
+		"自从有了生命萃取祭坛，腰不酸了，腿不疼了,村民都不流血了",
+		"",
+		"为了腰更酸，腿更痛，手指更流血,不如我们把它卖了吧"
+	],
+	dependencies: [
+		"f16f1bc7",
+		"6abdaa67"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "f262fb77",
+		type: "item",
+		items: [{
+			item: "modularmachinery:life_extracts_altar_controller"
+		}],
+		count: 9L,
+		consume_items: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2eb0ca34",
+		type: "item",
+		items: [{
+			tag: {
+				orb: "bloodmagic:transcendent"
+			},
+			id: "bloodmagic:blood_orb"
+		}],
+		count: 9L,
+		consume_items: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c663d384",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}],
+		count: 9L,
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "6dd58f0c",
+		type: "item",
+		item: {
+			Damage: 1s,
+			tag: {
+				sacrifice: 0b
+			},
+			id: "bloodmagic:sacrificial_dagger"
+		}
+	}]
+}

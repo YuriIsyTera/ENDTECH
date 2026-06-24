@@ -1,0 +1,21 @@
+{
+	x: 60.5d,
+	y: -3.0d,
+	text: [
+		"为了等离子体，必须得做",
+		"事实上，它也是y7后一台不错的发电机",
+		"怎么看本质上都是mek反应堆升级版"
+	],
+	dependencies: [
+		"3ae1e9ff",
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "2ac5af50",
+		type: "item",
+		items: [{
+			item: "modularmachinery:tokmak_reactor_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

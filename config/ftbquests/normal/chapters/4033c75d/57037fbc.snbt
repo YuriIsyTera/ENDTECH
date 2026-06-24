@@ -1,0 +1,15 @@
+{
+	x: 64.0d,
+	y: -3.0d,
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "6aae696c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:research_station_t3_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

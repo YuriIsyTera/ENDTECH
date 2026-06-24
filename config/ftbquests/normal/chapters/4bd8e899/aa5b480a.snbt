@@ -1,0 +1,60 @@
+{
+	x: -9.5d,
+	y: -11.0d,
+	text: [
+		"所有的仓室！",
+		"造点吧，更高级的仓也是从低级开始升级的"
+	],
+	dependencies: [
+		"67c883aa"
+	],
+	tasks: [{
+		uid: "44de6081",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d432282a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch"
+		}]
+	},
+	{
+		uid: "a710c24d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "5ce44867",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch"
+		}]
+	},
+	{
+		uid: "6c75b86d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "bf4a117a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	}],
+	rewards: [{
+		uid: "0ac796b9",
+		type: "item",
+		item: "modularmachinery:blockcasing",
+		count: 16
+	}]
+}

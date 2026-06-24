@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: -2.5d,
+	text: [
+		"使用它就可以拥有无限的水！",
+		"",
+		"无————限————产水量取决于你的管道抽取速度！",
+		"",
+		"注意，注意，注意，如果你试图使用此物品和流体存储总线为ae存储无限的水源，你一定要在流体存储总线内标记水",
+		"我不为你不标记所导致的任意后果负责"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"2d799b84",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "897c4ba1",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	}],
+	rewards: [{
+		uid: "481ccfe0",
+		type: "item",
+		item: "cookingforblockheads:sink"
+	}]
+}

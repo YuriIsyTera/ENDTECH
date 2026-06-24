@@ -1,0 +1,12 @@
+{
+	title: "直达深度怪物学习",
+	x: -6.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	custom_click: "https://www.mcmod.cn/class/1631.html",
+	dependencies: [
+		"3ca26dec"
+	]
+}

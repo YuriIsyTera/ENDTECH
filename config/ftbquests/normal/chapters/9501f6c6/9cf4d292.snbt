@@ -1,0 +1,14 @@
+{
+	title: "沉浸工艺的百科直通车",
+	x: -18.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	custom_click: "https://www.mcmod.cn/class/463.html",
+	dependencies: [
+		"1021c181",
+		"8309e1a6"
+	],
+	hide: 1b
+}

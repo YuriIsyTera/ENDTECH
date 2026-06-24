@@ -1,0 +1,26 @@
+{
+	title: "一切都从大地下的它们开始说起",
+	x: -9.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e3c296c2"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "fbf07128",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		}]
+	},
+	{
+		uid: "80faeb86",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -45.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"他很好用,真的",
+		"这是你理论上第一个能做的'终末工程'机器,继续推进吧！",
+		"拥有4096并行"
+	],
+	dependencies: [
+		"90093ee2"
+	],
+	dependency_requirement: "all_started",
+	size: 2.0d,
+	tasks: [{
+		uid: "34cab8b3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:precisecomplex_factory_controller"
+		}]
+	}]
+}

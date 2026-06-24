@@ -1,0 +1,20 @@
+{
+	x: 80.0d,
+	y: -5.0d,
+	text: [
+		"曾经发电最高的发电机",
+		"",
+		"神陨落了，现在他不是最高发电的发电机了"
+	],
+	dependencies: [
+		"8494f519"
+	],
+	tasks: [{
+		uid: "fd815b54",
+		type: "item",
+		items: [{
+			item: "modularmachinery:starburst_reactor_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

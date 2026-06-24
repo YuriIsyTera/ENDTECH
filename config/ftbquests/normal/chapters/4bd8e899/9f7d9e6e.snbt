@@ -1,0 +1,18 @@
+{
+	x: -14.5d,
+	y: -11.0d,
+	text: [
+		"虽然你大概率不会用这个，我是说你很快就去做更好的玄钢版本了，但是写着也不碍事"
+	],
+	dependencies: [
+		"747f0037"
+	],
+	tasks: [{
+		uid: "827b002e",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}]
+}

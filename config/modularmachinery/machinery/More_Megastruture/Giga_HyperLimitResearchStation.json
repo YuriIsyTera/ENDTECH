@@ -1,0 +1,402 @@
+{
+    "registryname": "Giga_HyperLimitResearchStation",
+    "localizedname": "§e矩阵§3研究站§f",
+    "failure-action": "still",
+    "has_factroy": "yes",
+    "requires-blueprint": false,
+    "factory-only": true,
+    "hide-components-when-formed":true,
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:giga_hyperlimitresearchstation_factory_controller@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_testifi_bucks_white_fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_testifi_bucks_white_fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_testifi_bucks_white_fence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_testifi_bucks_white_fence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_testifi_bucks_white_fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_testifi_bucks_white_fence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_testifi_bucks_white_fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_testifi_bucks_white_fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        }
+    ]}

@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	text: [
+		"重要的采矿设备，现在你可以挖掘环境科技的水晶了",
+		"当然，研究够的前提下"
+	],
+	dependencies: [
+		"4f027396"
+	],
+	tasks: [{
+		uid: "e8b81452",
+		type: "item",
+		items: [{
+			item: "modularmachinery:small_ore_drill_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

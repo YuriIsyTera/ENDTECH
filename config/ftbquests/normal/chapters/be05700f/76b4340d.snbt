@@ -1,0 +1,12 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"4cce4afc"
+	],
+	tasks: [{
+		uid: "c37aba04",
+		type: "checkmark",
+		title: "征服星海"
+	}]
+}

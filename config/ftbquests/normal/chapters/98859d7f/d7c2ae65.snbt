@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: [
+		"48047720"
+	],
+	tasks: [{
+		uid: "5caf66bc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:spirit_forge_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

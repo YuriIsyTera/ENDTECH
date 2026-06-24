@@ -1,0 +1,29 @@
+{
+	title: "存储卡",
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"末影设备mod的存储所需存储卡，有更高堆叠的升级版"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "38d14c0f",
+		type: "item",
+		items: [{
+			item: "enderutilities:enderpart 1 51"
+		},
+		{
+			item: "enderutilities:enderpart 1 52"
+		},
+		{
+			item: "enderutilities:enderpart 1 53"
+		},
+		{
+			item: "enderutilities:enderpart 1 54"
+		}],
+		only_from_crafting: 0b
+	}]
+}

@@ -1,0 +1,226 @@
+{
+	title: "天神之器",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"我不明白，你到底多闲才会全都做一遍？"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"2536f21d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "9721d623",
+		type: "item",
+		items: [{
+			tag: {
+				display: {
+					Name: "Alpha's Stacked 32k 's",
+					Lore: [
+						"§9难度: §c11+"
+					]
+				},
+				Unbreakable: 1b,
+				ench: [{
+					id: 16s,
+					lvl: 32767s
+				},
+				{
+					id: 19s,
+					lvl: 10s
+				},
+				{
+					id: 20s,
+					lvl: 32767s
+				},
+				{
+					id: 21s,
+					lvl: 10s
+				},
+				{
+					id: 22s,
+					lvl: 3s
+				},
+				{
+					id: 34s,
+					lvl: 32767s
+				},
+				{
+					id: 70s,
+					lvl: 1s
+				},
+				{
+					id: 71s,
+					lvl: 1s
+				}]
+			},
+			id: "minecraft:diamond_sword"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "bc8eef14",
+		type: "item",
+		items: [{
+			tag: {
+				display: {
+					Name: "§c覆灭§d千星",
+					Lore: [
+						"§9难度: §c12+"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 58,
+					Materials: [
+						"chaotic_metal",
+						"infinity_metal",
+						"universal_metal",
+						"soularium"
+					],
+					Modifiers: [
+						"tconevo.draconic_energy",
+						"tconevo.draconic_draw_speed",
+						"tconevo.draconic_arrow_speed",
+						"toolleveling",
+						"tconevo.entropic",
+						"tconevo.flux_burn",
+						"tconevo.reaping",
+						"creative",
+						"fiery",
+						"beheading",
+						"necrotic",
+						"sharpness",
+						"haste",
+						"soulbound",
+						"emerald",
+						"diamond",
+						"tconevo.photovoltaic",
+						"tconevo.primordial"
+					]
+				},
+				Unbreakable: 1b
+			},
+			id: "tconstruct:longbow"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "82c2aaf9",
+		type: "item",
+		items: [{
+			tag: {
+				display: {
+					Name: "§cECO-§dK9000",
+					Lore: [
+						"§9难度: §c11+",
+						"§cECO武器实验室实验品",
+						"§e利用了异世界水晶异常强大的力量",
+						"其威力可以远超其前作 K8000",
+						"使用全新的合金载体,使得武器可以利用异世界水晶内 30% 的能量"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 54,
+					Materials: [
+						"endrod",
+						"infinity_metal",
+						"invar"
+					],
+					Modifiers: [
+						"toolleveling",
+						"tconevo.entropic",
+						"sharpness",
+						"tconevo.flux_burn",
+						"creative",
+						"luck",
+						"beheading",
+						"necrotic",
+						"fiery",
+						"tconevo.reaping",
+						"emerald",
+						"diamond",
+						"soulbound",
+						"extratraittntexplosive",
+						"tconevo.primordial",
+						"fins"
+					]
+				},
+				Unbreakable: 1b
+			},
+			id: "tconstruct:arrow"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "05165f9d",
+		type: "item",
+		items: [{
+			tag: {
+				display: {
+					Name: "§5二踢脚 §bEX§9+",
+					Lore: [
+						"§9难度: §c12"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 67,
+					Materials: [
+						"universal_metal",
+						"infinity_metal",
+						"platinum",
+						"nihilite"
+					],
+					Modifiers: [
+						"toolleveling",
+						"extratraitvibrant_crystaltconevo.chain_lightning",
+						"creative",
+						"tconevo.entropic",
+						"webbed",
+						"tconevo.flux_burn",
+						"tconevo.primordial",
+						"tconevo.reaping",
+						"knockback",
+						"beheading",
+						"necrotic",
+						"soulbound",
+						"luck",
+						"sharpness",
+						"shulking",
+						"haste",
+						"fiery",
+						"emerald",
+						"diamond"
+					]
+				},
+				Unbreakable: 1b
+			},
+			id: "tconevo:tool_sceptre"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "1769497a",
+		type: "item",
+		item: "minecraft:bedrock"
+	},
+	{
+		uid: "487201c2",
+		type: "item",
+		item: "minecraft:dirt"
+	},
+	{
+		uid: "bb81725f",
+		type: "item",
+		item: "mets:titanium_block"
+	},
+	{
+		uid: "66267c89",
+		type: "item",
+		item: "minecraft:coal_block"
+	}]
+}

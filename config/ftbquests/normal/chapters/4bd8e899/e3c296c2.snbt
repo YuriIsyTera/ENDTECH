@@ -1,0 +1,24 @@
+{
+	title: "基建的核心！",
+	x: -14.0d,
+	y: -7.0d,
+	description: "完成后开启ae章节",
+	text: [
+		"一切为了伟大的ae2"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "be1bd8b8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material"
+		},
+		{
+			item: "appliedenergistics2:material 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

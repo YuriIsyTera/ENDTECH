@@ -1,0 +1,115 @@
+{
+	title: "手握时间",
+	icon: "zettaigrimoires:zettai_grimoire",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"...真是不可思议",
+		"你发现来自星辰的时间力量，可以与战胜大地意志所得的证明铸造的最好的魔力传导材料发生反应",
+		"只是反应显然并不能利用这些力量，你收集了一些被光阴腐蚀到只剩下残留魔力的书籍，试图组成你所能使用的法术书形式",
+		"暴力的结合最后失败告终，不过你想到了更好的主意，在更接近星辰的地方，干扰一定小很多，我看月球上不错",
+		"努力终有回报"
+	],
+	dependencies: [
+		"2cff4515"
+	],
+	tasks: [{
+		uid: "599228f9",
+		type: "item",
+		items: [{
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						sizeOverride: -1,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0
+					},
+					constellationName: "astralsorcery.constellation.horologium"
+				}
+			},
+			id: "astralsorcery:itemtunedcelestialcrystal"
+		}],
+		count: 4L,
+		consume_items: 1b,
+		ignore_nbt: 1b,
+		only_from_crafting: 0b
+	},
+	{
+		uid: "2bebcd7a",
+		type: "item",
+		items: [{
+			item: "ebwizardry:ruined_spell_book"
+		}],
+		count: 32L,
+		consume_items: 1b
+	},
+	{
+		uid: "37b7a6ce",
+		type: "item",
+		items: [{
+			tag: {
+				Material: "extrabotany:ingotorichalcos"
+			},
+			id: "tconstruct:large_plate"
+		}],
+		count: 2L,
+		consume_items: 1b
+	},
+	{
+		uid: "2ac8938c",
+		type: "dimension",
+		title: "前往高级火箭的月球",
+		dim: 100
+	}],
+	rewards: [{
+		uid: "c504e9eb",
+		type: "item",
+		item: {
+			tag: {
+				maxCooldown: [I;
+					1,
+					200,
+					0,
+					0,
+					0
+				],
+				spells: [I;
+					170,
+					171,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				cooldown: [I;
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				selectedSpell: 0,
+				upgrades: {
+					blast: 16,
+					storage: 10
+				},
+				display: {
+					Name: "#76EEC6时间恒流之息",
+					Lore: [
+						"#76EEC6纵使那长河自开天 便永恒奔流不止",
+						"#76EEC6你也可只手断流，截断长河",
+						"#76EEC6你所控之领域,时间在你的意志之下行走"
+					]
+				}
+			},
+			id: "zettaigrimoires:grimoire_sorcery"
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"76b4340d"
+	],
+	tasks: [{
+		uid: "bacd9719",
+		type: "item",
+		items: [{
+			item: "modularmachinery:groundzero_factory_controller"
+		}]
+	}]
+}

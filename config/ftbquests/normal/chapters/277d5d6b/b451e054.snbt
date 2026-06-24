@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		"远离矿脉！"
+	],
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "d32ed12f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:void_miner_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

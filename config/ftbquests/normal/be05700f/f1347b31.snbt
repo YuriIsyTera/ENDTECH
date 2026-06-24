@@ -1,0 +1,15 @@
+{
+	x: -39.0d,
+	y: 2.0d,
+	description: "他不仅是必要的,而且很强",
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "ba16adcf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:prometheus_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "铲刀",
+	x: -5.5d,
+	y: 4.0d,
+	shape: "hexagon",
+	text: [
+		"你的手法过于暴力导致你把水晶石铲坏了！"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"5f62f93e",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "87bf1a9b",
+		type: "item",
+		disable_toast: 1b,
+		items: [{
+			tag: {},
+			id: "astralsorcery:itemcelestialcrystal"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3efacbe3",
+		type: "item",
+		item: {
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 0,
+						sizeOverride: -1,
+						purity: 0,
+						collectiveCapability: 0,
+						fract: 99
+					}
+				}
+			},
+			id: "astralsorcery:itemcelestialcrystal"
+		}
+	}]
+}

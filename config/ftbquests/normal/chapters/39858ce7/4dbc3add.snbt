@@ -1,0 +1,37 @@
+{
+	title: "星辉祭坛",
+	x: 3.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5f62f93e",
+		"d66f9a00"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6a338a56",
+		type: "observation",
+		icon: "astralsorcery:blockaltar 1 1",
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_2"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "9f886fbb",
+		type: "command",
+		team_reward: 0b,
+		auto: "invisible",
+		command: "/astralsorcery research @p ATTUNEMENT"
+	},
+	{
+		uid: "6a042e35",
+		type: "custom",
+		team_reward: 0b,
+		auto: "invisible"
+	}]
+}

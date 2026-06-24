@@ -1,0 +1,21 @@
+{
+	x: 32.0d,
+	y: -2.5d,
+	shape: "square",
+	text: [
+		"陨石自动化的唯一来源，陨石大量需求"
+	],
+	dependencies: [
+		"7b7c157a",
+		"e89ab819"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "65ef0c98",
+		type: "item",
+		items: [{
+			item: "modularmachinery:phase_planet_traction_tower_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

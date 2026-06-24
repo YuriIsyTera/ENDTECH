@@ -1,0 +1,111 @@
+{
+	title: "终末工程",
+	icon: "contenttweaker:stargatecore",
+	description: [
+		"ProjectBlackhole  x  MoreEngineeringMegaStructure",
+		"此任务线并非'新星工程'原版添加",
+		"跨越万千星海，直抵终末之终末"
+	],
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -40.0d,
+		y: 0.0d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "endtech:textures\\levels\\longway_01.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -20.0d,
+		y: 0.0d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "endtech:textures\\levels\\longway_02.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 0.0d,
+		y: 0.0d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "endtech:textures\\levels\\longway_03.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 20.0d,
+		y: 0.0d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "endtech:textures\\levels\\longway_04.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 40.0d,
+		y: 0.0d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "endtech:textures\\levels\\longway_05.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 60.0d,
+		y: 0.0d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "endtech:textures\\levels\\longway_06.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -41.0d,
+		y: -4.5d,
+		width: 2.5d,
+		height: 2.5d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures\\items\\coil_v5.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -40.0d,
+		y: 6.0d,
+		width: 13.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l15.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -20.0d,
+		y: 6.0d,
+		width: 13.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l15.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

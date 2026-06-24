@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"盖亚猎杀者",
+		"也许是"
+	],
+	dependencies: [
+		"ed100f1b"
+	],
+	tasks: [{
+		uid: "76f3050f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:alfheim_portal_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

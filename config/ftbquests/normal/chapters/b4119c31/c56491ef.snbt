@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	text: [
+		"打开它，往里面插3个容量卡",
+		"然后打开me接口和样板终端时你就知道他有什么用了",
+		"调整完样板建议立刻取出，以及不要使用这玩意把样板的材料翻倍到64个以上",
+		"会导致样板不能被识别，鬼知道为什么"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"5dd6311a"
+	],
+	tasks: [{
+		uid: "1bd16da9",
+		type: "item",
+		items: [{
+			item: "nae2:pattern_multiplier"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

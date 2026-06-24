@@ -1,0 +1,22 @@
+{
+	x: 57.5d,
+	y: -0.5d,
+	text: [
+		"终极UU物质生产！超越一切物质生产机！",
+		"",
+		"你应该使用机械流体输出总线而不是普通的流体输出仓",
+		"",
+		"它的生产实在太快了，或许你可以想点办法控制一下？"
+	],
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "2c2477fe",
+		type: "item",
+		items: [{
+			item: "modularmachinery:zero_factor_converter_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -20.0d,
+	y: 0.0d,
+	text: [
+		"不再仿徨，只是坚定。"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"75a32547"
+	],
+	tasks: [{
+		uid: "f95b855a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:starmagn-pro_factory_controller"
+		}]
+	}]
+}

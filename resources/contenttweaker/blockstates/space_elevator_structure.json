@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "contenttweaker:blocks/space_elevator_structure_up_part",
+      "1": "contenttweaker:blocks/space_elevator_structure",
+      "particle": "contenttweaker:blocks/space_elevator_structure"
+	  },
+    "model": "contenttweaker:space_elevator_structure_core",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

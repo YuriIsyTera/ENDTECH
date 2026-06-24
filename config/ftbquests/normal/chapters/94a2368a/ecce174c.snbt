@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"11f05442",
+		"1fd91d12"
+	],
+	tasks: [{
+		uid: "09d1af32",
+		type: "item",
+		items: [{
+			item: "modularmachinery:alfheim_portal_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

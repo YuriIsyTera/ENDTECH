@@ -1,0 +1,51 @@
+{
+	title: "复制神迹",
+	x: 82.0d,
+	y: -1.0d,
+	shape: "hexagon",
+	text: [
+		"真正的超凡设计",
+		"制造奇迹！"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"2536f21d"
+	],
+	tasks: [{
+		uid: "7ad9881b",
+		type: "fluid",
+		fluid: "crystalloid",
+		amount: 114514000
+	}],
+	rewards: [{
+		uid: "30b72e6a",
+		type: "item",
+		item: {
+			tag: {
+				t: "i",
+				r: {
+					Slot: 0b,
+					Damage: 3s,
+					Count: 1,
+					id: "minecraft:skull",
+					tag: {
+						display: {
+							Name: "Kasumi_Nova的头"
+						},
+						SkullOwner: {
+							Name: "Kasumi_Nova",
+							Id: "92396ca4-e643-44e8-b3dc-61d35fc0127d",
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NTYxNzM1ODE1OSwKICAicHJvZmlsZUlkIiA6ICI5MjM5NmNhNGU2NDM0NGU4YjNkYzYxZDM1ZmMwMTI3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYXN1bWlfTm92YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ODQ1OWU5ZmQ1YzQxZTlhZWYxMzVjYzdjYzUwMWM2MTBjMDA2Y2UzYzQxNzYwYTUwYTA5MmZhYzJmZDYxYzNkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+									Signature: "QGS5qfCsxdUMTHPIJ9W9PBJkP0bu26NwlK1OmjiyN17kmPDHDd+j0Ao+SbIpv/pxGaItBfRq52ETsOwbTe3mnnNWv3JooQN8YlEHVaZrZK/32i01Y53MUDZ3JtVJPEiIb3EOkhIciGUMeRpNTa9CVv5skOn+rye0f/eetQRUFAZKRSdgW7Gz1MnqzAPOCct69RHcHCCnwny/DSGnNsnfz+AJKOyubdRHBZbX/+Ug+8AMa2ava/rrMFV5h8oTT57awpBsnKsWac1Mijk/8wmpci6bA8b8xiIBBmLV//tGj/iU1eusfx+zkanYDdPoLOmxf00vkblyf/Rt4oNbp/h9f3d7+SnnwPCzvUvKm2GzngVmS35epIZGshU3/cuvBOmvGNLZux5x2ykxCwECsJhEVy7lvzpYMC5iNH1i3hZVqKGLOcBSOFBSz0vlAyMAkJnmlCW2TBaXbx/O5LdC/czLCqGpRfmlUjBz8RA27WVQ/HvCG/ys0s3JBJGYHD/xVcGwMFuIQPR4GCCAIEUxLO/o23c+4mSowugj5phZ7WUEl7A6O8m3cAcx3kyj8k4SmMsBo1pf7Khmq4KRznMrv9JZnkIOGXOpqjzCccj7C9B0S5v/Viz1/9K1jaPxdkcm4qk6XVFCru5yvKGb5Jc9H+W4KuvHGi1WbbSBNU2ftZ7GojY="
+								}]
+							}
+						}
+					}
+				}
+			},
+			id: "extendedae:infinity_cell"
+		}
+	}]
+}

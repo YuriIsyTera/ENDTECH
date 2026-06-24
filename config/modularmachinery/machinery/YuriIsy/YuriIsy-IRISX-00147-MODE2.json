@@ -1,0 +1,85 @@
+{
+    "registryname": "irisx_00147_mode2",
+    "localizedname": "#FE0101-FF9742IRISX-00147§4§l余烬§r§c工程§c高温铸造核心",
+    "failure-action": "still",
+    "factory-only": true,
+    "requires-blueprint": false,
+    "color": "251A1A",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "fluid_in"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "item_out"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "item_in"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        }
+    ]}

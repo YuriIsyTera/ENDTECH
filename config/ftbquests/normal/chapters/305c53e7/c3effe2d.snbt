@@ -1,0 +1,20 @@
+{
+	x: -20.0d,
+	y: 0.0d,
+	text: [
+		"当你成功登月之后，下一步就是建造并发射一个空间站，完成你的使命！"
+	],
+	dependencies: [
+		"ad710341"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "c04b0fde",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "076c3f4a",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	disable_toast: 1b,
+	x: -42.5d,
+	y: 0.0d,
+	text: [
+		"终末工程的核心装配多方块",
+		"以0.1倍的时间消耗执行工业机械臂，集成式处理车间，装配线的所有配方",
+		"同时具有大量独占核心配方",
+		"叩响新时代的大门"
+	],
+	dependencies: [
+		"049925d2"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "25034fa4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:atomicprocessequipx_factory_controller"
+		}]
+	}]
+}

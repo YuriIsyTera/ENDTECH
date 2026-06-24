@@ -1,0 +1,13 @@
+{
+	title: "血魔法2的百科链接",
+	x: -0.5d,
+	y: 1.0d,
+	shape: "square",
+	custom_click: "https://www.mcmod.cn/class/528.html",
+	dependencies: [
+		"84b7331e",
+		"8309e1a6",
+		"d2d1bda6"
+	],
+	hide: 1b
+}

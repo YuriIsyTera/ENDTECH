@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: 4.5d,
+	text: [
+		"放入一把抢夺3感知剑和一个数据模型，体验极致人生！",
+		"",
+		"背包里有一个满的16384魂石时，感知剑右键空气然后放入其中可以提高恶魔意志产出",
+		"没满也行，提升幅度会等比例下降"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"0d6f09bc"
+	],
+	tasks: [{
+		uid: "2ba5dda6",
+		type: "item",
+		items: [{
+			item: "deepmoblearningbm:digital_will_injector"
+		}]
+	}]
+}

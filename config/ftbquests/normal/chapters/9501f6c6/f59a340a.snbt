@@ -1,0 +1,21 @@
+{
+	title: "真是。。。。奇妙",
+	x: -13.0d,
+	y: 0.0d,
+	text: [
+		"难道你真是天才 ？想出如此办法跳过焦炉",
+		"这一切真的值得 吗？"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"0ce2b205"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "5ccdd814",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 258"
+		}]
+	}]
+}

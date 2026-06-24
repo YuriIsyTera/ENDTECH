@@ -1,0 +1,26 @@
+{
+	x: -24.5d,
+	y: -1.0d,
+	text: [
+		"星球ID芯片（Planet Id Chip）是一种用于给火箭飞行导航的ID芯片。",
+		"放在导航电脑上可以选择星球（只能是当前行星系统中的星球）",
+		"如果不放该芯片而直接在导航电脑界面中选择了星球，那么在玩家坐上火箭时，",
+		"屏幕上不会出现目的地，发射更不可能到达选的星球。",
+		"本服务器直接选择地球即可。跃迁未开放。"
+	],
+	dependencies: [
+		"5517aa86"
+	],
+	tasks: [{
+		uid: "4184bb7d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:planetidchip"
+		}]
+	}],
+	rewards: [{
+		uid: "fb7dddc5",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

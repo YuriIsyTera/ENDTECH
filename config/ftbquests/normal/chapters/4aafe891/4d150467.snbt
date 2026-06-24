@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	text: [
+		"满足你无尽块铺地板的梦想！"
+	],
+	dependencies: [
+		"4b3f3220"
+	],
+	tasks: [{
+		uid: "68a7175f",
+		type: "item",
+		items: [{
+			item: "enderio:block_painter"
+		}],
+		ignore_nbt: 1b
+	}]
+}

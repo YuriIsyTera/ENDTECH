@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	text: [
+		"计算机的提升在于更多的模块总线位置和散热",
+		"散热才是最重要的，一旦过热，你的算力就是0",
+		"可以视为2散热为1T算力上限"
+	],
+	dependencies: [
+		"bee64ea6"
+	],
+	tasks: [{
+		uid: "b2c20fef",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t2_factory_controller"
+		}]
+	}]
+}

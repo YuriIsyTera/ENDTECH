@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	text: [
+		"一块魂石，这不错",
+		"作为你第一个魂石的奖励，我送你个满的"
+	],
+	dependencies: [
+		"1b7cd2b4"
+	],
+	tasks: [{
+		uid: "db632d53",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "bloodmagic:soul_gem"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5bae399",
+		type: "item",
+		item: {
+			tag: {
+				souls: 64.0d
+			},
+			id: "bloodmagic:soul_gem"
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	tags: [
+		""
+	],
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"这是一个来自核电工艺的合金炉",
+		"你应该不至于这也需要教程吧?"
+	],
+	dependencies: [
+		"41d497d8"
+	],
+	tasks: [{
+		uid: "6dfc59fa",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy_furnace"
+		}]
+	}]
+}

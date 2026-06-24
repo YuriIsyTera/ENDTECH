@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: -3.0d,
+	text: [
+		"沉浸工程给你的爱"
+	],
+	dependencies: [
+		"486f1bc5"
+	],
+	tasks: [{
+		uid: "e9865d18",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 13"
+		}]
+	}]
+}

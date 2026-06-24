@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		"是，内存捏",
+		"后面的内存懒得写了，数据不都就在上面写着"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"bee64ea6"
+	],
+	tasks: [{
+		uid: "3bcc4e9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					hypernet_ram_t2: {}
+				}
+			},
+			id: "contenttweaker:hypernet_ram_t2"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

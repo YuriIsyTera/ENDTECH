@@ -1,0 +1,15 @@
+{
+	x: 22.0d,
+	y: -2.5d,
+	dependencies: [
+		"246afa01"
+	],
+	tasks: [{
+		uid: "df7b67c5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:advanced_liquid_conversion_machine_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

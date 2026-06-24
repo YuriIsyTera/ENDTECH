@@ -1,0 +1,114 @@
+{
+    "registryname": "Mega_SpaceElevatorMineModule",
+    "localizedname": "§b太空电梯资源采集模块§f",
+    "failure-action": "still",
+    "has_factroy": "yes",
+    "requires-blueprint": false,
+    "factory-only": true,
+    "color": "191970",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:spacexmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:spacexmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:spacexmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:spacexmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_elevator_connector@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:spacexmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:spacexmachineblock@0"
+            ]
+        }
+    ]}

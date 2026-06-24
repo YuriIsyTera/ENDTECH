@@ -1,0 +1,8329 @@
+{
+    "registryname": "asteroidlockdevice",
+    "localizedname": "§1行星§7封锁机构§r",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "color": "808080",
+    "factory-only": true,
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -9,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 10,
+
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmefluidoutputbus"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 13,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 13,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 20,
+
+            "elements": [
+                "modularmachinery:blockinputbus",
+                "modularmachinery:blockmeiteminputbus",
+                "modularmachinery:blockmepatternprovider@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 19,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 10,
+
+              "elements": [
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 19,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 16,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 19,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -9,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 19,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 8,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 12,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 7,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 13,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 13,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 17,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 6,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 14,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 18,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 16,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 4,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 12,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 19,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 19,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 15,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 18,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 12,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 11,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 13,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 12,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -4,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 7,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:darkmatterblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "minecraft:stained_glass@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": 14,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "minecraft:stained_glass@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 17,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:stablestructure@0"
+            ]
+        }
+    ]}

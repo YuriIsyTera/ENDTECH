@@ -1,0 +1,19 @@
+{
+	x: 42.5d,
+	y: -2.0d,
+	description: "目前的毕业目标",
+	text: [
+		"你几年前看到的一个限量玩偶",
+		"这是目前最贵的物品了(大概),他也是目前毕业目标,做出他吧"
+	],
+	dependencies: [
+		"5f1a517a"
+	],
+	tasks: [{
+		uid: "33146677",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rtg3521fumo"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"f560642f"
+	],
+	tasks: [{
+		uid: "fb2987ea",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}]
+}

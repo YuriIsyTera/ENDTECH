@@ -1,0 +1,32 @@
+{
+	title: "住在ae里的垃圾桶",
+	x: -5.5d,
+	y: 2.5d,
+	text: [
+		"注意！！！！！！！注意！！！！！！！！！！注意！！！！！！！！！！！",
+		"",
+		"使用前一定要使用元件工作台标记你需要销毁的物品或流体",
+		"不为你不标记导致的鬼哭狼嚎负任何责任"
+	],
+	dependencies: [
+		"01bbcb5a"
+	],
+	tasks: [{
+		uid: "ae6015de",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "nae2:storage_cell_void"
+		},
+		{
+			tag: {},
+			id: "nae2:fluid_storage_cell_void"
+		},
+		{
+			tag: {},
+			id: "nae2:gas_storage_cell_void"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

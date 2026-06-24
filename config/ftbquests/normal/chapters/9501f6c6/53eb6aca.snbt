@@ -1,0 +1,20 @@
+{
+	title: "章节作者特写",
+	x: -18.5d,
+	y: -2.0d,
+	text: [
+		"本章节主体由Ye_Zhi_Wu完成！",
+		"",
+		"是精修版（恼）",
+		"怎么写一堆奇怪的任务出来"
+	],
+	dependencies: [
+		"1021c181",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "7bb7901d",
+		type: "checkmark"
+	}]
+}

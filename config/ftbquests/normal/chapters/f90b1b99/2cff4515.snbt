@@ -1,0 +1,92 @@
+{
+	title: "万法皆知",
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"集齐了所有大师魔杖的你自然是大师本身",
+		"一切的法术为你而敞开",
+		"",
+		"其实就是不用鉴定了，没有的法术书还是没有"
+	],
+	dependencies: [
+		"24424d0d"
+	],
+	tasks: [{
+		uid: "9b67db3f",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "d5eaeb27",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_fire_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "5b96bcb6",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_ice_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "b0ecbf23",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_lightning_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "e1d2ec7b",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_necromancy_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "cb727a8b",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_earth_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "d418cc7d",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_sorcery_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "a05a5c61",
+		type: "item",
+		items: [{
+			item: "ebwizardry:master_healing_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "483a4ead",
+		type: "command",
+		team_reward: 0b,
+		command: "/discoverspell all @p"
+	}]
+}

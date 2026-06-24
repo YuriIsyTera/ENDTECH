@@ -1,0 +1,47 @@
+{
+	title: "灌满它",
+	icon: {
+		tag: {
+			mana: 2147483646
+		},
+		id: "extrabotany:mastermanaring"
+	},
+	x: -0.5d,
+	y: 6.5d,
+	text: [
+		"不是，哥们，你疯了才来做这个任务吧",
+		"不至于哥，真不至于"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"1fd91d12"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "bef36ac6",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "extrabotany:mastermanaring"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "2261cde6",
+		type: "fluid",
+		fluid: "fluidedmana",
+		amount: 2147484
+	}],
+	rewards: [{
+		uid: "b6fd6ef3",
+		type: "item",
+		item: {
+			tag: {
+				mana: 2147483646
+			},
+			id: "extrabotany:mastermanaring"
+		}
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "天使方块",
+	x: 0.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	text: [
+		"现在，立刻，马上",
+		"去杀一只鸡，把它的灵魂关进这些黑曜石里！"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "67682600",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "obsidian"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any obsidian"
+				}
+			},
+			id: "itemfilters:filter"
+		},
+		{
+			item: "draconicevolution:infused_obsidian"
+		}],
+		consume_items: 1b
+	},
+	{
+		uid: "7a397e2a",
+		type: "kill",
+		title: "夺取鸡之灵魂",
+		tags: [
+			""
+		],
+		entity: "minecraft:chicken",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fe2d06fd",
+		type: "item",
+		item: "novaeng_core:angel_block"
+	}]
+}

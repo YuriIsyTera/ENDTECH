@@ -1,0 +1,17 @@
+{
+	x: 18.0d,
+	y: 0.0d,
+	text: [
+		"毕业机器之一!"
+	],
+	dependencies: [
+		"e87daf1f"
+	],
+	tasks: [{
+		uid: "86f879a1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:stargate_centralx_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: -6.0d,
+	text: [
+		"终极合金炉",
+		"快，太快了，有点把握不住"
+	],
+	dependencies: [
+		"e0c03b94"
+	],
+	tasks: [{
+		uid: "2ba5c083",
+		type: "item",
+		items: [{
+			item: "modularmachinery:phaselense_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

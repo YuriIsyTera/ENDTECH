@@ -1,0 +1,27 @@
+{
+	x: -13.0d,
+	y: -1.5d,
+	text: [
+		"太空服调节台是一种功能性方块，用于给太空服组装各种辅助配件。",
+		"放置“ 太空胸甲 ”后才会开启六格，前面两格带有“O2”字样的格子可以放置灌有氧气的槽.",
+		"（包括 低压槽 ， 压力槽 ， 高压槽 ， 超高压槽 ）",
+		"超高压槽灌装氧气，推荐多方块结构“大型电解槽”电解水生产氧气。",
+		"然后手持超高压槽对着液体输出仓右键即可装满氧气。",
+		"氧气装满后将其通过调节台安装至太空胸甲后方可进入空间站。"
+	],
+	dependencies: [
+		"b61e4e1e"
+	],
+	tasks: [{
+		uid: "ad6ee466",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:suitworkstation"
+		}]
+	}],
+	rewards: [{
+		uid: "bdb90a16",
+		type: "item",
+		item: "advancedrocketry:pressuretank 1 3"
+	}]
+}

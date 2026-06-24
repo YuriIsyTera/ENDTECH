@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"用于自动化终极工作台的配方"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "f9e539b8",
+		type: "item",
+		items: [{
+			item: "avaritiaddons:extreme_auto_crafter"
+		}]
+	}]
+}

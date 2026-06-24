@@ -1,0 +1,14 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/dimensionally_transcendent_casing_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:dimensionally_transcendent_casing" }
+			]
+		}
+    }
+}

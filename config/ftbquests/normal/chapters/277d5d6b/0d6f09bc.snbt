@@ -1,0 +1,18 @@
+{
+	x: 6.5d,
+	y: -0.5d,
+	text: [
+		"生成恶魔意志或生物灵魂，可以用于制造3级CPU"
+	],
+	dependencies: [
+		"ed100f1b"
+	],
+	tasks: [{
+		uid: "c09aba5b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:soul_fabrication_ritual_builder_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

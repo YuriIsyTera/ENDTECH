@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	dependencies: [
+		"a9a81569",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "3d9839af",
+		type: "item",
+		items: [{
+			item: "modularmachinery:tiny_energy_converter_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

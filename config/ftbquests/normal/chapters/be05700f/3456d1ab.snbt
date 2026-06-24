@@ -1,0 +1,18 @@
+{
+	x: 45.0d,
+	y: 0.0d,
+	description: "产能大爆炸",
+	text: [
+		"未来将提供更多机器的支持"
+	],
+	dependencies: [
+		"5f1a517a"
+	],
+	tasks: [{
+		uid: "5aca2080",
+		type: "item",
+		items: [{
+			item: "contenttweaker:space_array"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -26.5d,
+	y: -3.0d,
+	text: [
+		"钢扇叶（Steel Fan）是高级火箭mod中合成很多机器所必需的材料。"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"5517aa86"
+	],
+	tasks: [{
+		uid: "5b017c59",
+		type: "item",
+		items: [{
+			item: "libvulpes:productfan 1 6"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1bf9b6be",
+		type: "item",
+		item: "libvulpes:productfan 1 6",
+		count: 4,
+		random_bonus: 8
+	}]
+}

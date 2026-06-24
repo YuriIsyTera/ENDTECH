@@ -1,0 +1,25 @@
+{
+	x: -6.0d,
+	y: -6.0d,
+	text: [
+		"研究站需要数据库来存储完成的研究，数据库满时将无法保存研究",
+		"ps：一定要找好位置再放.....控制器一挖保存的研究全部完蛋",
+		"一定要使用小型能源输入仓，微型能源输入仓将在有一部分研究时供电不足",
+		"数据库没有更高等级了，等级2还是未完成品，一个数据库30个研究，也许你需要5个数据库？"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"db8f9c2d",
+		"7d844cde",
+		"8328e276",
+		"b5f88bc6"
+	],
+	tasks: [{
+		uid: "773f6bda",
+		type: "item",
+		items: [{
+			item: "modularmachinery:database_t1_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

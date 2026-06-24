@@ -1,0 +1,16 @@
+{
+	x: -39.5d,
+	y: 5.0d,
+	text: [
+		"血之祭坛的上位机器",
+		"以4096并行运行常用的灌注配方",
+		"同时大量转移出生命源质"
+	],
+	tasks: [{
+		uid: "ffaffdfc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:lifemanipulator_factory_controller"
+		}]
+	}]
+}

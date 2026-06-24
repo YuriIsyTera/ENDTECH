@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	dependencies: [
+		"dc484cc6"
+	],
+	tasks: [{
+		uid: "597ed3dc",
+		type: "item",
+		items: [{
+			tag: {
+				multiblock: "IE:MetalPress"
+			},
+			id: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

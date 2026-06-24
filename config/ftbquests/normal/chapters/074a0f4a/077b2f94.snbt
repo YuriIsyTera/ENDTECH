@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 6.5d,
+	dependencies: [
+		"dea51e2d"
+	],
+	tasks: [{
+		uid: "c8c8c4e7",
+		type: "item",
+		items: [{
+			item: "yabba:upgrade_diamond_tier"
+		}]
+	}]
+}

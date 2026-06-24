@@ -1,0 +1,23 @@
+{
+	x: -20.5d,
+	y: 2.5d,
+	text: [
+		"高级电路板（Advanced Circuit Plate）是一种重要的高级芯片合成材料。",
+		"在精确组装机中以一个硅晶片、一个金锭和一个红石块组装得到。作为合成材料，可以在切割机中切割成4个高级芯片。"
+	],
+	dependencies: [
+		"9cafe5ae"
+	],
+	tasks: [{
+		uid: "8099a161",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:itemcircuitplate 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d8db76aa",
+		type: "item",
+		item: "advancedrocketry:itemcircuitplate 1 1"
+	}]
+}

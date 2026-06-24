@@ -1,0 +1,13 @@
+{
+	x: 7.5d,
+	y: 4.5d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "3674ae8a",
+		type: "checkmark",
+		title: "把愚蠢的me接口直接装在机器上"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: -1.5d,
+	text: [
+		"这是个好东西",
+		"详情见工程师手册——基础机械——液体传输"
+	],
+	dependencies: [
+		"db526739"
+	],
+	tasks: [{
+		uid: "c2224dcc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0 1 5"
+		}]
+	}]
+}

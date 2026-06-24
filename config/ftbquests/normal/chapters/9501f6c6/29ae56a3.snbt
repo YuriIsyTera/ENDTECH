@@ -1,0 +1,21 @@
+{
+	title: "难道你真是天才？",
+	x: -11.5d,
+	y: 0.0d,
+	text: [
+		"刨村民的房子，你可真是天才"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"97370ffc"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "2635c5c5",
+		type: "observation",
+		icon: "immersiveengineering:treated_wood",
+		match_type: "block_id",
+		match: "immersiveengineering:treated_wood",
+		timer: 0L
+	}]
+}

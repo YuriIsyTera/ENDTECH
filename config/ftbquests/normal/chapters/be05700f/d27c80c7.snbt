@@ -1,0 +1,14 @@
+{
+	x: -42.5d,
+	y: 3.0d,
+	dependencies: [
+		"f37826c0"
+	],
+	tasks: [{
+		uid: "e9dcfc36",
+		type: "item",
+		items: [{
+			item: "modularmachinery:spacestation_ii_factory_controller"
+		}]
+	}]
+}

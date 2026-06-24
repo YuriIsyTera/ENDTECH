@@ -1,0 +1,19 @@
+{
+	x: -39.0d,
+	y: 3.5d,
+	text: [
+		"第一份余烬的来源",
+		"同时也能提供可观的发电量"
+	],
+	dependencies: [
+		"15f7d253",
+		"abf9c1b6"
+	],
+	tasks: [{
+		uid: "3e953478",
+		type: "item",
+		items: [{
+			item: "modularmachinery:asteroid_reactor_factory_controller"
+		}]
+	}]
+}

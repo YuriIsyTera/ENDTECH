@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"可以减轻你的ae种类负担",
+		"",
+		"把存储总线贴上去，优先级拉满，完事"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "34c9e7ae",
+		type: "item",
+		items: [{
+			item: "enderutilities:storage_0 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "007a5254",
+		type: "item",
+		item: "enderutilities:storage_0 1 7"
+	}]
+}

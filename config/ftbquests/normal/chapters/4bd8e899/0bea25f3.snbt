@@ -1,0 +1,20 @@
+{
+	title: "E＝mc²",
+	x: -12.0d,
+	y: -10.0d,
+	description: "解锁总览核电工艺任务",
+	text: [
+		"你也需要他开局呢（）"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "51f0c18b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

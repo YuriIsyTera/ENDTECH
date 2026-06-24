@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: 7.0d,
+	text: [
+		"刷怪的顶点，不消耗套索的耐久，唯一的缺陷是，制造它的时候你应该不需要它了"
+	],
+	dependencies: [
+		"5329a5c9",
+		"3e3e0126"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "989cfaac",
+		type: "item",
+		items: [{
+			item: "tinymobfarm:ultimate_farm"
+		}]
+	}]
+}

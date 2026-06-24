@@ -1,0 +1,30 @@
+{
+	title: "发光",
+	disable_toast: 1b,
+	x: 4.5d,
+	y: 3.0d,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8a1b3812"
+	],
+	tasks: [{
+		uid: "b6491965",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}]
+	},
+	{
+		uid: "529ade98",
+		type: "item",
+		items: [{
+			item: "rftools:glowing_module"
+		}]
+	}],
+	rewards: [{
+		uid: "3344a801",
+		type: "item",
+		item: "environmentaltech:modifier_glowing"
+	}]
+}

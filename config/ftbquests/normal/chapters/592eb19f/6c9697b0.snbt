@@ -1,0 +1,647 @@
+{
+	title: "欢迎来到新星工程",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1e37cf22",
+		type: "item",
+		items: [{
+			tag: {
+				"akashictome:definedMod": "ftbquests",
+				"akashictome:is_morphing": 1b,
+				"akashictome:data": {
+					rftools1: {
+						id: "rftools:rftools_shape_manual",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "rftools1"
+						}
+					},
+					tconstruct: {
+						id: "tconstruct:book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "tconstruct"
+						}
+					},
+					botania: {
+						id: "botania:lexicon",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "botania",
+							knowledge.relic: 1b,
+							knowledge.dream: 1b,
+							knowledge.minecraft: 1b,
+							knowledge.alfheim: 1b
+						}
+					},
+					thermalfoundation: {
+						id: "thermalfoundation:tome_lexicon",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "thermalfoundation",
+							Mode: 1,
+							"akashictome:is_morphing": 1b,
+							display: {
+								Name: "§r阿卡什宝典（§a§e神圣典藏§fraa款§r）",
+								Lore: [
+									"把它保存在你的背包里吧，只要你还要挖矿",
+									"它会为你把所有的相同矿辞的矿石转化为同一种，避免海量种类淹没你的背包格子",
+									"当你遇见一些奇怪的物品，比如压根没有合成的IC2钢板时",
+									"翻开它，它可以将你合成出的钢板转换为你需要的那个",
+									"如果你嫌这不够自动化，你也可以另外做一个矿词转换器",
+									"用你转换出的需求物品标记，即可让转换过程自动化起来"
+								]
+							},
+							"akashictome:displayName": "§e神圣典藏§fraa款"
+						}
+					},
+					cookingforblockheads: {
+						id: "cookingforblockheads:recipe_book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads"
+						}
+					},
+					solcarrot: {
+						id: "solcarrot:food_book",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "solcarrot"
+						}
+					},
+					ebwizardry: {
+						id: "ebwizardry:wizard_handbook",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "ebwizardry"
+						}
+					},
+					deepmoblearning: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "deepmoblearning",
+							"patchouli:book": "deepmoblearning:book"
+						}
+					},
+					techguns: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "techguns",
+							"patchouli:book": "techguns:techguns_manual"
+						}
+					},
+					conarm: {
+						id: "conarm:book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "conarm"
+						}
+					},
+					modularrouters: {
+						id: "guideapi:modularrouters-guidebook",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "modularrouters"
+						}
+					},
+					valkyrielib: {
+						id: "valkyrielib:guide",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "valkyrielib"
+						}
+					},
+					theoneprobe: {
+						id: "theoneprobe:probenote",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "theoneprobe"
+						}
+					},
+					touhou_little_maid: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "touhou_little_maid",
+							"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+						}
+					},
+					cookingforblockheads2: {
+						id: "cookingforblockheads:recipe_book",
+						Count: 1,
+						Damage: 2s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads2"
+						}
+					},
+					cfm: {
+						id: "cfm:item_recipe_book",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "cfm"
+						}
+					},
+					astralsorcery: {
+						id: "astralsorcery:itemjournal",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "astralsorcery"
+						}
+					},
+					rftools: {
+						id: "rftools:rftools_manual",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "rftools"
+						}
+					},
+					ancientspellcraft: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "ancientspellcraft",
+							"patchouli:book": "ancientspellcraft:manual"
+						}
+					},
+					bloodmagic: {
+						id: "bloodmagic:sanguine_book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "bloodmagic"
+						}
+					},
+					draconicevolution: {
+						id: "draconicevolution:info_tablet",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "draconicevolution"
+						}
+					},
+					nuclearcraft: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "nuclearcraft",
+							"patchouli:book": "nuclearcraft:guide"
+						}
+					},
+					immersiveengineering: {
+						id: "immersiveengineering:tool",
+						Count: 1,
+						Damage: 3s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "immersiveengineering"
+						}
+					},
+					cookingforblockheads1: {
+						id: "cookingforblockheads:recipe_book",
+						Count: 1,
+						Damage: 1s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads1"
+						}
+					},
+					extendedcrafting: {
+						id: "extendedcrafting:guide",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "extendedcrafting"
+						}
+					},
+					armourers_workshop: {
+						id: "armourers_workshop:item.guide-book",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "armourers_workshop"
+						}
+					},
+					bloodmagic1: {
+						id: "guideapi:bloodmagic-guide",
+						Count: 1,
+						Damage: 0s,
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						tag: {
+							"akashictome:definedMod": "bloodmagic1"
+						}
+					}
+				},
+				display: {
+					Name: "§r阿卡什宝典（§a任务书§r）"
+				},
+				"akashictome:displayName": "任务书"
+			},
+			id: "ftbquests:book"
+		},
+		{
+			item: "tconstruct:book"
+		},
+		{
+			item: "ftbquests:book"
+		},
+		{
+			tag: {
+				Items: [{
+					Slot: 0b,
+					id: "enderutilities:enderpart",
+					Count: 1,
+					Damage: 53s,
+					tag: {
+						Items: [{
+							Slot: 0b,
+							id: "additions:novaextended-expert_tools",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							tag: {
+								RepairCost: 7,
+								ench: [{
+									lvl: 3s,
+									id: 35
+								},
+								{
+									lvl: 5s,
+									id: 32
+								},
+								{
+									lvl: 3s,
+									id: 34
+								}]
+							},
+							Damage: 0s
+						},
+						{
+							Slot: 1b,
+							id: "thermalinnovation:drill",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							tag: {
+								Energy: 600000,
+								Mode: 4,
+								ench: [{
+									lvl: 18s,
+									id: 41s
+								},
+								{
+									lvl: 10s,
+									id: 32s
+								},
+								{
+									lvl: 3s,
+									id: 35s
+								}]
+							},
+							Damage: 4s
+						},
+						{
+							Slot: 2b,
+							id: "redstonearsenal:tool.battlewrench_flux",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							tag: {
+								Energy: 320000,
+								display: {
+									Name: "§e你知道我是什么锤，来找我吧",
+									Lore: [
+										"§2可充当大部分扳手使用。"
+									]
+								},
+								ench: [{
+									lvl: 65s,
+									id: 16s
+								},
+								{
+									lvl: 5s,
+									id: 19s
+								}]
+							},
+							Damage: 0s
+						},
+						{
+							Slot: 3b,
+							id: "redstonearsenal:tool.wrench_flux",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							tag: {
+								Energy: 320000
+							},
+							Damage: 0s
+						},
+						{
+							Slot: 4b,
+							id: "mekanism:configurator",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							tag: {
+								mekData: {
+									energyStored: 60000.0d
+								}
+							},
+							Damage: 0s
+						},
+						{
+							Slot: 5b,
+							id: "enderio:item_yeta_wrench",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							Damage: 0s
+						},
+						{
+							Slot: 6b,
+							id: "ic2:wrench_new",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							Damage: 0s
+						},
+						{
+							Slot: 7b,
+							id: "super_solar_panels:machines",
+							Count: 1,
+							Damage: 3s
+						},
+						{
+							Slot: 8b,
+							id: "enderio:block_cap_bank",
+							Count: 1,
+							Damage: 3s
+						},
+						{
+							Slot: 9b,
+							id: "appliedenergistics2:security_station",
+							Count: 1,
+							Damage: 0s
+						},
+						{
+							Slot: 10b,
+							id: "appliedenergistics2:biometric_card",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							tag: {},
+							Damage: 0s
+						},
+						{
+							Slot: 11b,
+							id: "appliedenergistics2:material",
+							Count: 32,
+							Damage: 25s
+						},
+						{
+							Slot: 12b,
+							id: "appliedenergistics2:material",
+							Count: 32,
+							Damage: 28s
+						},
+						{
+							Slot: 13b,
+							id: "appliedenergistics2:quartz_block",
+							Count: 32,
+							Damage: 0s
+						},
+						{
+							Slot: 14b,
+							id: "appliedenergistics2:material",
+							Count: 64,
+							Damage: 1s
+						},
+						{
+							Slot: 15b,
+							id: "appliedenergistics2:material",
+							Count: 32,
+							Damage: 43s
+						},
+						{
+							Slot: 16b,
+							id: "appliedenergistics2:sky_compass",
+							Count: 1,
+							Damage: 0s
+						},
+						{
+							Slot: 17b,
+							id: "thermalexpansion:capacitor",
+							Count: 1,
+							ForgeCaps: {
+								"astralsorcery:cap_item_amulet_holder": {}
+							},
+							tag: {
+								Energy: 10000000
+							},
+							Damage: 0s
+						},
+						{
+							Slot: 18b,
+							id: "appliedenergistics2:controller",
+							Count: 16,
+							Damage: 0s
+						},
+						{
+							Slot: 19b,
+							id: "appliedenergistics2:interface",
+							Count: 8,
+							Damage: 0s
+						},
+						{
+							Slot: 20b,
+							id: "appliedenergistics2:drive",
+							Count: 1,
+							Damage: 0s
+						},
+						{
+							Slot: 21b,
+							id: "appliedenergistics2:material",
+							Count: 8,
+							Damage: 39s
+						},
+						{
+							Slot: 22b,
+							id: "appliedenergistics2:material",
+							Count: 6,
+							Damage: 38s
+						},
+						{
+							Slot: 23b,
+							id: "appliedenergistics2:material",
+							Count: 2,
+							Damage: 57s
+						},
+						{
+							Slot: 24b,
+							id: "appliedenergistics2:material",
+							Count: 32,
+							Damage: 44s
+						},
+						{
+							Slot: 25b,
+							id: "appliedenergistics2:part",
+							ActualCount: 256,
+							Count: 0b,
+							Damage: 56s
+						},
+						{
+							Slot: 26b,
+							id: "appliedenergistics2:part",
+							Count: 64,
+							Damage: 76s
+						}]
+					}
+				}],
+				HandyBag: {
+					DisableOpen: 0b
+				},
+				display: {
+					Name: "§9星球开拓工具包",
+					Lore: [
+						"§e认领区块需要打开原版背包才能看见",
+						"#b424ed可以点击存储卡下方的按键翻页哦",
+						"#80ed55潜行状态下按E以打开原版背包界面"
+					]
+				},
+				Selected_memorycard_items: 0b,
+				UUID: {
+					UUIDL: -8627484158226531348L,
+					UUIDM: 4796185458318853416L
+				}
+			},
+			id: "enderutilities:handybag"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ed15d92",
+		type: "item",
+		team_reward: 0b,
+		auto: "invisible",
+		item: {
+			tag: {
+				Unbreakable: 1b
+			},
+			id: "ftbquests:book"
+		},
+		only_one: 1b
+	},
+	{
+		uid: "fc366bc1",
+		type: "item",
+		team_reward: 0b,
+		item: {
+			tag: {
+				"patchouli:book": "patchouli:nova_guide_book"
+			},
+			id: "patchouli:guide_book"
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: 4.0d,
+	text: [
+		"是你的故障心脏的来源",
+		"",
+		"学习机里放模型，击杀对应的怪可以激活密钥，需要至少升了1级的模型，越高级模型出故障的概率越高"
+	],
+	dependencies: [
+		"fdc7ae13",
+		"b856efa6"
+	],
+	tasks: [{
+		uid: "386c922d",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_keystone"
+		}]
+	},
+	{
+		uid: "c5373e3a",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:trial_key"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

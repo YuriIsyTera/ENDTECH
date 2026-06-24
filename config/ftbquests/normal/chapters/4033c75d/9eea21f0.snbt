@@ -1,0 +1,16 @@
+{
+	x: 59.0d,
+	y: -4.0d,
+	dependencies: [
+		"21fed103",
+		"6abdaa67"
+	],
+	tasks: [{
+		uid: "32c3a098",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ultra_zero_point_vacuum_displacer_casing_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

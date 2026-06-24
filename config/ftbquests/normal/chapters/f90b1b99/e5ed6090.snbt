@@ -1,0 +1,27 @@
+{
+	title: "龙之进化",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		"我说它是魔法是因为它真魔法"
+	],
+	dependencies: [
+		"d2d1bda6",
+		"dd397eee"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "65ea5bd4",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}]
+	},
+	{
+		uid: "83ab9f68",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	}]
+}

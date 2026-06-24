@@ -1,0 +1,21 @@
+{
+	x: -39.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"欢迎进入终末工程!",
+		"后续发展的核心机器，产出大量基础物质",
+		"具体玩法在JEI里写的十分清楚",
+		"唯一值得注意的就是在粒子注入达到上限时再注入冷却液即可"
+	],
+	dependencies: [
+		"ea18dc75"
+	],
+	tasks: [{
+		uid: "d1e7b9bb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:lhcparticle_factory_controller"
+		}]
+	}]
+}

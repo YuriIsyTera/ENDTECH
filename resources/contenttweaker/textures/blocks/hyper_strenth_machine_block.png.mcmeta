@@ -1,0 +1,14 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/hyper_strenth_machine_block_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:hyper_strenth_machine_block" }
+			]
+		}
+    }
+}

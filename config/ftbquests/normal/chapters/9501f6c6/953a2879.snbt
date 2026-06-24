@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	text: [
+		"嗯，如果你真的想采石油的话，这个东西是用来检验地下有没有石油的！",
+		"当然，这个检验完了不会招来美国人",
+		"《FBI OPEN  THE DOOR》"
+	],
+	dependencies: [
+		"9e7c50c4"
+	],
+	tasks: [{
+		uid: "7db40711",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 7"
+		}]
+	}]
+}

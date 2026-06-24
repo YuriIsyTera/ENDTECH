@@ -1,0 +1,18 @@
+{
+	x: 69.5d,
+	y: -1.0d,
+	text: [
+		"直接复制奇点的神物，也可以复制极寒末影和红石水晶"
+	],
+	dependencies: [
+		"3e3e0126"
+	],
+	tasks: [{
+		uid: "e0f04834",
+		type: "item",
+		items: [{
+			item: "modularmachinery:cnrc_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

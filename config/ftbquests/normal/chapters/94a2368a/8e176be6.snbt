@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"更快的模块化魔力生产是更强大的科技文明"
+	],
+	dependencies: [
+		"a21c276a",
+		"83f7292c"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "2d4854b6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:eco-t7_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

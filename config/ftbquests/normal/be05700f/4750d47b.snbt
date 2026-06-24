@@ -1,0 +1,18 @@
+{
+	x: 37.5d,
+	y: 0.0d,
+	text: [
+		"呦呦呦,这不是屠宰场吗,几天不见,这么拉了",
+		"1024并行 : 鬼!"
+	],
+	dependencies: [
+		"2a973b11"
+	],
+	tasks: [{
+		uid: "88c2197f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:giga_cosmiccasket_factory_controller"
+		}]
+	}]
+}

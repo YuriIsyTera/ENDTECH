@@ -1,0 +1,20 @@
+{
+	x: 62.0d,
+	y: -3.0d,
+	text: [
+		"这是一个恶作剧",
+		"你可以完全不做它，你也可以制造它来制取下界合金碎片",
+		"或是使用它生产激发态氦来给你的托卡马克聚变反应堆加点buff",
+		"爱来自GT5"
+	],
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "57ce4b71",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mk2_factory_controller"
+		}]
+	}]
+}

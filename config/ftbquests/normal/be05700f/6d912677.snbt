@@ -1,0 +1,17 @@
+{
+	x: -39.0d,
+	y: -5.0d,
+	text: [
+		"很贵(?),也很强,也可以不做"
+	],
+	dependencies: [
+		"b2539b2a"
+	],
+	tasks: [{
+		uid: "81dbcbe6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:asteroid_destroyer_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -20.5d,
+	y: -0.5d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "94f08d31",
+		type: "item",
+		items: [{
+			item: "contenttweaker:plb_block"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: -4.5d,
+	text: [
+		"现在你可以手搓莱泽尔水晶了，以及你可以制作CPU和内存的一个关键材料：充能青金石了"
+	],
+	dependencies: [
+		"3ef70e03"
+	],
+	tasks: [{
+		uid: "4a5eb23d",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	}]
+}

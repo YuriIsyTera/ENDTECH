@@ -1,0 +1,18 @@
+{
+	x: 40.0d,
+	y: 0.0d,
+	text: [
+		"这是必须的,你得吃下去这坨小作文",
+		"他的机制没有你想象的那么复杂,只是自动化难了一点,亿点"
+	],
+	dependencies: [
+		"4750d47b"
+	],
+	tasks: [{
+		uid: "932262e2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:giga_negativephasecollector_factory_controller"
+		}]
+	}]
+}

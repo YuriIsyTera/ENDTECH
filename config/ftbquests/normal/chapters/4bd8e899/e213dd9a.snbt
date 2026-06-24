@@ -1,0 +1,42 @@
+{
+	x: -6.0d,
+	y: -8.0d,
+	text: [
+		"网络内算力的来源，通过在模块总线中放入内存和CPU/GPU来获取算力，算力为所有内存的上限和与所有CPU/GPU算力和中取较低者，CPU和GPU可以混用",
+		"",
+		"计算机在提供算力时将会产生热量，不被使用的算力不会增加热量",
+		"",
+		"计算机可以进行主动散热和被动散热，1级计算机无法主动散热，2级以上计算机可以通过液氮/极寒之凛冰/碎冰/冷却液进行主动散热，具体消耗量可以通过jei查看计算机的用途查看",
+		"",
+		"如果你散热没有热量增长快，热量过高将会导致计算机触发温控，温控将会导致算力产出远小于显示，研究站等将在温控时无法正常工作",
+		"",
+		"至于多少算力能出多少热量....自由探索也是一种乐趣吧？（逃）"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"db8f9c2d",
+		"7d844cde",
+		"8328e276",
+		"b5f88bc6"
+	],
+	tasks: [{
+		uid: "366343cc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t1_factory_controller"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "901f0c29",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockupgradebus"
+		}]
+	}],
+	rewards: [{
+		uid: "e121ac9f",
+		type: "item",
+		item: "modularmachinery:blockupgradebus"
+	}]
+}

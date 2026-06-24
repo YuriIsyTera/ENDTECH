@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"rotation_01": {
+			"loop": true,
+			"animation_length": 20,
+			"bones": {
+				"Ring_3": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [0, 0, 0.01],
+						"20.0": [0, 0, 1080]
+					}
+				},
+				"Ring_1": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [0, 0, 0.01],
+						"20.0": [0, 0, 360]
+					}
+				},
+				"Ring_2": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [0, 0, 0.01],
+						"20.0": [0, 0, -720]
+					}
+				},
+				"Central_block": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [0, 0, 0.01],
+						"20.0": [0, 0, 1080]
+					}
+				}
+			}
+		},
+		"rotation_02": {
+			"loop": true,
+			"animation_length": 20,
+			"bones": {
+				"Giga_GodForge": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"20.0": [-1080, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

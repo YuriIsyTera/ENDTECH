@@ -1,0 +1,39 @@
+{
+	title: "无论如何开始，它们让你插翅难飞(",
+	x: -7.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d0a8646a"
+	],
+	tasks: [{
+		uid: "058ffc57",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "9571a531",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "f597a0f7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "8332ca52",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}]
+}

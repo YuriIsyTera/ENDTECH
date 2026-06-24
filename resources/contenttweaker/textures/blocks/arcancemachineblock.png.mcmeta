@@ -1,0 +1,18 @@
+{
+    "animation": {
+      "frametime": 3,
+      "interpolate": true
+    },
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/arcancemachineblock_ctm"
+        ],
+        "extra": {
+			"connect_to": [
+				{ "block": "contenttweaker:arcancemachineblock" }
+			]
+		}
+    }
+}

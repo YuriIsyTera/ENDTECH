@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	dependencies: [
+		"c09da8f1"
+	],
+	tasks: [{
+		uid: "7369a891",
+		type: "item",
+		items: [{
+			item: "yabba:upgrade_blank"
+		}]
+	}]
+}

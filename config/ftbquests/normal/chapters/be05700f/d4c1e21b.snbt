@@ -1,0 +1,17 @@
+{
+	x: 17.0d,
+	y: -2.0d,
+	text: [
+		"你几年前看到的一个限量玩偶,现在,做出她吧"
+	],
+	dependencies: [
+		"edfaafe3"
+	],
+	tasks: [{
+		uid: "66684f68",
+		type: "item",
+		items: [{
+			item: "contenttweaker:yuriisydoll"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "登神长阶",
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"都到这了，你应该具有通过jei分辨你该制造谁发电的能力了吧",
+		""
+	],
+	dependencies: [
+		"3ae1e9ff",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "53526c12",
+		type: "item",
+		items: [{
+			item: "modularmachinery:workshop_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -43.5d,
+	y: -2.5d,
+	text: [
+		"为心碎的天幕玩家提供的另一种方案",
+		"可以不通过机制来制造暗物质以及两种特殊流体",
+		"但是还是建议去研究一下天幕引擎"
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "55022c2c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:collapse_generator_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "较为容易的计算",
+	icon: "deepmoblearning:data_model_blank",
+	x: -5.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b856efa6",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "dae86205",
+		type: "checkmark"
+	}]
+}

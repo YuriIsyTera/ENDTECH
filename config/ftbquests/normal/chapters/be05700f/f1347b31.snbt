@@ -1,0 +1,20 @@
+{
+	x: -37.0d,
+	y: 2.0d,
+	description: "他很强",
+	text: [
+		"更强的水晶注能机",
+		"同时还可以转化部分低级流体",
+		""
+	],
+	dependencies: [
+		"2fdd1e00"
+	],
+	tasks: [{
+		uid: "ba16adcf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:prometheus_factory_controller"
+		}]
+	}]
+}

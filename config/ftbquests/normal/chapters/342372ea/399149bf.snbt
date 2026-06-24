@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 0.5d,
+	dependencies: [
+		"ef203ef2",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "64823f32",
+		type: "item",
+		items: [{
+			item: "modularmachinery:solar_panel_1_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

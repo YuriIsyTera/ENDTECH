@@ -1,0 +1,10 @@
+{
+	title: "列举一些小东西",
+	icon: "enderutilities:builderswand",
+	description: [
+		"可能你不会用，但是它们很实用"
+	],
+	always_invisible: 0b,
+	group: 1626059811,
+	default_quest_shape: ""
+}

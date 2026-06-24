@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"采用多种魔法材料制成，却拥有破除魔法的能力",
+		"用于附魔或为匠魂工具强化"
+	],
+	dependencies: [
+		"9a079a03"
+	],
+	tasks: [{
+		uid: "0cabd55b",
+		type: "item",
+		items: [{
+			item: "novaeng_core:magic_breaking_stone"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

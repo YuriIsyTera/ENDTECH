@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"造个这个，为了你的4级祭坛",
+		"",
+		"不过你 还需要一台元件装配室才能进入下一个任务",
+		"",
+		"如果你发现放好了束缚试剂的材料却没有合成，你可以检查你的魂石，在这个配方的jei界面里，把鼠标移动到那个箭头上，可以查看最低需求的恶魔意志"
+	],
+	dependencies: [
+		"1b7cd2b4",
+		"f0b23ef1"
+	],
+	tasks: [{
+		uid: "ba25cddf",
+		type: "item",
+		items: [{
+			tag: {
+				Unbreakable: 1b
+			},
+			id: "bloodmagic:bound_sword"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

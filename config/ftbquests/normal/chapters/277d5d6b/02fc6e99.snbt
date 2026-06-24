@@ -1,0 +1,15 @@
+{
+	x: 6.5d,
+	y: -4.5d,
+	dependencies: [
+		"ed100f1b"
+	],
+	tasks: [{
+		uid: "047f4097",
+		type: "item",
+		items: [{
+			item: "modularmachinery:neutron_activator_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "ECO 存储矩阵（物品）",
+	x: -3.5d,
+	y: 2.5d,
+	text: [
+		"神圣的造物",
+		"比16384更好，更不套娃（如果忽略掉结构的话）",
+		"你大可以不使用这个东西，但是它很好，不是吗",
+		"实际上，除了只能塞进可拓展存储系统结构里",
+		"它完全可以当成一个普通元件处理"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"c465a084"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e12bde77",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "novaeng_core:estorage_cell_item_16m"
+		},
+		{
+			tag: {},
+			id: "novaeng_core:estorage_cell_item_64m"
+		},
+		{
+			tag: {},
+			id: "novaeng_core:estorage_cell_item_256m"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	}]
+}

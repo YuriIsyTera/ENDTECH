@@ -1,0 +1,85 @@
+{
+	title: "恭喜你，沉浸工程已经起步了",
+	x: -5.0d,
+	y: 1.5d,
+	text: [
+		"让我们做个机器练练手吧",
+		"拿着投影仪可以看到投影，右键即可放置在世界中",
+		"使用方块搭建完成后，使用工程师锤右键中间的半砖即可完成建造",
+		"",
+		"不推荐搭建很多这个，服务器倒是不卡，但是它让你掉帧的能力还挺强大"
+	],
+	dependencies: [
+		"9e7c50c4",
+		"cc287cbe",
+		"1f685e36"
+	],
+	tasks: [{
+		uid: "1cbd66b9",
+		type: "item",
+		items: [{
+			tag: {
+				flip: 1b,
+				multiblock: "IE:AutoWorkbench",
+				pos: {
+					x: 748,
+					z: 794,
+					y: 4
+				}
+			},
+			id: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "25247af9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 5L
+	},
+	{
+		uid: "fbb8572c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b989addb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e0d5fd80",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "4314b271",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood_slab"
+		}],
+		count: 2L
+	},
+	{
+		uid: "adafaa3a",
+		type: "item",
+		items: [{
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			},
+			id: "immersiveengineering:conveyor"
+		}],
+		count: 4L
+	}]
+}

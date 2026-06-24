@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: -2.5d,
+	text: [
+		"也许你知道怎么使用它，不过你还是需要了解一下原子重构室",
+		"原子再构机的光束在击中它时，将会转化里面的物品，它会自动把物品弹出到附近的容器",
+		"遗憾的是它不支持透镜，不过也很好用不是吗"
+	],
+	dependencies: [
+		"123bbce1"
+	],
+	tasks: [{
+		uid: "8136f3d4",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	},
+	{
+		uid: "d91d377b",
+		type: "item",
+		items: [{
+			item: "nae2:reconstruction_chamber"
+		}]
+	}]
+}

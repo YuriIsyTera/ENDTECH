@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: -9.5d,
+	text: [
+		"标记方块从而向AE网络内暴露全部的可用雕凿样板"
+	],
+	dependencies: [
+		"7d844cde"
+	],
+	tasks: [{
+		uid: "22b0e2e4",
+		type: "item",
+		items: [{
+			item: "ae_chisel:ae_chisel"
+		}]
+	}]
+}

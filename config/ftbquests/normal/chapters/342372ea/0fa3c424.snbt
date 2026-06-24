@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"戴 森 球 计 划",
+		"实际上和某游戏毫无关联"
+	],
+	dependencies: [
+		"ef5a8a9a",
+		"bdd12d97",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "6b59fdea",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dyson_cloud_transmitter_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

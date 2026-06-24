@@ -1,0 +1,23 @@
+{
+	title: "伟大者已经抵达模块化世界！",
+	x: 38.5d,
+	y: -2.5d,
+	text: [
+		"小心区块加载陷阱！这个机器实在太大了，工作时其中一个区块未加载，就会导致材料被吞！",
+		"",
+		"推荐放在ae或者你什么大部分时间待的区块，或者干脆把区块加载全部拉满，这玩意造的都是值钱玩意"
+	],
+	dependencies: [
+		"7b7c157a",
+		"e89ab819"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d88e30dc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:workshop_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -5.5d,
+	y: 2.5d,
+	text: [
+		"花格箱，会自动丢出里面的物品捏！",
+		"想想吧，这个东西可以做多少东西的自动化 "
+	],
+	dependencies: [
+		"a558004e"
+	],
+	tasks: [{
+		uid: "6c26e04c",
+		type: "item",
+		items: [{
+			item: "botania:opencrate"
+		}]
+	}]
+}

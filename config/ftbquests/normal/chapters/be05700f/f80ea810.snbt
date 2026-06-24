@@ -1,0 +1,14 @@
+{
+	x: -43.5d,
+	y: 7.0d,
+	text: [
+		"接收少量紫晶素，使用矿物高级数据模型产出永恒奇点"
+	],
+	tasks: [{
+		uid: "e7543515",
+		type: "item",
+		items: [{
+			item: "modularmachinery:m2scn_factory_controller"
+		}]
+	}]
+}

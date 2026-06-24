@@ -1,0 +1,26 @@
+{
+	title: "火箭组装哈吉马路油！",
+	x: -28.5d,
+	y: 0.0d,
+	text: [
+		"",
+		"全息投影仪准备完毕后，让我们开始愉♂悦的火箭组装吧！"
+	],
+	dependencies: [
+		"9c08d90a"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "f9077eac",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	}],
+	rewards: [{
+		uid: "56068b6b",
+		type: "item",
+		item: "libvulpes:structuremachine",
+		random_bonus: 15
+	}]
+}

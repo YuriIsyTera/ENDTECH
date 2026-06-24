@@ -1,0 +1,15 @@
+{
+	x: 23.5d,
+	y: 0.0d,
+	dependencies: [
+		"b014427b"
+	],
+	tasks: [{
+		uid: "59721329",
+		type: "item",
+		items: [{
+			item: "modularmachinery:stellargenerator_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "PSI",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"有人说它是科技，有人说它是魔法，既然如此，那就是魔法吧",
+		"",
+		"制造一个铁机体，塞进CAD装配台里制造一个空CAD，对着红石右键转换成PSI粉，地上有多少就能转换多少,后面的玩意同理",
+		"",
+		"Z键可以打开PSI的自带教程，如果你不想看的话你也可以看看mcmod.cn上的psi教程"
+	],
+	dependencies: [
+		"d2d1bda6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "59b48bfa",
+		type: "item",
+		items: [{
+			item: "psi:material"
+		}]
+	},
+	{
+		uid: "e2bcb2d3",
+		type: "item",
+		items: [{
+			item: "psi:programmer"
+		}]
+	},
+	{
+		uid: "bca802fb",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembly"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "937c010a",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembler"
+		}]
+	}]
+}

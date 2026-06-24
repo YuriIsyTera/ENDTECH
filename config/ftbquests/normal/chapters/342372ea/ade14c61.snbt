@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"也可以用于回收数控锻压出的热冷却液，白嫖一点电是一点"
+	],
+	dependencies: [
+		"0ffae27d",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "06c18f5f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:hybrid_generator_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

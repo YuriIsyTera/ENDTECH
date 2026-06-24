@@ -1,0 +1,22 @@
+{
+	x: -13.0d,
+	y: 1.5d,
+	text: [
+		"使用工程师手册，翻到你想建造的机器那一页",
+		"和它合成一下，你会发现新大陆！"
+	],
+	dependencies: [
+		"1021c181",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "1ad50ad2",
+		type: "item",
+		items: [{
+			item: "immersivepetroleum:schematic"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

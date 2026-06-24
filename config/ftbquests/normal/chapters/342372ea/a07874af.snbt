@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"它其实是高级释能器的材料而已",
+		"",
+		"不要使用它，因为它根本无法使用"
+	],
+	dependencies: [
+		"21c4842a"
+	],
+	tasks: [{
+		uid: "9c1820c7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:energy_releaser_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

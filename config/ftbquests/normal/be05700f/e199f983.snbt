@@ -1,0 +1,19 @@
+{
+	x: -18.0d,
+	y: 0.0d,
+	text: [
+		"高哭，于梦中肆意挥洒。",
+		"一切不安，我都化作勇气。"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"e80233c6"
+	],
+	tasks: [{
+		uid: "d3e2e9ce",
+		type: "item",
+		items: [{
+			item: "modularmachinery:surmount-uts_factory_controller"
+		}]
+	}]
+}

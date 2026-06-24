@@ -1,0 +1,14 @@
+{
+	x: -21.0d,
+	y: -3.0d,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "f5887cc8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ceb_block"
+		}]
+	}]
+}

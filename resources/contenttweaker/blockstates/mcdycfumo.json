@@ -1,0 +1,31 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "2": "contenttweaker:blocks/mcdycfumo_skin",
+      "particle": "contenttweaker:blocks/asteroidcontrolblock"
+    },
+    "model": "contenttweaker:mcdycfumo",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{"model":"contenttweaker:mcdycfumo"}],
+    "inventory": [{"model":"contenttweaker:mcdycfumo"}],
+        "facing=east": {
+      "model": "contenttweaker:mcdycfumo",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "contenttweaker:mcdycfumo"
+    },
+    "facing=south": {
+      "model": "contenttweaker:mcdycfumo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "contenttweaker:mcdycfumo",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	x: 57.5d,
+	y: -4.0d,
+	text: [
+		"反物质的主要来源",
+		"是第一代，还有2代的升级版"
+	],
+	dependencies: [
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "1b8e8c6b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ultra_zero_point_vacuum_displacer_core_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

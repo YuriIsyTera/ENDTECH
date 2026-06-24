@@ -1,0 +1,21 @@
+{
+	x: 55.0d,
+	y: 0.0d,
+	text: [
+		"饼"
+	],
+	dependencies: [
+		"5f1a517a"
+	],
+	tasks: [{
+		uid: "f0c15750",
+		type: "checkmark",
+		title: "榨干虚境!"
+	}],
+	rewards: [{
+		uid: "30b52ca1",
+		type: "item",
+		item: "harvestcraft:bbqchickenpizzaitem",
+		count: 8192
+	}]
+}

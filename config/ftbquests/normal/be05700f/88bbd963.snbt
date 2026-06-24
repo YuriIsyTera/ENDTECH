@@ -1,0 +1,19 @@
+{
+	x: -38.5d,
+	y: 6.0d,
+	text: [
+		"更高级的原子重构,大概没有别的功能了"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"15f7d253",
+		"75ea69c9"
+	],
+	tasks: [{
+		uid: "5f7bceb6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:basic_zeropressure_factory_controller"
+		}]
+	}]
+}

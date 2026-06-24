@@ -1,0 +1,46 @@
+{
+	title: "献祭",
+	x: 4.5d,
+	y: 2.5d,
+	text: [
+		"划算的买卖，兄弟"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"a0226bae"
+	],
+	tasks: [{
+		uid: "79110773",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 9"
+		}],
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "47ca4767",
+		type: "item",
+		item: {
+			tag: {
+				CustomPotionColor: 16777215,
+				display: {
+					Name: "#F2E261神圣溶剂",
+					Lore: [
+						"#C0FF3E神圣之力，蕴含其中"
+					]
+				},
+				CustomPotionEffects: [{
+					Id: 94,
+					Amplifier: 14,
+					Duration: 72000
+				},
+				{
+					Id: 141,
+					Amplifier: 9,
+					Duration: 72000
+				}]
+			},
+			id: "minecraft:splash_potion"
+		}
+	}]
+}

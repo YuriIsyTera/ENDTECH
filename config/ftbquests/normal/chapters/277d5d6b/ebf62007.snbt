@@ -1,0 +1,29 @@
+{
+	title: "只能进行一次的地狱赌博机",
+	x: -5.0d,
+	y: 4.5d,
+	text: [
+		"概率公开（确信）",
+		"",
+		"如抽"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"3099fa79",
+		"8449ab25"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "d4ab0921",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 42"
+		}],
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "5dfaf3aa",
+		type: "random",
+		table: 2
+	}]
+}

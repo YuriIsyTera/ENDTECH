@@ -1,0 +1,17 @@
+{
+	x: -5.5d,
+	y: 1.0d,
+	text: [
+		"最小的元件，没啥可说的"
+	],
+	dependencies: [
+		"c543a359"
+	],
+	tasks: [{
+		uid: "67695a71",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 35"
+		}]
+	}]
+}

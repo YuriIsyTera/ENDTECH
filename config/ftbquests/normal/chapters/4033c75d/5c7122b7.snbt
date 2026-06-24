@@ -1,0 +1,14 @@
+{
+	x: 62.0d,
+	y: 0.0d,
+	dependencies: [
+		"b1cc9a0c"
+	],
+	tasks: [{
+		uid: "4b592d24",
+		type: "item",
+		items: [{
+			item: "modularmachinery:transition_orbit_emitter_factory_controller"
+		}]
+	}]
+}

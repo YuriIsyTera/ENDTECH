@@ -1,0 +1,3426 @@
+{
+    "registryname": "Mega_InjectionDevice",
+    "localizedname": "§B'家用'注液器",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "has-factory": true,
+    "factory-only": true,
+    "color": "FFFFFF",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockfactorycontroller@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "contenttweaker:heatmatrix@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "contenttweaker:planetstructure@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        }
+    ]}

@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"同上文"
+	],
+	dependencies: [
+		"804d3ea0"
+	],
+	tasks: [{
+		uid: "2f0623de",
+		type: "item",
+		items: [{
+			item: "modularmachinery:computation_center_t3_factory_controller"
+		}]
+	}]
+}

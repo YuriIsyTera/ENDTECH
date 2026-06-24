@@ -1,0 +1,12 @@
+{
+	x: -37.5d,
+	y: 7.0d,
+	description: "相当好用的算力合成多方块，以及可以运行后期的核心配方",
+	tasks: [{
+		uid: "e2dbd7bb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:licsac_factory_controller"
+		}]
+	}]
+}

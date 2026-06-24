@@ -1,0 +1,20 @@
+{
+	x: 54.5d,
+	y: -5.0d,
+	text: [
+		"液态能量转换的极点",
+		"但是其实后面液化的速度跟不上了，你可以考虑一下终极存电设施梦之能量核心"
+	],
+	dependencies: [
+		"3ae1e9ff",
+		"e0faaebc"
+	],
+	tasks: [{
+		uid: "5468cbfb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:energy_conversion_station_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

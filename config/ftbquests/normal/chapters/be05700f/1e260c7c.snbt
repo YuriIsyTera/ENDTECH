@@ -1,0 +1,41 @@
+{
+	x: -42.5d,
+	y: -1.5d,
+	text: [
+		"无尽初期的廉价计算机，可快速将算力提升至上限"
+	],
+	dependencies: [
+		"cccf864f"
+	],
+	tasks: [{
+		uid: "875e3ad7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:helios_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "42d7c439",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					helioscomputer: {}
+				}
+			},
+			id: "contenttweaker:helioscomputer"
+		}
+	},
+	{
+		uid: "efcf656f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					heliosmemory: {}
+				}
+			},
+			id: "contenttweaker:heliosmemory"
+		}
+	}]
+}

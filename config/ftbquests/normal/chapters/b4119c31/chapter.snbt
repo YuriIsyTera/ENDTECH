@@ -1,0 +1,18 @@
+{
+	title: "ae2",
+	icon: "chisel:futura 1 2",
+	always_invisible: 0b,
+	group: 1626059811,
+	default_quest_shape: "",
+	images: [{
+		x: -15.5d,
+		y: -4.0d,
+		width: 12.0d,
+		height: 6.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/tupian/part.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

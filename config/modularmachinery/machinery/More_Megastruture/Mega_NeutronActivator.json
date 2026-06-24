@@ -1,0 +1,2058 @@
+{
+    "registryname": "Mega_NeutronActivator",
+    "localizedname": "§b中子活化器§f",
+    "requires-blueprint": false,
+    "failure-action": "decrease",
+    "has-factory": true,
+    "factory-only": true,
+    "color": "000000",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "novaeng_core:redstone_logical_port"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "mets:titanium_scaffold@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:infinite_coil@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:arkmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:starmachineblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass"
+            ]
+        }
+    ]}

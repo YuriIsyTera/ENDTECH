@@ -1,0 +1,20 @@
+{
+	x: -11.5d,
+	y: -3.0d,
+	text: [
+		"哦我的上帝啊，他甚至做了两个鼓风机给高炉加速",
+		"",
+		"你真做的话记得鼓风机是需要通电的"
+	],
+	dependencies: [
+		"2f3f443a"
+	],
+	tasks: [{
+		uid: "87f4d6dc",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1"
+		}],
+		count: 2L
+	}]
+}

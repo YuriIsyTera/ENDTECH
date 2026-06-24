@@ -1,0 +1,31 @@
+{
+	title: "抗性提升",
+	x: 6.0d,
+	y: 0.0d,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8a1b3812"
+	],
+	tasks: [{
+		uid: "630c1e5f",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}]
+	},
+	{
+		uid: "87332930",
+		type: "item",
+		items: [{
+			item: "minecraft:shield"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48017dc8",
+		type: "item",
+		item: "environmentaltech:modifier_resistance"
+	}]
+}

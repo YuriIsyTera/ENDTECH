@@ -1,0 +1,14 @@
+{
+	x: 80.0d,
+	y: -3.0d,
+	dependencies: [
+		"8494f519"
+	],
+	tasks: [{
+		uid: "80fe3bc1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:superluminal_core"
+		}]
+	}]
+}

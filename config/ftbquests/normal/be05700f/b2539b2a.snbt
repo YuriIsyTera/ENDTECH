@@ -1,0 +1,17 @@
+{
+	x: -39.0d,
+	y: -3.0d,
+	text: [
+		"他是必要的,大概,至少THOR需要他"
+	],
+	dependencies: [
+		"1b4da8e3"
+	],
+	tasks: [{
+		uid: "f377473d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:planetobserver_factory_controller"
+		}]
+	}]
+}

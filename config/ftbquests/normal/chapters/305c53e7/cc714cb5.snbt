@@ -1,0 +1,27 @@
+{
+	x: -17.5d,
+	y: -2.5d,
+	text: [
+		"空间站ID芯片是用于前往空间站的一种ID芯片。",
+		"扫描空间站后此ID芯片会被标记“station x”（x表示数字）的字样，表示存档内第x个搭建的空间站",
+		"放进导航电脑里可以通过搭乘火箭到达指定空间站(必须在同一行星系统内)。",
+		"注意，如果该芯片不慎丢失，且你没有其他正常途径回到你的空间站（如DE传送符咒）",
+		"不通过技术手段作弊你将永远无法回到你的太空站。是的变成太空垃圾了。"
+	],
+	dependencies: [
+		"c3effe2d",
+		"2e2390b0"
+	],
+	tasks: [{
+		uid: "24f4dde1",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:spacestationchip"
+		}]
+	}],
+	rewards: [{
+		uid: "734b2799",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

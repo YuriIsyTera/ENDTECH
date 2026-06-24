@@ -1,0 +1,35 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	text: [
+		"这不是一个全部必玩的mod，不过必做的机器里需要它的一些材料，它们都可以通过注灵祭坛和挖矿（基本没挖到过）制造",
+		"",
+		"给你一个水晶块的材料，你可以寻找注灵祭坛试试它的应用了，你需要先把注灵祭坛4面的容杯补齐才能使用，灵尘放在容杯里",
+		"",
+		"虽说不是必玩，但是它有一些实用（整活）的法术可以方便你的游戏进程，比如秘术系大师级法术《斗转星移》可以消耗魔力让你成为一个人型加速火把！虽然魔力打空你就得去补魔力了",
+		"",
+		"你应该去https://www.mcmod.cn/class/1634.html看更多教程"
+	],
+	dependencies: [
+		"d2d1bda6",
+		"b8bf5458"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6d176f10",
+		type: "checkmark",
+		title: "巫术学",
+		icon: "ebwizardry:master_wand"
+	}],
+	rewards: [{
+		uid: "c8dc05ef",
+		type: "item",
+		item: "ebwizardry:crystal_block"
+	},
+	{
+		uid: "9ec4b712",
+		type: "item",
+		item: "ebwizardry:spectral_dust 1 1",
+		count: 4
+	}]
+}

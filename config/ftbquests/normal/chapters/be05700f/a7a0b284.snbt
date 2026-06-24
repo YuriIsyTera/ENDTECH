@@ -1,0 +1,18 @@
+{
+	x: -37.0d,
+	y: -5.0d,
+	text: [
+		"目前唯一产出封锁行星的手段",
+		"建议在资源富裕的情况下持续制造"
+	],
+	dependencies: [
+		"b2539b2a"
+	],
+	tasks: [{
+		uid: "b76bb56a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:asteroidlockdevice_factory_controller"
+		}]
+	}]
+}

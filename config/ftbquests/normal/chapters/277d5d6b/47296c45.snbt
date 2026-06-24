@@ -1,0 +1,19 @@
+{
+	x: 34.972789115646265d,
+	y: -1.6921768707483125d,
+	text: [
+		"需要前往[AR]高级火箭的空间站建造",
+		"每个戴森云接收器结构允许放置4个控制器，每个控制器允许最高100M（5个数据）的发电"
+	],
+	dependencies: [
+		"3ae1e9ff"
+	],
+	tasks: [{
+		uid: "cd304e50",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dyson_cloud_transmitter_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

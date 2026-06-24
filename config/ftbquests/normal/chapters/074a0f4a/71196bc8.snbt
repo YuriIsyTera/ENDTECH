@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"传送能量，传送气体，传送物品，传送液体！",
+		"",
+		"甚至可以传热但是你完全不需要这个功能呢（",
+		"  "
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "0c0053ed",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: -4.5d,
+	text: [
+		"NCO化学反应器的升级版，真正的作用是制造碳纳米管",
+		"注意：并行制造碳纳米管需要多个铌钛合金板"
+	],
+	dependencies: [
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "49f0fa9d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:chemical_complex_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

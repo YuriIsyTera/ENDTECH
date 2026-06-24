@@ -1,0 +1,15 @@
+{
+	title: "不适合专门发电但是可以用于快速获取燃料副产物的东西",
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"8309e1a6",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6f857193",
+		type: "checkmark",
+		title: "不适合发电但是可以快速获取燃料副产物"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	text: [
+		"无需生物直接激活苦难之井的先进设备",
+		"查看JEI和血之祭坛控制器的信息来了解怎么使用它"
+	],
+	dependencies: [
+		"dfe92d75",
+		"a9a81569"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "7b770cfd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:life_extracts_altar_controller"
+		}]
+	}]
+}

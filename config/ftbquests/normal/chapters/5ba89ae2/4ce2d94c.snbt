@@ -1,0 +1,54 @@
+{
+	icon: "deepmoblearning:data_model_zombie",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		"超速计算！",
+		"",
+		"使用计算机和聚合粘土急速的计算僵尸数据",
+		"",
+		"&6仅限一次！"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"4a94e5b5"
+	],
+	tasks: [{
+		uid: "dc653a83",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_zombie"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "83089c73",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		count: 7032L,
+		consume_items: 1b
+	},
+	{
+		uid: "50f91c07",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t1_factory_controller"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bf80d85",
+		type: "item",
+		item: {
+			tag: {
+				tier: 4
+			},
+			id: "deepmoblearning:data_model_zombie"
+		}
+	}]
+}

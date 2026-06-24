@@ -1,0 +1,18 @@
+{
+	title: "有些困难的计算",
+	icon: "contenttweaker:general_data_card",
+	x: -5.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b856efa6",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "69278fd8",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "向着魔法进发",
+	disable_toast: 1b,
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b
+}

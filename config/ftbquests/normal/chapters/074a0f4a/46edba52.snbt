@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"通过插入的共鸣水晶石发挥不同的效果，强烈推荐学习一下",
+		"",
+		"kwboy:谁懂啊家人们，我不过就是家里天上全部都是时钟座的仪式基座，被看见了就被罚款了一半的金币，家人们我受不了一点",
+		"",
+		"（本案例的意思是别堆一堆这个卡服，会寄的）"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "3f55a7cc",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}]
+}

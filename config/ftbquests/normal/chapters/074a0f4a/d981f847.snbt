@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"插入模块，选择范围，开始工作！",
+		"",
+		"强烈推荐饱食模块，这样在家你就不需要吃东西了！"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "3115eeb6",
+		type: "item",
+		items: [{
+			item: "rftools:environmental_controller"
+		}]
+	}]
+}

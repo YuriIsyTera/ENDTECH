@@ -1,0 +1,20 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"替代了星辉魔法的星能液与岩浆的反应",
+		"",
+		"以及大部分磨粉机配方"
+	],
+	dependencies: [
+		"e82517c6"
+	],
+	tasks: [{
+		uid: "f7a12148",
+		type: "item",
+		items: [{
+			item: "modularmachinery:item_shredder_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

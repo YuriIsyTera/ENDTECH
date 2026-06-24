@@ -1,0 +1,21 @@
+{
+	x: -39.0d,
+	y: -5.0d,
+	text: [
+		"天体线的核心机器之一",
+		"发射航天器至轨道中用于工业开发",
+		"建议挂上被动",
+		"(注:服务器目前存在GUI无法正常显示在轨航天器数量的bug)",
+		"(可以使用/nbtedit来查看customData里各个参数的具体数值)"
+	],
+	dependencies: [
+		"1b4da8e3"
+	],
+	tasks: [{
+		uid: "38e4f314",
+		type: "item",
+		items: [{
+			item: "modularmachinery:loftstormsite_factory_controller"
+		}]
+	}]
+}

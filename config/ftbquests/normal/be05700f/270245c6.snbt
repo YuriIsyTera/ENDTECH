@@ -1,0 +1,14 @@
+{
+	x: -18.0d,
+	y: -5.0d,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "5197616e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:npb_block"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "PSI的百科链接",
+	x: 0.0d,
+	y: -3.5d,
+	shape: "square",
+	text: [
+		"你应该去https://www.mcmod.cn/class/470.html看看"
+	],
+	custom_click: "https://www.mcmod.cn/class/470.html",
+	dependencies: [
+		"58467eac"
+	]
+}

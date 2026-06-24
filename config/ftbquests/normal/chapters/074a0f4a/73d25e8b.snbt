@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: 4.0d,
+	text: [
+		"RFtools的存储卡，需要模块化存储器以使用，有更高级的版本，这个是等级1，可以存储100组物品"
+	],
+	dependencies: [
+		"d68c83fd"
+	],
+	tasks: [{
+		uid: "3b3d06e4",
+		type: "item",
+		items: [{
+			item: "rftools:storage_module"
+		}],
+		ignore_nbt: 1b
+	}]
+}

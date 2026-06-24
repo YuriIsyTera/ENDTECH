@@ -1,0 +1,14 @@
+{
+	x: 27.0d,
+	y: 0.5d,
+	dependencies: [
+		"d6b8d62f"
+	],
+	tasks: [{
+		uid: "97140413",
+		type: "item",
+		items: [{
+			item: "modularmachinery:advanced_energy_releaser_controller"
+		}]
+	}]
+}

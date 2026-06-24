@@ -1,0 +1,28 @@
+{
+	version: 9,
+	default_reward_team: 1b,
+	default_consume_items: 0b,
+	default_autoclaim_rewards: "disabled",
+	default_quest_shape: "circle",
+	default_quest_disable_jei: 0b,
+	emergency_items: [{
+		item: "contenttweaker:hypernet_connect_card"
+	},
+	{
+		tag: {
+			display: {
+				Name: "#FF6347-FFA54F-FFFF00-7FFF00-40E0D0-00BFFF-A020F0Nova 超级秘制双层巧克力夹心饼干"
+			}
+		},
+		id: "nuclearcraft:foursmore"
+	}],
+	emergency_items_cooldown: "1m",
+	drop_loot_crates: 0b,
+	loot_crate_no_drop: {
+		passive: 4000,
+		monster: 600,
+		boss: 0
+	},
+	disable_gui: 0b,
+	grid_scale: 0.5d
+}

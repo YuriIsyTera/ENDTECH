@@ -1,0 +1,8 @@
+{
+	title: "&a魔法工业扩展",
+	x: 24.0d,
+	y: -2.5d,
+	dependencies: [
+		"246afa01"
+	]
+}

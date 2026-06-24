@@ -1,0 +1,19 @@
+{
+	title: "更多桶",
+	x: -3.0d,
+	y: 6.5d,
+	text: [
+		"说实话，没啥写的，相当于抽屉"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "8b60087e",
+		type: "item",
+		items: [{
+			item: "yabba:item_barrel_connector"
+		}]
+	}]
+}

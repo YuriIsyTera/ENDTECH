@@ -1,0 +1,22 @@
+{
+	title: "[IC2]工业时代2",
+	x: -1.5d,
+	y: 2.5d,
+	text: [
+		"这是ic2的部分机器",
+		"",
+		"不推荐更多电力设备的升级版压缩机等机器，虽然它们基础速度更快，但是耗电更高，我为什么不直接给ic本体的机器多加两个超频解决问题呢？"
+	],
+	dependencies: [
+		"2bb90ca1",
+		"9d483bdd"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "bf4ffb11",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 12"
+		}]
+	}]
+}

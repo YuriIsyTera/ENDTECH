@@ -1,0 +1,27 @@
+{
+	x: -37.5d,
+	y: 6.0d,
+	text: [
+		"执行原子重构的所有配方",
+		"同时可以快速产出1-4级燃料和制造新的燃料组",
+		"在制造出ARK芯片后可以制造x16的加速设备"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"15f7d253",
+		"75ea69c9"
+	],
+	tasks: [{
+		uid: "5f7bceb6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:basic_zeropressure_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "054b1ed7",
+		type: "item",
+		item: "contenttweaker:zp_upgrade",
+		count: 8
+	}]
+}

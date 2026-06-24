@@ -1,0 +1,12 @@
+{
+	x: -25.5d,
+	y: 0.0d,
+	dependencies: [
+		"7f6b8a05"
+	],
+	tasks: [{
+		uid: "d66596f4",
+		type: "checkmark",
+		title: "产能升级!"
+	}]
+}

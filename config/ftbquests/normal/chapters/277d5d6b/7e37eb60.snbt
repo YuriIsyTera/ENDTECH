@@ -1,0 +1,15 @@
+{
+	x: 24.5d,
+	y: 1.5d,
+	dependencies: [
+		"bf73e4e9"
+	],
+	tasks: [{
+		uid: "f4be6960",
+		type: "item",
+		items: [{
+			item: "modularmachinery:orichalcos_drill_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

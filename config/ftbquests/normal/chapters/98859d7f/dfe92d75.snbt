@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	text: [
+		"这玩意干啥的？",
+		"不知道",
+		"明明所有的仪式都可以用虚弱的水晶激活",
+		"所以这是干嘛的？"
+	],
+	dependencies: [
+		"48047720"
+	],
+	tasks: [{
+		uid: "832cf754",
+		type: "item",
+		items: [{
+			item: "bloodmagic:activation_crystal 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

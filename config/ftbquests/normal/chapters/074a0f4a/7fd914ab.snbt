@@ -1,0 +1,21 @@
+{
+	title: "开放式炮塔",
+	x: -3.0d,
+	y: 3.0d,
+	text: [
+		"只是告诉你有这个mod",
+		"",
+		"也许你会投入使用？"
+	],
+	dependencies: [
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "e6565ba5",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base"
+		}]
+	}]
+}

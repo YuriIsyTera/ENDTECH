@@ -1,0 +1,18 @@
+{
+	x: 25.5d,
+	y: -5.5d,
+	text: [
+		"低速的转换回能量"
+	],
+	dependencies: [
+		"72cd79ad"
+	],
+	tasks: [{
+		uid: "f821ba7d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:tiny_energy_converter_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

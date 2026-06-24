@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	shape: "square",
+	text: [
+		"ae网络的核心",
+		"大概，如果你没把频道限制扬了的话",
+		"其实包里控制器能做16*16*16",
+		"问题不大"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"fe3152f3"
+	],
+	tasks: [{
+		uid: "4b6f9b3e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

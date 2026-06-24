@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"这是一个狱火熔炉",
+		"",
+		"好吧不重复啰嗦了"
+	],
+	dependencies: [
+		"84b7331e"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "0d6054b4",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}]
+}

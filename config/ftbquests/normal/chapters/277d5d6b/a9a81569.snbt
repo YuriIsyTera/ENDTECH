@@ -1,0 +1,20 @@
+{
+	title: "跑步走向模块化世界！",
+	x: 0.5d,
+	y: -2.5d,
+	text: [
+		"更后面的机器需要这玩意制造",
+		"说实话，有点慢"
+	],
+	dependencies: [
+		"6c5df253"
+	],
+	tasks: [{
+		uid: "3c0a6f21",
+		type: "item",
+		items: [{
+			item: "modularmachinery:machine_arm_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

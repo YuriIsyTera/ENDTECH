@@ -1,0 +1,22 @@
+{
+	x: -32.5d,
+	y: -1.5d,
+	text: [
+		"钢片（Steel Sheet）通过在卷板机内加工钢板获得."
+	],
+	dependencies: [
+		"3e4465f8"
+	],
+	tasks: [{
+		uid: "5eb23d36",
+		type: "item",
+		items: [{
+			item: "libvulpes:productsheet 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "1874e2c7",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

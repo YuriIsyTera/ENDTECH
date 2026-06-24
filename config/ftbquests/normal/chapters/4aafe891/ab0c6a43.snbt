@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: 4.0d,
+	text: [
+		"原则上你已经不再需要它，但是你想用的话也行"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"003cf7ee"
+	],
+	tasks: [{
+		uid: "decbf8da",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 50"
+		}]
+	}]
+}

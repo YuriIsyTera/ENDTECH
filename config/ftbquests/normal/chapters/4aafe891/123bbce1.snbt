@@ -1,0 +1,21 @@
+{
+	title: "[AA]实用拓展",
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		"提供了大量的实用物品，例如幻灵接口",
+		"可以直接查询游戏内指南来了解它,它有自己的指南书"
+	],
+	dependencies: [
+		"9d483bdd",
+		"21674682"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "e0acf7c6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 9"
+		}]
+	}]
+}

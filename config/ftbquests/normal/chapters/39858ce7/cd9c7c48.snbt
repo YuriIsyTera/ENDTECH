@@ -1,0 +1,36 @@
+{
+	title: "天辉祭坛",
+	x: 2.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4dbc3add"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "5ccff2c8",
+		type: "observation",
+		icon: "astralsorcery:blockaltar 1 2",
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_3"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "fe834026",
+		type: "command",
+		team_reward: 0b,
+		auto: "invisible",
+		command: "/astralsorcery research @p CONSTELLATION"
+	},
+	{
+		uid: "226a952c",
+		type: "custom",
+		team_reward: 0b,
+		auto: "invisible"
+	}]
+}

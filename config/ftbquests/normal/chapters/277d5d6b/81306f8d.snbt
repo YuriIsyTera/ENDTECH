@@ -1,0 +1,21 @@
+{
+	x: 25.5d,
+	y: 4.5d,
+	shape: "square",
+	text: [
+		"无尽之路的必需品，你应该堆个几台先（笑）"
+	],
+	dependencies: [
+		"7747d28b",
+		"541441db"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "e22ecbff",
+		type: "item",
+		items: [{
+			item: "modularmachinery:neutron_accretion_plate_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

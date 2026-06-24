@@ -1,0 +1,53 @@
+{
+	title: "氮化硼工具（无限耐久精选版）",
+	icon: "artisanworktables:workshop 1 6",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				Unbreakable: 1
+			},
+			id: "artisanworktables:artisans_cutting_board_boronnitride"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Unbreakable: 1
+			},
+			id: "artisanworktables:artisans_driver_boronnitride"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Unbreakable: 1
+			},
+			id: "artisanworktables:artisans_trowel_boronnitride"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Unbreakable: 1
+			},
+			id: "artisanworktables:artisans_hammer_boronnitride"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Unbreakable: 1
+			},
+			id: "artisanworktables:artisans_spanner_boronnitride"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Unbreakable: 1
+			},
+			id: "artisanworktables:artisans_solderer_boronnitride"
+		}
+	}]
+}

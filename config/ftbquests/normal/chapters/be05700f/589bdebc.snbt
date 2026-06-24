@@ -1,0 +1,17 @@
+{
+	x: 42.5d,
+	y: 2.0d,
+	text: [
+		"这几乎是免费的(指芯片)"
+	],
+	dependencies: [
+		"5f1a517a"
+	],
+	tasks: [{
+		uid: "ef917394",
+		type: "item",
+		items: [{
+			item: "modularmachinery:giga_iridiosamariumchipforge_factory_controller"
+		}]
+	}]
+}

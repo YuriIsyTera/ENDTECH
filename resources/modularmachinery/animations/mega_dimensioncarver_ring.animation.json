@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"all_ring_run_01": {
+			"loop": true,
+			"animation_length": 40,
+			"bones": {
+				"second_ring": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"40.0": [0, 0, 1080]
+					}
+				},
+				"third_ring": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"40.0": [0, 0, 360]
+					}
+				},
+				"first_ring": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"40.0": [0, 0, 2160]
+					}
+				}
+			}
+		}
+	}
+}

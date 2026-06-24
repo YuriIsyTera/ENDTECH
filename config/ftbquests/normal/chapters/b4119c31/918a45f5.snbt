@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -6.5d,
+	text: [
+		"让ae更快的处理自动化"
+	],
+	dependencies: [
+		"1089c014"
+	],
+	tasks: [{
+		uid: "600de67c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	}]
+}

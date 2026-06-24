@@ -1,0 +1,21 @@
+{
+	x: -35.0d,
+	y: -3.0d,
+	description: "一台真正的深空巨兽",
+	text: [
+		"将你多余的行星模型全部交由它",
+		"随着机器的不断运行，其产出能力也会越来越强",
+		"强烈建议制作出无限磁盘后再进行常态化开机",
+		"否则可能撑爆你的所有ECO存储"
+	],
+	dependencies: [
+		"b2539b2a"
+	],
+	tasks: [{
+		uid: "81dbcbe6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:asteroid_destroyer_factory_controller"
+		}]
+	}]
+}

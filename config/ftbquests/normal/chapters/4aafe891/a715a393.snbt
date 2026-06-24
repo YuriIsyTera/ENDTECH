@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"很显然这是一个模块化机械....之所以他会出现在这里是因为他完全是流体注入器的增强版，使用一样的配方）"
+	],
+	dependencies: [
+		"8449ab25",
+		"6eadeaf4"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "fdc6cf93",
+		type: "item",
+		items: [{
+			item: "modularmachinery:covalent_overloader_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -17.0d,
+	y: -6.5d,
+	description: "解锁科技总览 热力膨胀",
+	text: [
+		""
+	],
+	dependencies: [
+		"c49f3e7a"
+	],
+	tasks: [{
+		uid: "cecfd8cf",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}]
+}

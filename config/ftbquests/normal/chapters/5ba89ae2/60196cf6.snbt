@@ -1,0 +1,68 @@
+{
+	icon: {
+		tag: {
+			tier: 3
+		},
+		id: "deepmoblearning:data_model_tinker_slime"
+	},
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"顶级计算！",
+		"",
+		"使用不错的计算机在网络中心中使用聚合粘土急速的计算蓝色史莱姆数据",
+		"",
+		"&6仅限一次！"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"4d3046a1"
+	],
+	tasks: [{
+		uid: "085cfc6c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_tinker_slime"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "6798af25",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:polymer_clay"
+		}],
+		count: 3032L,
+		consume_items: 1b
+	},
+	{
+		uid: "ce8da45c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t2_factory_controller"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "276ae310",
+		type: "item",
+		items: [{
+			item: "modularmachinery:computation_center_t1_factory_controller"
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c98423d1",
+		type: "item",
+		item: {
+			tag: {
+				tier: 3
+			},
+			id: "deepmoblearning:data_model_tinker_slime"
+		}
+	}]
+}

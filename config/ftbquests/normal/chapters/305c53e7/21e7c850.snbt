@@ -1,0 +1,32 @@
+{
+	title: "准备工作",
+	x: -38.5d,
+	y: 0.0d,
+	text: [
+		"[AR]高级火箭 (Advanced Rocketry)后简称AR。",
+		"AR不推荐前期发展，该Mod推荐在您准备启用戴森云发电时再推进。",
+		"游玩AR前您需要准备以下材料：",
+		"硅、铌、钛、钢、铁、锡、金、羊毛、黄色染料、黑色燃料、玻璃、沙子、箱子、水槽、电力及红石粉等。",
+		"硅推荐由NC的小制造机使用沙子制作。",
+		"铌、钛推荐使用小型钢矿钻的2种模式一起运作获得。",
+		"钢推荐使用MEK制作，其他材料不一一赘述。"
+	],
+	dependencies: [
+		"3db4e400"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a44b721c",
+		type: "item",
+		items: [{
+			item: "libvulpes:productingot 1 3"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1030938c",
+		type: "item",
+		item: "libvulpes:productingot 1 3",
+		random_bonus: 9
+	}]
+}

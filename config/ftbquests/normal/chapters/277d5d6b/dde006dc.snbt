@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: -5.0d,
+	dependencies: [
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "3d07156b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:hybrid_generator_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

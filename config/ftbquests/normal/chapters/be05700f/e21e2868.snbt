@@ -1,0 +1,22 @@
+{
+	x: -35.5d,
+	y: 7.0d,
+	description: "批量生产纳米蜂群!",
+	text: [
+		"后期你需要很多纳米蜂群",
+		"同时也可以相对快速的产出多边液态矩阵金属阵列",
+		"以及利用环星的产物制造磁共振电路来简化部分复杂配方 "
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"15f7d253",
+		"75ea69c9"
+	],
+	tasks: [{
+		uid: "a16d40be",
+		type: "item",
+		items: [{
+			item: "modularmachinery:spacetime_gestalt_factory_controller"
+		}]
+	}]
+}

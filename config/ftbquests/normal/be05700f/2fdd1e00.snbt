@@ -1,0 +1,20 @@
+{
+	x: -37.5d,
+	y: 0.0d,
+	text: [
+		"生产BEC流体,后期会需要很多,同时更高级的HyperNet计算元件也需要他"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"15f7d253",
+		"75ea69c9"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "88b39282",
+		type: "item",
+		items: [{
+			item: "modularmachinery:vaticlaser_factory_controller"
+		}]
+	}]
+}

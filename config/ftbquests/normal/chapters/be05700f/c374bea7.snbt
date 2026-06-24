@@ -1,0 +1,15 @@
+{
+	x: -17.5d,
+	y: -3.0d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"e199f983"
+	],
+	tasks: [{
+		uid: "e6c84db7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hob_block"
+		}]
+	}]
+}

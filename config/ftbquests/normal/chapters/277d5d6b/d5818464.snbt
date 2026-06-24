@@ -1,0 +1,21 @@
+{
+	x: 27.0d,
+	y: -1.0d,
+	shape: "square",
+	text: [
+		"更快，更好，更强的物质生成机",
+		"使用超级物品输入仓会减少30%的UU物质产出,并且能量消耗提高15%",
+		"但是UU水晶将不再消耗"
+	],
+	dependencies: [
+		"d6b8d62f"
+	],
+	tasks: [{
+		uid: "4913c904",
+		type: "item",
+		items: [{
+			item: "modularmachinery:eco_y6_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

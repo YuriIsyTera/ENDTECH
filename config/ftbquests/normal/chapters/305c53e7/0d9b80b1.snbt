@@ -1,0 +1,9 @@
+{
+	title: "【高级火箭新手教程 Part 1】在月球上留下足迹",
+	x: -22.0d,
+	y: 1.5d,
+	custom_click: "https://www.mcmod.cn/post/960.html",
+	dependencies: [
+		"ad710341"
+	]
+}

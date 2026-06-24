@@ -1,0 +1,14 @@
+{
+	x: -35.5d,
+	y: 5.0d,
+	text: [
+		"快速将能量转化为液态能量"
+	],
+	tasks: [{
+		uid: "3a1ca22b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:high_density_energy_focus_core_factory_controller"
+		}]
+	}]
+}

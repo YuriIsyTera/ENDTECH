@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	text: [
+		"1级别研究站是有极限的，你需要2级把极限提升到9.9",
+		"控制器不用换位置，直接做成2级然后木棍猛猛的补充结构",
+		"事实上还是有点不一样的，不过那点改改就是了"
+	],
+	dependencies: [
+		"bee64ea6"
+	],
+	tasks: [{
+		uid: "7402e4c7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:research_station_t2_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

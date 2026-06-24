@@ -1,0 +1,23 @@
+{
+	x: -15.0d,
+	y: 0.0d,
+	text: [
+		"准备好以上材料之后，下面即将进行空间站的发射工作。",
+		"具体流程依旧参考百科教程，请点击下一步标记进入网页观摩。"
+	],
+	dependencies: [
+		"137400e4",
+		"64462d5c",
+		"cc714cb5",
+		"9f74f4fa"
+	],
+	tasks: [{
+		uid: "e8d5fb13",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "c4967f79",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 5.5d,
+	y: -5.0d,
+	text: [
+		"非常好用！"
+	],
+	dependencies: [
+		"ed100f1b"
+	],
+	tasks: [{
+		uid: "af47a10d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mineral_dissolver_factory_controller"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: 0b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "锤子，我有一把上好的锤子",
+	x: -15.0d,
+	y: -7.0d,
+	description: "解锁沉浸工艺章节",
+	text: [
+		"你需要用到它度过你的前期，但是后面一点就很难说了（）",
+		"实际上你不做这个也能度过你的前期，你猜？"
+	],
+	dependencies: [
+		"2d799b84"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "9976b2ac",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}]
+}

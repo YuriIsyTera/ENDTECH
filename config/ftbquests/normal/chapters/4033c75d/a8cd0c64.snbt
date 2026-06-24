@@ -1,0 +1,17 @@
+{
+	x: 55.5d,
+	y: 3.0d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"3ae1e9ff",
+		"90093ee2"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "15969c66",
+		type: "item",
+		items: [{
+			item: "super_solar_panels:machines 1 10"
+		}]
+	}]
+}

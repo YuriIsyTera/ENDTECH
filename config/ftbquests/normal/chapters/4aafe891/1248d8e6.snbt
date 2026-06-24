@@ -1,0 +1,14 @@
+{
+	title: "热力百科链接",
+	x: -2.0d,
+	y: -4.5d,
+	shape: "square",
+	custom_click: "https://www.mcmod.cn/class/634.html",
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"9d483bdd",
+		"cd0a2c53",
+		"8309e1a6"
+	],
+	hide: 1b
+}

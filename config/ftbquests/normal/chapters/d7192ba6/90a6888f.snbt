@@ -1,0 +1,35 @@
+{
+	title: "夜视",
+	disable_toast: 1b,
+	x: 6.0d,
+	y: 1.5d,
+	can_repeat: 1b,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"8a1b3812"
+	],
+	tasks: [{
+		uid: "cbe435e9",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null"
+		}]
+	},
+	{
+		uid: "ef2a2570",
+		type: "item",
+		items: [{
+			tag: {
+				Potion: "minecraft:night_vision"
+			},
+			id: "minecraft:potion"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2eab5793",
+		type: "item",
+		item: "environmentaltech:modifier_night_vision"
+	}]
+}

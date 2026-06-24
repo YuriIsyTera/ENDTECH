@@ -1,0 +1,18 @@
+{
+	x: -17.0d,
+	y: -8.5d,
+	description: "解锁魔法总览 龙之进化",
+	text: [
+		"也许它是科技吧，但是科技塞太满了不太好看"
+	],
+	dependencies: [
+		"c49f3e7a"
+	],
+	tasks: [{
+		uid: "0f3a246e",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}]
+	}]
+}

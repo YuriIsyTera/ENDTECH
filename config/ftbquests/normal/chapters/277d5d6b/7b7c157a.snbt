@@ -1,0 +1,20 @@
+{
+	x: 32.0d,
+	y: -1.0d,
+	text: [
+		"这是高级元件装配室，你接下来重要材料的制造设备之一，你只需要制造它与装配线其中之一",
+		"",
+		"相比于装配线，高级元件装配拥有自动化上的便利性，所有的物品一股脑的塞进去也可以开启合成，但是作为代价，高级元件装配室只有4线程，且没有并行"
+	],
+	dependencies: [
+		"811cd082"
+	],
+	tasks: [{
+		uid: "9b52b48f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:acar_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,37 @@
+{
+    "registryname": "Giga_SingularityCore",
+    "localizedname": "§c奇点核心§f",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "hide-components-when-formed":true,
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:giga_singularitycore_controller"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        }
+    ]
+}

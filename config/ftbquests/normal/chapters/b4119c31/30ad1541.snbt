@@ -1,0 +1,28 @@
+{
+	title: "ECO-C可拓展计算子系统",
+	x: 1.5d,
+	y: -5.0d,
+	text: [
+		"足以替代你的全部CPU",
+		"供应你全家的合成计划需求！"
+	],
+	dependencies: [
+		"1089c014",
+		"a9a81569"
+	],
+	tasks: [{
+		uid: "0381ed6e",
+		type: "item",
+		title: "可扩展计算子系统",
+		items: [{
+			item: "novaeng_core:extendable_calculator_subsystem_l4"
+		},
+		{
+			item: "novaeng_core:extendable_calculator_subsystem_l6"
+		},
+		{
+			item: "novaeng_core:extendable_calculator_subsystem_l9"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 3.5d,
+	text: [
+		"顾名思义，放样板的",
+		"",
+		"相当于ME接口，物品气体流体输入仓的组合体，拥有几乎无穷的容量（当然是说的输入进去的材料）"
+	],
+	dependencies: [
+		"41407914"
+	],
+	tasks: [{
+		uid: "36aacbbe",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockmepatternprovider"
+		}]
+	}]
+}

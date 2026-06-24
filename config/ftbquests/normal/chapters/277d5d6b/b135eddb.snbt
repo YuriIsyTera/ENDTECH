@@ -1,0 +1,15 @@
+{
+	x: 25.5d,
+	y: -0.5d,
+	dependencies: [
+		"b014427b"
+	],
+	tasks: [{
+		uid: "4f4cb802",
+		type: "item",
+		items: [{
+			item: "modularmachinery:black_dragon_lotus_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

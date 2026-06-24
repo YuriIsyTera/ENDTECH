@@ -1,0 +1,6742 @@
+{
+    "registryname": "solarwindcollector",
+    "localizedname": "§e太阳风§7拦截帆",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "factory-only": true,
+    "color": "E0E0E0",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmefluidoutputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockoutputbus",
+                "modularmachinery:blockmeitemoutputbus"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_double_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_gray@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 15,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mets:titanium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:stone@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "environmentalmaterials:alabaster_wall_silver@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_double_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@9"
+            ]
+        }
+    ]}

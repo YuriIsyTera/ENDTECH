@@ -1,0 +1,19 @@
+{
+	x: -12.5d,
+	y: -11.0d,
+	text: [
+		"欢迎你正式触碰到模块....大概？",
+		"反正你做出了第一个模块化合金锭"
+	],
+	dependencies: [
+		"ed49a664",
+		"6558ee7f"
+	],
+	tasks: [{
+		uid: "d8954e61",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}]
+}

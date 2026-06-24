@@ -1,0 +1,20 @@
+{
+	title: "[TE]热力膨胀5",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9d483bdd",
+		"cd0a2c53"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "b4873772",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}]
+}

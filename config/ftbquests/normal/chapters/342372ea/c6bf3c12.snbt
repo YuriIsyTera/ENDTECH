@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	dependencies: [
+		"275375e2",
+		"6dc2d6e0",
+		"b8760e7d"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "8b1a421e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ultra_zero_point_vacuum_displacer_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -37.0d,
+	y: -3.0d,
+	text: [
+		"天体线的核心机器之一",
+		"将模糊天体数据模型转化为可利用的确定行星坐标",
+		"一旦开始就不要让它停下"
+	],
+	dependencies: [
+		"1b4da8e3"
+	],
+	tasks: [{
+		uid: "f377473d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:planetobserver_factory_controller"
+		}]
+	}]
+}

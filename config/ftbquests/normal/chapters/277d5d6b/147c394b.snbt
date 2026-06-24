@@ -1,0 +1,20 @@
+{
+	title: "爱来自矿物提取机",
+	x: -4.0d,
+	y: -5.5d,
+	text: [
+		"更加先进",
+		"你应该直接在控制器物品上查看相关信息"
+	],
+	dependencies: [
+		"9f7a8bbe"
+	],
+	tasks: [{
+		uid: "8300aab3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mineral_extractor_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

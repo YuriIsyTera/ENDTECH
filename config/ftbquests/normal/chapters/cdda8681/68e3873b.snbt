@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	text: [
+		"特别的，这是一个片层结构",
+		"鉴于它的造价，你应该直接建满10片层",
+		"记得先投影再自动组装"
+	],
+	dependencies: [
+		"3a643da6"
+	],
+	tasks: [{
+		uid: "c667b8b9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:data_processor_t4_factory_controller"
+		}]
+	}]
+}

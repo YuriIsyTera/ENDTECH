@@ -1,0 +1,16 @@
+{
+	x: 64.0d,
+	y: 0.0d,
+	dependencies: [
+		"99b72dda",
+		"5c7122b7",
+		"7a6c42ab"
+	],
+	tasks: [{
+		uid: "351083c3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dyson_cloud_receiver_factory_controller"
+		}]
+	}]
+}

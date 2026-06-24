@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 1.5d,
+	text: [
+		"说实话，他更应该是个燃料制造机！"
+	],
+	dependencies: [
+		"ef5a8a9a",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "946c7051",
+		type: "item",
+		items: [{
+			item: "modularmachinery:tokmak_reactor_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

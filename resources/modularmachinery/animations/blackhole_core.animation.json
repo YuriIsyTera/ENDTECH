@@ -1,0 +1,34 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"rotation_01": {
+			"loop": true,
+			"animation_length": 100,
+			"bones": {
+				"bloom_transparent_hola": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"100.0": [0, 1080, 0]
+					}
+				}
+			}
+		},
+		"scalechange_01": {
+			"loop": true,
+			"animation_length": 5,
+			"bones": {
+				"bloom_014": {
+					"position": [-14, 27, 12],
+					"scale": {
+						"0.0": [0.1, 0.1, 0.1],
+						"2.5": [1.0, 1.0, 1.0],
+						"5.0": [0.1, 0.1, 0.1]
+					}
+				},
+				"bloom_transparent_hola": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

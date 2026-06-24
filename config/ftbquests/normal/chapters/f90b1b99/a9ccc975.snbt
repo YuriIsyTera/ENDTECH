@@ -1,0 +1,12 @@
+{
+	title: "星辉魔法的百科链接",
+	x: -1.5d,
+	y: -2.0d,
+	shape: "square",
+	custom_click: "https://www.mcmod.cn/class/639.html",
+	dependencies: [
+		"8309e1a6",
+		"d2d1bda6"
+	],
+	hide: 1b
+}

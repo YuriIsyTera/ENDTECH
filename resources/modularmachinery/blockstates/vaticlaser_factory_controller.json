@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "modularmachinery:vatic"
+  },
+  "variants": {
+    "facing=north,formed=false": {
+      "model": "modularmachinery:vatic"
+    },
+    "facing=south,formed=false": {
+      "model": "modularmachinery:vatic",
+      "y": 180
+    },
+    "facing=west,formed=false": {
+      "model": "modularmachinery:vatic",
+      "y": 270
+    },
+    "facing=east,formed=false": {
+      "model": "modularmachinery:vatic",
+      "y": 90
+    },
+    "facing=north,formed=true": {
+      "model": "modularmachinery:vatic"
+    },
+    "facing=south,formed=true": {
+      "model": "modularmachinery:vatic",
+      "y": 180
+    },
+    "facing=west,formed=true": {
+      "model": "modularmachinery:vatic",
+      "y": 270
+    },
+    "facing=east,formed=true": {
+      "model": "modularmachinery:vatic",
+      "y": 90
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

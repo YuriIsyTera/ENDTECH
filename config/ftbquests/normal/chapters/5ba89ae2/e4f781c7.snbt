@@ -1,0 +1,39 @@
+{
+	title: "我懂你，你肯定不想干等它",
+	icon: "astralsorcery:blockcelestialcrystals 1 4",
+	x: -2.5d,
+	y: 4.0d,
+	shape: "hexagon",
+	text: [
+		"更快，更好，更强，不是吗"
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"5f62f93e",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "6fbb155b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "4a13e325",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemrockcrystalsimple"
+		}],
+		count: 2L,
+		consume_items: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5fd7bca7",
+		type: "item",
+		item: "astralsorcery:blockcelestialcrystals 1 4"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	dependencies: [
+		"1fd91d12"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "9ed16d41",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "botania:flighttiara"
+		}],
+		ignore_nbt: 2b
+	}]
+}

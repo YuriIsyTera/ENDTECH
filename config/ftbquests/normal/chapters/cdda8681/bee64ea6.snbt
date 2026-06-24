@@ -1,0 +1,16 @@
+{
+	disable_toast: 1b,
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7747d28b"
+	],
+	tasks: [{
+		uid: "3f445128",
+		type: "checkmark",
+		title: "也许看起来比较抽象但是包里真的没有OC"
+	}]
+}

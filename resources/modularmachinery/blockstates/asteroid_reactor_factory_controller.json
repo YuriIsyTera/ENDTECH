@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "modularmachinery:harc"
+  },
+  "variants": {
+    "facing=north,formed=false": {
+      "model": "modularmachinery:harc"
+    },
+    "facing=south,formed=false": {
+      "model": "modularmachinery:harc",
+      "y": 180
+    },
+    "facing=west,formed=false": {
+      "model": "modularmachinery:harc",
+      "y": 270
+    },
+    "facing=east,formed=false": {
+      "model": "modularmachinery:harc",
+      "y": 90
+    },
+    "facing=north,formed=true": {
+      "model": "modularmachinery:harc"
+    },
+    "facing=south,formed=true": {
+      "model": "modularmachinery:harc",
+      "y": 180
+    },
+    "facing=west,formed=true": {
+      "model": "modularmachinery:harc",
+      "y": 270
+    },
+    "facing=east,formed=true": {
+      "model": "modularmachinery:harc",
+      "y": 90
+    },
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

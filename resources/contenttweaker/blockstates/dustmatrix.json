@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "contenttweaker:blocks/dustmatrix_surface",
+      "1": "contenttweaker:blocks/dustmatrix_inside",
+      "2": "contenttweaker:blocks/dustmatrix_structure",
+      "particle": "contenttweaker:blocks/dustmatrix_inside"
+    },
+    "model": "contenttweaker:dustmatrix_core",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

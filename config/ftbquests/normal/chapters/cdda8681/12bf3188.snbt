@@ -1,0 +1,22 @@
+{
+	x: -5.0d,
+	y: 1.0d,
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"bee64ea6"
+	],
+	tasks: [{
+		uid: "af8f3ddb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"modularmachinery:upgrade_cap": {
+					hypernet_ram_t4: {}
+				}
+			},
+			id: "contenttweaker:hypernet_ram_t4"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

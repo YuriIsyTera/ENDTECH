@@ -1,0 +1,26 @@
+{
+	x: -24.5d,
+	y: 1.0d,
+	text: [
+		"座位（Seat）是一种功能性方块，是载人火箭重要的组成部分，可以放在火箭结构中，组装火箭后可以乘坐。",
+		"一个火箭放了几个座位就能坐几个人。",
+		"注意：组装载人火箭前必须放上座位，否则无法乘坐。",
+		"即使没有装在火箭上，右击也可以乘坐像矿车一样，潜行可以脱离。真正可用的沙发。"
+	],
+	dependencies: [
+		"5517aa86"
+	],
+	tasks: [{
+		uid: "e7a11802",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	}],
+	rewards: [{
+		uid: "7dc0fb97",
+		type: "item",
+		item: "minecraft:wool",
+		random_bonus: 9
+	}]
+}

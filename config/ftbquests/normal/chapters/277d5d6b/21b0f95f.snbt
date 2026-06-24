@@ -1,0 +1,15 @@
+{
+	x: 20.5d,
+	y: 0.0d,
+	dependencies: [
+		"dc24c2df"
+	],
+	tasks: [{
+		uid: "f9fa40ad",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mineralis_ritual_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

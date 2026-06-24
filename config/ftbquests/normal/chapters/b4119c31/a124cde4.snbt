@@ -1,0 +1,27 @@
+{
+	title: "闪存晶阵",
+	x: 1.5d,
+	y: -6.5d,
+	text: [
+		"用于合成子系统的存储元件，提供类似于合成存储器的作用"
+	],
+	dependencies: [
+		"30ad1541",
+		"1089c014"
+	],
+	tasks: [{
+		uid: "d808fc28",
+		type: "item",
+		items: [{
+			item: "novaeng_core:ecalculator_cell_64m"
+		},
+		{
+			item: "novaeng_core:ecalculator_cell_1024m"
+		},
+		{
+			item: "novaeng_core:ecalculator_cell_16384m"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

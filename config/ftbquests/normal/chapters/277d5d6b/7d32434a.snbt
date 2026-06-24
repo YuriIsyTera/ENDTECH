@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: -5.0d,
+	text: [
+		"另一种分子重组仪",
+		"说实话，还挺行的"
+	],
+	dependencies: [
+		"e0c03b94"
+	],
+	tasks: [{
+		uid: "196175c7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:stellaformer_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

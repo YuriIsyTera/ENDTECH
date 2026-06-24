@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "bot_all":"contenttweaker:blocks/framework",
+      "top_all":"contenttweaker:blocks/framework_1_lux",
+      "particle":"contenttweaker:blocks/framework"
+    },
+    "model": "contenttweaker:block_double",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

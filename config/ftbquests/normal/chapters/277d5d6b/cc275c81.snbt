@@ -1,0 +1,15 @@
+{
+	x: 35.0d,
+	y: 0.5d,
+	dependencies: [
+		"47296c45"
+	],
+	tasks: [{
+		uid: "0c1b0daa",
+		type: "item",
+		items: [{
+			item: "modularmachinery:dyson_cloud_energy_receiver_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

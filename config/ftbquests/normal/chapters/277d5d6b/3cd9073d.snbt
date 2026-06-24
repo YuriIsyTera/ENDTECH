@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: -5.0d,
+	text: [
+		"哥们直接水变蒸汽",
+		"过于魔法了"
+	],
+	dependencies: [
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "d68b6c99",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gas_generator_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

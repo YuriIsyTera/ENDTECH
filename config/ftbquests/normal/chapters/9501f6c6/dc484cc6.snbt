@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: 3.0d,
+	dependencies: [
+		"1021c181",
+		"88ec272b",
+		"8309e1a6"
+	],
+	hide: 1b,
+	tasks: [{
+		uid: "87de9176",
+		type: "checkmark",
+		title: "一些看似有用，实则不一定有用的机器"
+	}]
+}

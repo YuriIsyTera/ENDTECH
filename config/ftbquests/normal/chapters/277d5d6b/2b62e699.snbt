@@ -1,0 +1,18 @@
+{
+	x: 24.5d,
+	y: -4.5d,
+	text: [
+		"正常速度的转换回能量"
+	],
+	dependencies: [
+		"72cd79ad"
+	],
+	tasks: [{
+		uid: "d597b447",
+		type: "item",
+		items: [{
+			item: "modularmachinery:energy_converter_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

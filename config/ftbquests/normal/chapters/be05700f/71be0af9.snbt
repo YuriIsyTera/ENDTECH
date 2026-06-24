@@ -1,0 +1,21 @@
+{
+	title: "底层起步，意念膨胀！",
+	x: -41.5d,
+	y: 5.0d,
+	text: [
+		"把！资！源！给！我！"
+	],
+	dependencies: [
+		"53526c12"
+	],
+	tasks: [{
+		uid: "b10baa8e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:particle_accelerator_controller"
+		},
+		{
+			item: "modularmachinery:particle_accelerator_factory_controller"
+		}]
+	}]
+}

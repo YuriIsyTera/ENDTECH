@@ -1,0 +1,1325 @@
+{
+    
+    "registryname": "Mega_ResearchStationT4",
+    "localizedname": "§bHyperNet #5D0070-A78D2F-005875超限研究站§9（等级 4） §9-§f #FE0101-FF9742'临界点'",
+    "failure-action": "still",
+    "requires-blueprint": false,
+    "has-factory": true,
+    "factory-only": true,
+    "hide-components-when-formed":true,
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:universalforcefieldcontrolblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:arkforcefieldcontrolblock@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "modularmachinery:blocksmartinterface@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:arkforcefieldcontrolblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:universalforcefieldcontrolblock@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:arkforcefieldcontrolblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:universalforcefieldcontrolblock@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:arkforcefieldcontrolblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:milkmachineblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 21,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "contenttweaker:dustmatrix@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 26,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "casings_all",
+                "modularmachinery:blockmepatternprovider",
+                "modularmachinery:blockmepatternmirrorimage"
+            ]
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "contenttweaker:space_engblock@0"
+            ]
+        }
+    ]}

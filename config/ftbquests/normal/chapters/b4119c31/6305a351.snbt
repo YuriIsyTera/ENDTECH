@@ -1,0 +1,23 @@
+{
+	x: -9.5d,
+	y: -6.5d,
+	text: [
+		"方便的，好用的，不挡路的，不碍事的，可以传p2p的",
+		"看看旁边，你会用了对吧，别管奇怪的文字内容，那是机翻"
+	],
+	dependencies: [
+		"d0a8646a"
+	],
+	tasks: [{
+		uid: "3054a1ca",
+		type: "item",
+		items: [{
+			item: "nae2:part"
+		}]
+	}],
+	rewards: [{
+		uid: "790410eb",
+		type: "item",
+		item: "novaeng_core:angel_block"
+	}]
+}

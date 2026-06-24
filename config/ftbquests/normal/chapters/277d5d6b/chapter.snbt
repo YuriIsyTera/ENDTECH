@@ -1,0 +1,95 @@
+{
+	title: "基建时代",
+	icon: "modularmachinery:blockmeitemoutputbus",
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -4.0d,
+		y: -1.5d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/3.0-5.9_0.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 10.0d,
+		y: -1.5d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/6.0-6.9_0.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 23.5d,
+		y: -1.5d,
+		width: 15.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/7.0-7.9_0.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 35.5d,
+		y: -1.5d,
+		width: 10.0d,
+		height: 20.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/8.0-8.9_0.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: -4.0d,
+		y: 4.5d,
+		width: 13.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l15.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 10.0d,
+		y: 4.5d,
+		width: 13.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l15.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 23.5d,
+		y: 4.5d,
+		width: 13.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l15.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	},
+	{
+		x: 35.5d,
+		y: 4.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "novaeng_quests:textures/levels/extra_l10.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

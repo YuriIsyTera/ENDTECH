@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"最高级的转化。低等级的懒得写了"
+	],
+	dependencies: [
+		"7736c28d"
+	],
+	tasks: [{
+		uid: "78517d6c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 35"
+		}]
+	}]
+}

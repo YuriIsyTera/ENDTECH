@@ -1,0 +1,19 @@
+{
+	x: -14.5d,
+	y: -3.0d,
+	text: [
+		"当然，高炉炼钢，但是我不推荐你做这个"
+	],
+	dependencies: [
+		"c24384c1"
+	],
+	tasks: [{
+		uid: "84e532c0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L,
+		consume_items: 0b
+	}]
+}

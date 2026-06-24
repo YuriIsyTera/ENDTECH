@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 1.5d,
+	dependencies: [
+		"0ffae27d",
+		"b8760e7d"
+	],
+	tasks: [{
+		uid: "4256ec54",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gas_generator_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}
