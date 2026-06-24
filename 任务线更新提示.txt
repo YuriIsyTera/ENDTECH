@@ -1,0 +1,2 @@
+1.3.1版本提示
+当前版本任务线已经重做，请删除位于config/ftbquests/normal文件夹后将新加入的normal再放入
