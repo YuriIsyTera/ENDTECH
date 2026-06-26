@@ -36,6 +36,7 @@ MachineModifier.addCoreThread("endtech_earth_drill",FactoryRecipeThread.createCo
 MachineModifier.addCoreThread("endtech_earth_drill",FactoryRecipeThread.createCoreThread("地幔粉碎阵列#2"));
 MachineModifier.addCoreThread("endtech_earth_drill",FactoryRecipeThread.createCoreThread("地幔粉碎阵列#3"));
 MachineModifier.addCoreThread("endtech_earth_drill",FactoryRecipeThread.createCoreThread("地幔粉碎阵列#4"));
+MachineModifier.addCoreThread("endtech_earth_drill",FactoryRecipeThread.createCoreThread("地幔粉碎阵列#5"));
 MachineModifier.addSmartInterfaceType("endtech_earth_drill",
     SmartInterfaceType.create("depthMax",0)
          .setHeaderInfo("§4钻探深度§f设置")
@@ -280,6 +281,7 @@ RecipeBuilder.newBuilder("earthdrill_envirtechcrystal_out","endtech_earth_drill"
  .addRecipeTooltip("让环境水晶无处遁形")
  .addRecipeTooltip("当钻探深度大于4000km时启动")
  .addRecipeTooltip("其产出结算依赖于催化剂,不享有深度加成")
+ .setThreadName("地幔粉碎阵列#5")
  .build();
   MMEvents.onControllerGUIRender("endtech_earth_drill",function(event as ControllerGUIRenderEvent){
    val ctrl = event.controller;
